@@ -8,5 +8,7 @@
             "name": "Oliver Mack"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/console": "^4.0"
+    }
 }
