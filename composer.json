@@ -1,0 +1,12 @@
+{
+    "name": "olivermack/schemaorg-oai",
+    "description": "OpenAPI compatible translation of schema.org set of structured data",
+    "type": "project",
+    "license": "The Unlicense",
+    "authors": [
+        {
+            "name": "Oliver Mack"
+        }
+    ],
+    "require": {}
+}
