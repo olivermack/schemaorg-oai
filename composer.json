@@ -10,5 +10,13 @@
     ],
     "require": {
         "symfony/console": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Olivermack\\SchemaorgOpenapi\\": "src"
+        }
+    },
+    "scripts": {
+        "generate": "php ./generate.php generate"
     }
 }
