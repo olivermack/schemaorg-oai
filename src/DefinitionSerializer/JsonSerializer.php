@@ -43,6 +43,13 @@ class JsonSerializer implements Serializer
             ],
         ];
 
+        if ($definition->resource) {
+            $schema[$definition->name]['externalDocs'] = [
+                'url' => $definition->resource,
+                'description' => 'Schema.org resource',
+            ];
+        }
+
         return $schema;
     }
 

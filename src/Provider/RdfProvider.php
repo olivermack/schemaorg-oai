@@ -37,11 +37,14 @@ class RdfProvider implements DefinitionsProvider
                 continue;
             }
 
+            $definition->description = $this->text($match, '[property="rdfs:comment"]');
             $definition->parent = $this->text($match, '[property="rdfs:subClassOf"]');
 
             if (strpos($definition->parent, ':') !== false) {
                 continue;
             }
+
+            $definition->resource = $this->attribute($match, 'resource');
 
             $this->postDefinitionCreation($definition);
             $collection->addDefinition($definition);
@@ -64,6 +67,8 @@ class RdfProvider implements DefinitionsProvider
             if (empty($definition->name)) {
                 continue;
             }
+
+            $definition->description = $this->text($match, '[property="rdfs:comment"]');
 
             $match
                 ->filter('[property="http://schema.org/domainIncludes"]')
