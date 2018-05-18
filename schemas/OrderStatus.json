@@ -1,0 +1,6 @@
+{
+    "OrderStatus": {
+        "type": "object",
+        "properties": []
+    }
+}

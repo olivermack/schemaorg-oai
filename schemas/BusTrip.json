@@ -1,0 +1,37 @@
+{
+    "BusTrip": {
+        "type": "object",
+        "properties": {
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "departureTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "arrivalTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "busNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "busName": {
+                "description": null,
+                "type": "string"
+            },
+            "departureBusStop": {
+                "description": null,
+                "$ref": "BusStation.json"
+            },
+            "arrivalBusStop": {
+                "description": null,
+                "$ref": "BusStation.json"
+            }
+        }
+    }
+}

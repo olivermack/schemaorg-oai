@@ -1,0 +1,19 @@
+{
+    "MenuItem": {
+        "type": "object",
+        "properties": {
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "suitableForDiet": {
+                "description": null,
+                "$ref": "RestrictedDiet.json"
+            },
+            "nutrition": {
+                "description": null,
+                "$ref": "NutritionInformation.json"
+            }
+        }
+    }
+}

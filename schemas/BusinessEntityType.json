@@ -1,0 +1,6 @@
+{
+    "BusinessEntityType": {
+        "type": "object",
+        "properties": []
+    }
+}

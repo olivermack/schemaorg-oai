@@ -1,0 +1,11 @@
+{
+    "Map": {
+        "type": "object",
+        "properties": {
+            "mapType": {
+                "description": null,
+                "$ref": "MapCategoryType.json"
+            }
+        }
+    }
+}

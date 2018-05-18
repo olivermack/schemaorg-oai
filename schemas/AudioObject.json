@@ -1,0 +1,11 @@
+{
+    "AudioObject": {
+        "type": "object",
+        "properties": {
+            "transcript": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

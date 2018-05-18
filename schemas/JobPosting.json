@@ -1,0 +1,94 @@
+{
+    "JobPosting": {
+        "type": "object",
+        "properties": {
+            "baseSalary": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "benefits": {
+                "description": null,
+                "type": "string"
+            },
+            "jobBenefits": {
+                "description": null,
+                "type": "string"
+            },
+            "datePosted": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "educationRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "employmentType": {
+                "description": null,
+                "type": "string"
+            },
+            "experienceRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "hiringOrganization": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "incentives": {
+                "description": null,
+                "type": "string"
+            },
+            "incentiveCompensation": {
+                "description": null,
+                "type": "string"
+            },
+            "industry": {
+                "description": null,
+                "type": "string"
+            },
+            "jobLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "occupationalCategory": {
+                "description": null,
+                "type": "string"
+            },
+            "qualifications": {
+                "description": null,
+                "type": "string"
+            },
+            "responsibilities": {
+                "description": null,
+                "type": "string"
+            },
+            "salaryCurrency": {
+                "description": null,
+                "type": "string"
+            },
+            "skills": {
+                "description": null,
+                "type": "string"
+            },
+            "specialCommitments": {
+                "description": null,
+                "type": "string"
+            },
+            "title": {
+                "description": null,
+                "type": "string"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "workHours": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "CompoundPriceSpecification": {
+        "type": "object",
+        "properties": {
+            "priceComponent": {
+                "description": null,
+                "$ref": "UnitPriceSpecification.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "TaxiReservation": {
+        "type": "object",
+        "properties": {
+            "partySize": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pickupLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "pickupTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

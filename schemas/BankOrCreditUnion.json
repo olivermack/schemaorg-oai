@@ -1,0 +1,6 @@
+{
+    "BankOrCreditUnion": {
+        "type": "object",
+        "properties": []
+    }
+}

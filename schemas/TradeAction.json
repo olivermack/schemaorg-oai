@@ -1,0 +1,16 @@
+{
+    "TradeAction": {
+        "type": "object",
+        "properties": {
+            "price": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "priceSpecification": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "MediaObject": {
+        "type": "object",
+        "properties": {
+            "associatedArticle": {
+                "description": null,
+                "$ref": "NewsArticle.json"
+            },
+            "bitrate": {
+                "description": null,
+                "type": "string"
+            },
+            "contentSize": {
+                "description": null,
+                "type": "string"
+            },
+            "contentUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "duration": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "embedUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "encodesCreativeWork": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "encodingFormat": {
+                "description": null,
+                "type": "string"
+            },
+            "expires": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "height": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "playerType": {
+                "description": null,
+                "type": "string"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "requiresSubscription": {
+                "description": null,
+                "type": "boolean"
+            },
+            "uploadDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "width": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "regionsAllowed": {
+                "description": null,
+                "$ref": "Place.json"
+            }
+        }
+    }
+}

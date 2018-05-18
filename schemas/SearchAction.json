@@ -1,0 +1,11 @@
+{
+    "SearchAction": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

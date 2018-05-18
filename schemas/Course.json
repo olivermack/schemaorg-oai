@@ -1,0 +1,19 @@
+{
+    "Course": {
+        "type": "object",
+        "properties": {
+            "courseCode": {
+                "description": null,
+                "type": "string"
+            },
+            "coursePrerequisites": {
+                "description": null,
+                "type": "string"
+            },
+            "hasCourseInstance": {
+                "description": null,
+                "$ref": "CourseInstance.json"
+            }
+        }
+    }
+}

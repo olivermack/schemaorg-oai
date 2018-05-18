@@ -1,0 +1,6 @@
+{
+    "EatAction": {
+        "type": "object",
+        "properties": []
+    }
+}

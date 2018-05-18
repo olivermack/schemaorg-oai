@@ -1,0 +1,99 @@
+{
+    "Order": {
+        "type": "object",
+        "properties": {
+            "orderDelivery": {
+                "description": null,
+                "$ref": "ParcelDelivery.json"
+            },
+            "acceptedOffer": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "billingAddress": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "confirmationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "customer": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "discount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "discountCode": {
+                "description": null,
+                "type": "string"
+            },
+            "discountCurrency": {
+                "description": null,
+                "type": "string"
+            },
+            "isGift": {
+                "description": null,
+                "type": "boolean"
+            },
+            "merchant": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "orderDate": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "orderedItem": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "orderNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "orderStatus": {
+                "description": null,
+                "$ref": "OrderStatus.json"
+            },
+            "partOfInvoice": {
+                "description": null,
+                "$ref": "Invoice.json"
+            },
+            "paymentDue": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "paymentMethod": {
+                "description": null,
+                "$ref": "PaymentMethod.json"
+            },
+            "paymentMethodId": {
+                "description": null,
+                "type": "string"
+            },
+            "paymentUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "seller": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "paymentDueDate": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "broker": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

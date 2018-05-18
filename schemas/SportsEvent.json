@@ -1,0 +1,19 @@
+{
+    "SportsEvent": {
+        "type": "object",
+        "properties": {
+            "homeTeam": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "awayTeam": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "competitor": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

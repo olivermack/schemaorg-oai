@@ -1,0 +1,15 @@
+{
+    "UpdateAction": {
+        "type": "object",
+        "properties": {
+            "collection": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "targetCollection": {
+                "description": null,
+                "$ref": "Thing.json"
+            }
+        }
+    }
+}

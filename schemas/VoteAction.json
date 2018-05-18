@@ -1,0 +1,11 @@
+{
+    "VoteAction": {
+        "type": "object",
+        "properties": {
+            "candidate": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

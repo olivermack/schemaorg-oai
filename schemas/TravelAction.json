@@ -1,0 +1,11 @@
+{
+    "TravelAction": {
+        "type": "object",
+        "properties": {
+            "distance": {
+                "description": null,
+                "$ref": "Distance.json"
+            }
+        }
+    }
+}

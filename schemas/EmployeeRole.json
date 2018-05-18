@@ -1,0 +1,16 @@
+{
+    "EmployeeRole": {
+        "type": "object",
+        "properties": {
+            "baseSalary": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "salaryCurrency": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

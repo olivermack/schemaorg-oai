@@ -1,0 +1,11 @@
+{
+    "Corporation": {
+        "type": "object",
+        "properties": {
+            "tickerSymbol": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

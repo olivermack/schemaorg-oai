@@ -1,0 +1,6 @@
+{
+    "FoodEvent": {
+        "type": "object",
+        "properties": []
+    }
+}

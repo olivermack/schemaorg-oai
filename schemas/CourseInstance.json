@@ -1,0 +1,15 @@
+{
+    "CourseInstance": {
+        "type": "object",
+        "properties": {
+            "courseMode": {
+                "description": null,
+                "type": "string"
+            },
+            "instructor": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

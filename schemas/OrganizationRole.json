@@ -1,0 +1,12 @@
+{
+    "OrganizationRole": {
+        "type": "object",
+        "properties": {
+            "numberedPosition": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "WriteAction": {
+        "type": "object",
+        "properties": {
+            "inLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "language": {
+                "description": null,
+                "$ref": "Language.json"
+            }
+        }
+    }
+}

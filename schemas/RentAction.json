@@ -1,0 +1,15 @@
+{
+    "RentAction": {
+        "type": "object",
+        "properties": {
+            "landlord": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "realEstateAgent": {
+                "description": null,
+                "$ref": "RealEstateAgent.json"
+            }
+        }
+    }
+}

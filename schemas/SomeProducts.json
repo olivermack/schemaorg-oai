@@ -1,0 +1,11 @@
+{
+    "SomeProducts": {
+        "type": "object",
+        "properties": {
+            "inventoryLevel": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

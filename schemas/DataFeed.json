@@ -1,0 +1,11 @@
+{
+    "DataFeed": {
+        "type": "object",
+        "properties": {
+            "dataFeedElement": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

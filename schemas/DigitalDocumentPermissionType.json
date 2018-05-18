@@ -1,0 +1,6 @@
+{
+    "DigitalDocumentPermissionType": {
+        "type": "object",
+        "properties": []
+    }
+}

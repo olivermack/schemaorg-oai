@@ -1,0 +1,37 @@
+{
+    "Dataset": {
+        "type": "object",
+        "properties": {
+            "catalog": {
+                "description": null,
+                "$ref": "DataCatalog.json"
+            },
+            "includedDataCatalog": {
+                "description": null,
+                "$ref": "DataCatalog.json"
+            },
+            "includedInDataCatalog": {
+                "description": null,
+                "$ref": "DataCatalog.json"
+            },
+            "distribution": {
+                "description": null,
+                "$ref": "DataDownload.json"
+            },
+            "spatial": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "temporal": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "datasetTimeInterval": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

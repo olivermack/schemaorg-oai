@@ -1,0 +1,15 @@
+{
+    "ReplaceAction": {
+        "type": "object",
+        "properties": {
+            "replacee": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "replacer": {
+                "description": null,
+                "$ref": "Thing.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "LodgingReservation": {
+        "type": "object",
+        "properties": {
+            "checkinTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "checkoutTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "lodgingUnitType": {
+                "description": null,
+                "type": "string"
+            },
+            "lodgingUnitDescription": {
+                "description": null,
+                "type": "string"
+            },
+            "numAdults": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "numChildren": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "DigitalDocumentPermission": {
+        "type": "object",
+        "properties": {
+            "grantee": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "permissionType": {
+                "description": null,
+                "type": "$ref:DocumentPermissionType"
+            }
+        }
+    }
+}

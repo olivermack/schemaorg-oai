@@ -1,0 +1,11 @@
+{
+    "WinAction": {
+        "type": "object",
+        "properties": {
+            "loser": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

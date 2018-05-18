@@ -1,0 +1,6 @@
+{
+    "CableOrSatelliteService": {
+        "type": "object",
+        "properties": []
+    }
+}

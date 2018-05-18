@@ -1,0 +1,19 @@
+{
+    "LoanOrCredit": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "description": null,
+                "$ref": "MonetaryAmount.json"
+            },
+            "loanTerm": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "requiredCollateral": {
+                "description": null,
+                "$ref": "Thing.json"
+            }
+        }
+    }
+}

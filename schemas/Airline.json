@@ -1,0 +1,15 @@
+{
+    "Airline": {
+        "type": "object",
+        "properties": {
+            "boardingPolicy": {
+                "description": null,
+                "$ref": "BoardingPolicyType.json"
+            },
+            "iataCode": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

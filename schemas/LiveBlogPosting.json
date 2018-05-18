@@ -1,0 +1,21 @@
+{
+    "LiveBlogPosting": {
+        "type": "object",
+        "properties": {
+            "coverageStartTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "coverageEndTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "liveBlogUpdate": {
+                "description": null,
+                "$ref": "BlogPosting.json"
+            }
+        }
+    }
+}

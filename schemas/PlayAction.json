@@ -1,0 +1,15 @@
+{
+    "PlayAction": {
+        "type": "object",
+        "properties": {
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "event": {
+                "description": null,
+                "$ref": "Event.json"
+            }
+        }
+    }
+}

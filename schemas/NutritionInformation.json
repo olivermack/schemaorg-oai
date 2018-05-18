@@ -1,0 +1,6 @@
+{
+    "NutritionInformation": {
+        "type": "object",
+        "properties": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "FoodEstablishment": {
+        "type": "object",
+        "properties": {
+            "acceptsReservations": {
+                "description": null,
+                "type": "string"
+            },
+            "hasMenu": {
+                "description": null,
+                "$ref": "Menu.json"
+            },
+            "menu": {
+                "description": null,
+                "$ref": "Menu.json"
+            },
+            "servesCuisine": {
+                "description": null,
+                "type": "string"
+            },
+            "starRating": {
+                "description": null,
+                "$ref": "Rating.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "SellAction": {
+        "type": "object",
+        "properties": {
+            "buyer": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "warrantyPromise": {
+                "description": null,
+                "$ref": "WarrantyPromise.json"
+            }
+        }
+    }
+}

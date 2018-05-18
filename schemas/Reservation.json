@@ -1,0 +1,62 @@
+{
+    "Reservation": {
+        "type": "object",
+        "properties": {
+            "reservationId": {
+                "description": null,
+                "type": "string"
+            },
+            "reservationStatus": {
+                "description": null,
+                "$ref": "ReservationStatusType.json"
+            },
+            "reservationFor": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "underName": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "bookingAgent": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "bookingTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "modifiedTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "programMembershipUsed": {
+                "description": null,
+                "$ref": "ProgramMembership.json"
+            },
+            "reservedTicket": {
+                "description": null,
+                "$ref": "Ticket.json"
+            },
+            "totalPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "priceCurrency": {
+                "description": null,
+                "type": "string"
+            },
+            "broker": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "DeleteAction": {
+        "type": "object",
+        "properties": []
+    }
+}

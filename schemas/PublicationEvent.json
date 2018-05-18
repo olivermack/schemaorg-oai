@@ -1,0 +1,19 @@
+{
+    "PublicationEvent": {
+        "type": "object",
+        "properties": {
+            "free": {
+                "description": null,
+                "type": "boolean"
+            },
+            "isAccessibleForFree": {
+                "description": null,
+                "type": "boolean"
+            },
+            "publishedOn": {
+                "description": null,
+                "$ref": "BroadcastService.json"
+            }
+        }
+    }
+}

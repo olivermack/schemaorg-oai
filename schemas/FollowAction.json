@@ -1,0 +1,11 @@
+{
+    "FollowAction": {
+        "type": "object",
+        "properties": {
+            "followee": {
+                "description": null,
+                "$ref": "Organization.json"
+            }
+        }
+    }
+}

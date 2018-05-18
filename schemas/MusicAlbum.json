@@ -1,0 +1,23 @@
+{
+    "MusicAlbum": {
+        "type": "object",
+        "properties": {
+            "byArtist": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "albumProductionType": {
+                "description": null,
+                "$ref": "MusicAlbumProductionType.json"
+            },
+            "albumReleaseType": {
+                "description": null,
+                "$ref": "MusicAlbumReleaseType.json"
+            },
+            "albumRelease": {
+                "description": null,
+                "$ref": "MusicRelease.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "InteractionCounter": {
+        "type": "object",
+        "properties": {
+            "interactionType": {
+                "description": null,
+                "$ref": "Action.json"
+            }
+        }
+    }
+}

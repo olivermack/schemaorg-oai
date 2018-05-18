@@ -1,0 +1,6 @@
+{
+    "MusicAlbumReleaseType": {
+        "type": "object",
+        "properties": []
+    }
+}

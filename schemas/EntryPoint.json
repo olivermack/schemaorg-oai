@@ -1,0 +1,35 @@
+{
+    "EntryPoint": {
+        "type": "object",
+        "properties": {
+            "actionPlatform": {
+                "description": null,
+                "type": "$ref:"
+            },
+            "httpMethod": {
+                "description": null,
+                "type": "string"
+            },
+            "encodingType": {
+                "description": null,
+                "type": "string"
+            },
+            "contentType": {
+                "description": null,
+                "type": "string"
+            },
+            "application": {
+                "description": null,
+                "$ref": "SoftwareApplication.json"
+            },
+            "actionApplication": {
+                "description": null,
+                "$ref": "SoftwareApplication.json"
+            },
+            "urlTemplate": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

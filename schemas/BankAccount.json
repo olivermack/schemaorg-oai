@@ -1,0 +1,6 @@
+{
+    "BankAccount": {
+        "type": "object",
+        "properties": []
+    }
+}

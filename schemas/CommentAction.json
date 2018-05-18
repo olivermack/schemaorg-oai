@@ -1,0 +1,11 @@
+{
+    "CommentAction": {
+        "type": "object",
+        "properties": {
+            "resultComment": {
+                "description": null,
+                "$ref": "Comment.json"
+            }
+        }
+    }
+}

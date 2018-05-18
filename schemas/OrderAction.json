@@ -1,0 +1,11 @@
+{
+    "OrderAction": {
+        "type": "object",
+        "properties": {
+            "deliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            }
+        }
+    }
+}

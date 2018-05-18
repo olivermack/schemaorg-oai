@@ -1,0 +1,47 @@
+{
+    "MusicComposition": {
+        "type": "object",
+        "properties": {
+            "musicArrangement": {
+                "description": null,
+                "$ref": "MusicComposition.json"
+            },
+            "composer": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "firstPerformance": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "includedComposition": {
+                "description": null,
+                "$ref": "MusicComposition.json"
+            },
+            "iswcCode": {
+                "description": null,
+                "type": "string"
+            },
+            "lyricist": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicCompositionForm": {
+                "description": null,
+                "type": "string"
+            },
+            "musicalKey": {
+                "description": null,
+                "type": "string"
+            },
+            "recordedAs": {
+                "description": null,
+                "$ref": "MusicRecording.json"
+            },
+            "lyrics": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            }
+        }
+    }
+}

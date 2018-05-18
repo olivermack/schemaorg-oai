@@ -1,0 +1,6 @@
+{
+    "PaymentService": {
+        "type": "object",
+        "properties": []
+    }
+}

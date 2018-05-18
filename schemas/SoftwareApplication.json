@@ -1,0 +1,103 @@
+{
+    "SoftwareApplication": {
+        "type": "object",
+        "properties": {
+            "applicationCategory": {
+                "description": null,
+                "type": "string"
+            },
+            "applicationSubCategory": {
+                "description": null,
+                "type": "string"
+            },
+            "applicationSuite": {
+                "description": null,
+                "type": "string"
+            },
+            "countriesNotSupported": {
+                "description": null,
+                "type": "string"
+            },
+            "countriesSupported": {
+                "description": null,
+                "type": "string"
+            },
+            "device": {
+                "description": null,
+                "type": "string"
+            },
+            "availableOnDevice": {
+                "description": null,
+                "type": "string"
+            },
+            "downloadUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "featureList": {
+                "description": null,
+                "type": "string"
+            },
+            "fileSize": {
+                "description": null,
+                "type": "string"
+            },
+            "installUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "memoryRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "operatingSystem": {
+                "description": null,
+                "type": "string"
+            },
+            "permissions": {
+                "description": null,
+                "type": "string"
+            },
+            "processorRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "releaseNotes": {
+                "description": null,
+                "type": "string"
+            },
+            "requirements": {
+                "description": null,
+                "type": "string"
+            },
+            "softwareRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "screenshot": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "softwareVersion": {
+                "description": null,
+                "type": "string"
+            },
+            "storageRequirements": {
+                "description": null,
+                "type": "string"
+            },
+            "supportingData": {
+                "description": null,
+                "$ref": "DataFeed.json"
+            },
+            "softwareAddOn": {
+                "description": null,
+                "$ref": "SoftwareApplication.json"
+            },
+            "softwareHelp": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            }
+        }
+    }
+}

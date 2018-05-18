@@ -1,0 +1,15 @@
+{
+    "Blog": {
+        "type": "object",
+        "properties": {
+            "blogPost": {
+                "description": null,
+                "$ref": "BlogPosting.json"
+            },
+            "blogPosts": {
+                "description": null,
+                "$ref": "BlogPosting.json"
+            }
+        }
+    }
+}

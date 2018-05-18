@@ -1,0 +1,15 @@
+{
+    "SportsTeam": {
+        "type": "object",
+        "properties": {
+            "coach": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "athlete": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

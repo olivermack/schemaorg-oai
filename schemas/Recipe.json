@@ -1,0 +1,27 @@
+{
+    "Recipe": {
+        "type": "object",
+        "properties": {
+            "suitableForDiet": {
+                "description": null,
+                "$ref": "RestrictedDiet.json"
+            },
+            "totalTime": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "cookTime": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "recipeCategory": {
+                "description": null,
+                "type": "string"
+            },
+            "ingredients": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

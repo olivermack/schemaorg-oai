@@ -1,0 +1,11 @@
+{
+    "DigitalDocument": {
+        "type": "object",
+        "properties": {
+            "hasDigitalDocumentPermission": {
+                "description": null,
+                "$ref": "DigitalDocumentPermission.json"
+            }
+        }
+    }
+}

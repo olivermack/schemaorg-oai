@@ -1,0 +1,11 @@
+{
+    "Periodical": {
+        "type": "object",
+        "properties": {
+            "issn": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

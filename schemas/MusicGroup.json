@@ -1,0 +1,31 @@
+{
+    "MusicGroup": {
+        "type": "object",
+        "properties": {
+            "album": {
+                "description": null,
+                "$ref": "MusicAlbum.json"
+            },
+            "albums": {
+                "description": null,
+                "$ref": "MusicAlbum.json"
+            },
+            "genre": {
+                "description": null,
+                "type": "string"
+            },
+            "musicGroupMember": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "tracks": {
+                "description": null,
+                "$ref": "MusicRecording.json"
+            },
+            "track": {
+                "description": null,
+                "$ref": "ItemList.json"
+            }
+        }
+    }
+}

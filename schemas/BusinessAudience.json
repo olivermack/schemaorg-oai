@@ -1,0 +1,19 @@
+{
+    "BusinessAudience": {
+        "type": "object",
+        "properties": {
+            "numberOfEmployees": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "yearlyRevenue": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "yearsInOperation": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

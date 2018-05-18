@@ -1,0 +1,27 @@
+{
+    "APIReference": {
+        "type": "object",
+        "properties": {
+            "assembly": {
+                "description": null,
+                "type": "string"
+            },
+            "executableLibraryName": {
+                "description": null,
+                "type": "string"
+            },
+            "assemblyVersion": {
+                "description": null,
+                "type": "string"
+            },
+            "programmingModel": {
+                "description": null,
+                "type": "string"
+            },
+            "targetPlatform": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

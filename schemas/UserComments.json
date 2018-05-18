@@ -1,0 +1,28 @@
+{
+    "UserComments": {
+        "type": "object",
+        "properties": {
+            "commentText": {
+                "description": null,
+                "type": "string"
+            },
+            "commentTime": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "creator": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "discusses": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "replyToUrl": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

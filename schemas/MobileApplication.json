@@ -1,0 +1,11 @@
+{
+    "MobileApplication": {
+        "type": "object",
+        "properties": {
+            "carrierRequirements": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "PlanAction": {
+        "type": "object",
+        "properties": {
+            "scheduledTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

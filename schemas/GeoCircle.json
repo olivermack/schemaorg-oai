@@ -1,0 +1,11 @@
+{
+    "GeoCircle": {
+        "type": "object",
+        "properties": {
+            "geoRadius": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "RsvpResponseType": {
+        "type": "object",
+        "properties": []
+    }
+}

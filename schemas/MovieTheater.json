@@ -1,0 +1,12 @@
+{
+    "MovieTheater": {
+        "type": "object",
+        "properties": {
+            "screenCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

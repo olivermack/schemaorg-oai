@@ -1,0 +1,6 @@
+{
+    "ActivateAction": {
+        "type": "object",
+        "properties": []
+    }
+}

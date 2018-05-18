@@ -1,0 +1,11 @@
+{
+    "InsertAction": {
+        "type": "object",
+        "properties": {
+            "toLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            }
+        }
+    }
+}

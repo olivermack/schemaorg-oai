@@ -1,0 +1,35 @@
+{
+    "SoftwareSourceCode": {
+        "type": "object",
+        "properties": {
+            "codeRepository": {
+                "description": null,
+                "type": "string"
+            },
+            "programmingLanguage": {
+                "description": null,
+                "$ref": "ComputerLanguage.json"
+            },
+            "runtime": {
+                "description": null,
+                "type": "string"
+            },
+            "runtimePlatform": {
+                "description": null,
+                "type": "string"
+            },
+            "sampleType": {
+                "description": null,
+                "type": "string"
+            },
+            "codeSampleType": {
+                "description": null,
+                "type": "string"
+            },
+            "targetProduct": {
+                "description": null,
+                "$ref": "SoftwareApplication.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Suite": {
+        "type": "object",
+        "properties": {
+            "bed": {
+                "description": null,
+                "type": "string"
+            },
+            "numberOfRooms": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "occupancy": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

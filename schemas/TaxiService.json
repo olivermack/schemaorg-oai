@@ -1,0 +1,6 @@
+{
+    "TaxiService": {
+        "type": "object",
+        "properties": []
+    }
+}

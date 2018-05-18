@@ -1,0 +1,41 @@
+{
+    "Ticket": {
+        "type": "object",
+        "properties": {
+            "underName": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "totalPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "priceCurrency": {
+                "description": null,
+                "type": "string"
+            },
+            "issuedBy": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "dateIssued": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "ticketedSeat": {
+                "description": null,
+                "$ref": "Seat.json"
+            },
+            "ticketNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "ticketToken": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

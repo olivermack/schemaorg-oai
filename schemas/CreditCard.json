@@ -1,0 +1,6 @@
+{
+    "CreditCard": {
+        "type": "object",
+        "properties": []
+    }
+}

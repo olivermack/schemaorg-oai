@@ -1,0 +1,23 @@
+{
+    "Seat": {
+        "type": "object",
+        "properties": {
+            "seatNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "seatRow": {
+                "description": null,
+                "type": "string"
+            },
+            "seatSection": {
+                "description": null,
+                "type": "string"
+            },
+            "seatingType": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

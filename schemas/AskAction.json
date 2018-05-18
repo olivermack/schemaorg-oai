@@ -1,0 +1,11 @@
+{
+    "AskAction": {
+        "type": "object",
+        "properties": {
+            "question": {
+                "description": null,
+                "$ref": "Question.json"
+            }
+        }
+    }
+}

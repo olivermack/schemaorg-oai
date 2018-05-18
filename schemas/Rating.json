@@ -1,0 +1,25 @@
+{
+    "Rating": {
+        "type": "object",
+        "properties": {
+            "author": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "bestRating": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "ratingValue": {
+                "description": null,
+                "type": "string"
+            },
+            "worstRating": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

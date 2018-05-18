@@ -1,0 +1,17 @@
+{
+    "CreativeWorkSeries": {
+        "type": "object",
+        "properties": {
+            "endDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "startDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            }
+        }
+    }
+}

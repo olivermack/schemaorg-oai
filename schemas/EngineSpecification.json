@@ -1,0 +1,11 @@
+{
+    "EngineSpecification": {
+        "type": "object",
+        "properties": {
+            "fuelType": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

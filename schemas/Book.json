@@ -1,0 +1,28 @@
+{
+    "Book": {
+        "type": "object",
+        "properties": {
+            "bookEdition": {
+                "description": null,
+                "type": "string"
+            },
+            "bookFormat": {
+                "description": null,
+                "$ref": "BookFormatType.json"
+            },
+            "illustrator": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "isbn": {
+                "description": null,
+                "type": "string"
+            },
+            "numberOfPages": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "PeopleAudience": {
+        "type": "object",
+        "properties": {
+            "requiredGender": {
+                "description": null,
+                "type": "string"
+            },
+            "requiredMaxAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "requiredMinAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "suggestedGender": {
+                "description": null,
+                "type": "string"
+            },
+            "suggestedMaxAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "suggestedMinAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

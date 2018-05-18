@@ -1,0 +1,23 @@
+{
+    "ImageObject": {
+        "type": "object",
+        "properties": {
+            "caption": {
+                "description": null,
+                "type": "string"
+            },
+            "exifData": {
+                "description": null,
+                "type": "string"
+            },
+            "representativeOfPage": {
+                "description": null,
+                "type": "boolean"
+            },
+            "thumbnail": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            }
+        }
+    }
+}

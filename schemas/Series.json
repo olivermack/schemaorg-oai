@@ -1,0 +1,11 @@
+{
+    "Series": {
+        "type": "object",
+        "properties": {
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

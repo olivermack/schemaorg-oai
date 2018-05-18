@@ -1,0 +1,25 @@
+{
+    "RentalCarReservation": {
+        "type": "object",
+        "properties": {
+            "pickupLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "dropoffLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "pickupTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "dropoffTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "PaymentChargeSpecification": {
+        "type": "object",
+        "properties": {
+            "appliesToDeliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "appliesToPaymentMethod": {
+                "description": null,
+                "$ref": "PaymentMethod.json"
+            }
+        }
+    }
+}

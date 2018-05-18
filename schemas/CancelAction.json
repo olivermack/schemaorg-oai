@@ -1,0 +1,6 @@
+{
+    "CancelAction": {
+        "type": "object",
+        "properties": []
+    }
+}

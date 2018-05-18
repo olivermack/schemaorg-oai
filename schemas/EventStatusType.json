@@ -1,0 +1,6 @@
+{
+    "EventStatusType": {
+        "type": "object",
+        "properties": []
+    }
+}

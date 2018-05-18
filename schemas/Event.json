@@ -1,0 +1,153 @@
+{
+    "Event": {
+        "type": "object",
+        "properties": {
+            "about": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "organizer": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "attendee": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "attendees": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "contributor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "doorTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "duration": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "endDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "eventStatus": {
+                "description": null,
+                "$ref": "EventStatusType.json"
+            },
+            "isAccessibleForFree": {
+                "description": null,
+                "type": "boolean"
+            },
+            "inLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "location": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "maximumAttendeeCapacity": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "remainingAttendeeCapacity": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "performer": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "performers": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "previousStartDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "recordedIn": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "sponsor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "funder": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "startDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "subEvent": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "subEvents": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "superEvent": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "typicalAgeRange": {
+                "description": null,
+                "type": "string"
+            },
+            "workPerformed": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "workFeatured": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "translator": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "composer": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

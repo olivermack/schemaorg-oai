@@ -1,0 +1,27 @@
+{
+    "NewsArticle": {
+        "type": "object",
+        "properties": {
+            "dateline": {
+                "description": null,
+                "type": "string"
+            },
+            "printColumn": {
+                "description": null,
+                "type": "string"
+            },
+            "printEdition": {
+                "description": null,
+                "type": "string"
+            },
+            "printPage": {
+                "description": null,
+                "type": "string"
+            },
+            "printSection": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "RsvpAction": {
+        "type": "object",
+        "properties": {
+            "additionalNumberOfGuests": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "rsvpResponse": {
+                "description": null,
+                "$ref": "RsvpResponseType.json"
+            },
+            "comment": {
+                "description": null,
+                "$ref": "Comment.json"
+            }
+        }
+    }
+}

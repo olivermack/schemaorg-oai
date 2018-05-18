@@ -1,0 +1,26 @@
+{
+    "PublicationVolume": {
+        "type": "object",
+        "properties": {
+            "pageEnd": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pageStart": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pagination": {
+                "description": null,
+                "type": "string"
+            },
+            "volumeNumber": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

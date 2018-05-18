@@ -1,0 +1,19 @@
+{
+    "Brand": {
+        "type": "object",
+        "properties": {
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "logo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            }
+        }
+    }
+}

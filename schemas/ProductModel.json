@@ -1,0 +1,19 @@
+{
+    "ProductModel": {
+        "type": "object",
+        "properties": {
+            "isVariantOf": {
+                "description": null,
+                "$ref": "ProductModel.json"
+            },
+            "predecessorOf": {
+                "description": null,
+                "$ref": "ProductModel.json"
+            },
+            "successorOf": {
+                "description": null,
+                "$ref": "ProductModel.json"
+            }
+        }
+    }
+}

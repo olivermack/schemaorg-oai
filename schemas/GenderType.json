@@ -1,0 +1,6 @@
+{
+    "GenderType": {
+        "type": "object",
+        "properties": []
+    }
+}

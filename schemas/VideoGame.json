@@ -1,0 +1,51 @@
+{
+    "VideoGame": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            },
+            "playMode": {
+                "description": null,
+                "$ref": "GamePlayMode.json"
+            },
+            "cheatCode": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "gameTip": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "gamePlatform": {
+                "description": null,
+                "type": "string"
+            },
+            "gameServer": {
+                "description": null,
+                "$ref": "GameServer.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "MusicEvent": {
+        "type": "object",
+        "properties": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "SendAction": {
+        "type": "object",
+        "properties": {
+            "deliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "recipient": {
+                "description": null,
+                "$ref": "Audience.json"
+            }
+        }
+    }
+}

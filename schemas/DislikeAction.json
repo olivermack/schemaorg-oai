@@ -1,0 +1,6 @@
+{
+    "DislikeAction": {
+        "type": "object",
+        "properties": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "MusicRecording": {
+        "type": "object",
+        "properties": {
+            "byArtist": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "duration": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "inAlbum": {
+                "description": null,
+                "$ref": "MusicAlbum.json"
+            },
+            "inPlaylist": {
+                "description": null,
+                "$ref": "MusicPlaylist.json"
+            },
+            "isrcCode": {
+                "description": null,
+                "type": "string"
+            },
+            "recordingOf": {
+                "description": null,
+                "$ref": "MusicComposition.json"
+            }
+        }
+    }
+}

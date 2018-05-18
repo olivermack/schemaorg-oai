@@ -1,0 +1,28 @@
+{
+    "OrderItem": {
+        "type": "object",
+        "properties": {
+            "orderQuantity": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "orderItemStatus": {
+                "description": null,
+                "$ref": "OrderStatus.json"
+            },
+            "orderItemNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "orderDelivery": {
+                "description": null,
+                "$ref": "ParcelDelivery.json"
+            },
+            "orderedItem": {
+                "description": null,
+                "$ref": "Product.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "TrainTrip": {
+        "type": "object",
+        "properties": {
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "departureTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "arrivalTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "trainNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "trainName": {
+                "description": null,
+                "type": "string"
+            },
+            "departureStation": {
+                "description": null,
+                "$ref": "TrainStation.json"
+            },
+            "arrivalStation": {
+                "description": null,
+                "$ref": "TrainStation.json"
+            },
+            "departurePlatform": {
+                "description": null,
+                "type": "string"
+            },
+            "arrivalPlatform": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

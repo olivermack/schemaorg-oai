@@ -1,0 +1,6 @@
+{
+    "TelevisionChannel": {
+        "type": "object",
+        "properties": []
+    }
+}

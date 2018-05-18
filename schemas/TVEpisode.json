@@ -1,0 +1,19 @@
+{
+    "TVEpisode": {
+        "type": "object",
+        "properties": {
+            "countryOfOrigin": {
+                "description": null,
+                "$ref": "Country.json"
+            },
+            "partOfTVSeries": {
+                "description": null,
+                "$ref": "TVSeries.json"
+            },
+            "subtitleLanguage": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

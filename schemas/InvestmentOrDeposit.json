@@ -1,0 +1,11 @@
+{
+    "InvestmentOrDeposit": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "description": null,
+                "$ref": "MonetaryAmount.json"
+            }
+        }
+    }
+}

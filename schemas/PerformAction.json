@@ -1,0 +1,11 @@
+{
+    "PerformAction": {
+        "type": "object",
+        "properties": {
+            "entertainmentBusiness": {
+                "description": null,
+                "$ref": "EntertainmentBusiness.json"
+            }
+        }
+    }
+}

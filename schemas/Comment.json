@@ -1,0 +1,21 @@
+{
+    "Comment": {
+        "type": "object",
+        "properties": {
+            "upvoteCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "downvoteCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "parentItem": {
+                "description": null,
+                "$ref": "Question.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "BuyAction": {
+        "type": "object",
+        "properties": {
+            "seller": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "vendor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "warrantyPromise": {
+                "description": null,
+                "$ref": "WarrantyPromise.json"
+            }
+        }
+    }
+}

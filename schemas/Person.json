@@ -1,0 +1,229 @@
+{
+    "Person": {
+        "type": "object",
+        "properties": {
+            "hasOfferCatalog": {
+                "description": null,
+                "$ref": "OfferCatalog.json"
+            },
+            "additionalName": {
+                "description": null,
+                "type": "string"
+            },
+            "address": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "affiliation": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "alumniOf": {
+                "description": null,
+                "$ref": "EducationalOrganization.json"
+            },
+            "award": {
+                "description": null,
+                "type": "string"
+            },
+            "awards": {
+                "description": null,
+                "type": "string"
+            },
+            "birthDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "brand": {
+                "description": null,
+                "$ref": "Brand.json"
+            },
+            "children": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "colleague": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "colleagues": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "contactPoint": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "contactPoints": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "deathDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "duns": {
+                "description": null,
+                "type": "string"
+            },
+            "email": {
+                "description": null,
+                "type": "string"
+            },
+            "familyName": {
+                "description": null,
+                "type": "string"
+            },
+            "faxNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "follows": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "gender": {
+                "description": null,
+                "type": "string"
+            },
+            "givenName": {
+                "description": null,
+                "type": "string"
+            },
+            "globalLocationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "hasPOS": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "height": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "homeLocation": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "honorificPrefix": {
+                "description": null,
+                "type": "string"
+            },
+            "honorificSuffix": {
+                "description": null,
+                "type": "string"
+            },
+            "isicV4": {
+                "description": null,
+                "type": "string"
+            },
+            "jobTitle": {
+                "description": null,
+                "type": "string"
+            },
+            "knows": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "makesOffer": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "memberOf": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "naics": {
+                "description": null,
+                "type": "string"
+            },
+            "nationality": {
+                "description": null,
+                "$ref": "Country.json"
+            },
+            "netWorth": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "owns": {
+                "description": null,
+                "$ref": "OwnershipInfo.json"
+            },
+            "parent": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "parents": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "performerIn": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "relatedTo": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "seeks": {
+                "description": null,
+                "$ref": "Demand.json"
+            },
+            "sibling": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "siblings": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "sponsor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "funder": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "spouse": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "taxID": {
+                "description": null,
+                "type": "string"
+            },
+            "telephone": {
+                "description": null,
+                "type": "string"
+            },
+            "vatID": {
+                "description": null,
+                "type": "string"
+            },
+            "weight": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "workLocation": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "worksFor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "birthPlace": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "deathPlace": {
+                "description": null,
+                "$ref": "Place.json"
+            }
+        }
+    }
+}

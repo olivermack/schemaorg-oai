@@ -1,0 +1,48 @@
+{
+    "PriceSpecification": {
+        "type": "object",
+        "properties": {
+            "eligibleQuantity": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleTransactionVolume": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "maxPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "minPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "price": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "valueAddedTaxIncluded": {
+                "description": null,
+                "type": "boolean"
+            },
+            "priceCurrency": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

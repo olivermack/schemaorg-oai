@@ -1,0 +1,26 @@
+{
+    "MonetaryAmount": {
+        "type": "object",
+        "properties": {
+            "maxValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "minValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "value": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "currency": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

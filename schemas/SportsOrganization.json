@@ -1,0 +1,11 @@
+{
+    "SportsOrganization": {
+        "type": "object",
+        "properties": {
+            "sport": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

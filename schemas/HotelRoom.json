@@ -1,0 +1,15 @@
+{
+    "HotelRoom": {
+        "type": "object",
+        "properties": {
+            "bed": {
+                "description": null,
+                "type": "string"
+            },
+            "occupancy": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

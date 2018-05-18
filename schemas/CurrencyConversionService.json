@@ -1,0 +1,6 @@
+{
+    "CurrencyConversionService": {
+        "type": "object",
+        "properties": []
+    }
+}

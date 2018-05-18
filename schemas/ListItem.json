@@ -1,0 +1,23 @@
+{
+    "ListItem": {
+        "type": "object",
+        "properties": {
+            "position": {
+                "description": null,
+                "type": "string"
+            },
+            "item": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "previousItem": {
+                "description": null,
+                "$ref": "ListItem.json"
+            },
+            "nextItem": {
+                "description": null,
+                "$ref": "ListItem.json"
+            }
+        }
+    }
+}

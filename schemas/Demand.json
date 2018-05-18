@@ -1,0 +1,139 @@
+{
+    "Demand": {
+        "type": "object",
+        "properties": {
+            "acceptedPaymentMethod": {
+                "description": null,
+                "$ref": "LoanOrCredit.json"
+            },
+            "advanceBookingRequirement": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "availability": {
+                "description": null,
+                "$ref": "ItemAvailability.json"
+            },
+            "availabilityEnds": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "availabilityStarts": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "availableAtOrFrom": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "availableDeliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "businessFunction": {
+                "description": null,
+                "$ref": "BusinessFunction.json"
+            },
+            "deliveryLeadTime": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleCustomerType": {
+                "description": null,
+                "$ref": "BusinessEntityType.json"
+            },
+            "eligibleDuration": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleQuantity": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            },
+            "ineligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            },
+            "eligibleTransactionVolume": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "gtin12": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin13": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin14": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin8": {
+                "description": null,
+                "type": "string"
+            },
+            "includesObject": {
+                "description": null,
+                "$ref": "TypeAndQuantityNode.json"
+            },
+            "inventoryLevel": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "itemCondition": {
+                "description": null,
+                "$ref": "OfferItemCondition.json"
+            },
+            "itemOffered": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "mpn": {
+                "description": null,
+                "type": "string"
+            },
+            "priceSpecification": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "seller": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "serialNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "sku": {
+                "description": null,
+                "type": "string"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "warranty": {
+                "description": null,
+                "$ref": "WarrantyPromise.json"
+            }
+        }
+    }
+}

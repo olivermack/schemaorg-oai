@@ -1,0 +1,6 @@
+{
+    "RestrictedDiet": {
+        "type": "object",
+        "properties": []
+    }
+}

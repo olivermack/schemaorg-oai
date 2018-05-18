@@ -1,0 +1,338 @@
+{
+    "CreativeWork": {
+        "type": "object",
+        "properties": {
+            "schemaVersion": {
+                "description": null,
+                "type": "string"
+            },
+            "about": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "accessibilityAPI": {
+                "description": null,
+                "type": "string"
+            },
+            "accessibilityControl": {
+                "description": null,
+                "type": "string"
+            },
+            "accessibilityFeature": {
+                "description": null,
+                "type": "string"
+            },
+            "accessibilityHazard": {
+                "description": null,
+                "type": "string"
+            },
+            "accountablePerson": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "alternativeHeadline": {
+                "description": null,
+                "type": "string"
+            },
+            "associatedMedia": {
+                "description": null,
+                "$ref": "MediaObject.json"
+            },
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "audio": {
+                "description": null,
+                "$ref": "AudioObject.json"
+            },
+            "author": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "award": {
+                "description": null,
+                "type": "string"
+            },
+            "awards": {
+                "description": null,
+                "type": "string"
+            },
+            "citation": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "comment": {
+                "description": null,
+                "$ref": "Comment.json"
+            },
+            "contentLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "locationCreated": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "contentRating": {
+                "description": null,
+                "type": "string"
+            },
+            "contributor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "copyrightHolder": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "copyrightYear": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "creator": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "dateCreated": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "dateModified": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "datePublished": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "discussionUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "editor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "educationalAlignment": {
+                "description": null,
+                "$ref": "AlignmentObject.json"
+            },
+            "educationalUse": {
+                "description": null,
+                "type": "string"
+            },
+            "encoding": {
+                "description": null,
+                "$ref": "MediaObject.json"
+            },
+            "encodings": {
+                "description": null,
+                "$ref": "MediaObject.json"
+            },
+            "fileFormat": {
+                "description": null,
+                "type": "string"
+            },
+            "isAccessibleForFree": {
+                "description": null,
+                "type": "boolean"
+            },
+            "genre": {
+                "description": null,
+                "type": "string"
+            },
+            "headline": {
+                "description": null,
+                "type": "string"
+            },
+            "inLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "interactivityType": {
+                "description": null,
+                "type": "string"
+            },
+            "isBasedOnUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "isBasedOn": {
+                "description": null,
+                "type": "string"
+            },
+            "isFamilyFriendly": {
+                "description": null,
+                "type": "boolean"
+            },
+            "isPartOf": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "keywords": {
+                "description": null,
+                "type": "string"
+            },
+            "license": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "learningResourceType": {
+                "description": null,
+                "type": "string"
+            },
+            "mainEntity": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "mentions": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "position": {
+                "description": null,
+                "type": "string"
+            },
+            "producer": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "publication": {
+                "description": null,
+                "$ref": "PublicationEvent.json"
+            },
+            "publisher": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "publishingPrinciples": {
+                "description": null,
+                "type": "string"
+            },
+            "recordedAt": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "reviews": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "sourceOrganization": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "spatialCoverage": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "sponsor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "funder": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "temporalCoverage": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "text": {
+                "description": null,
+                "type": "string"
+            },
+            "thumbnailUrl": {
+                "description": null,
+                "type": "string"
+            },
+            "timeRequired": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "typicalAgeRange": {
+                "description": null,
+                "type": "string"
+            },
+            "version": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "video": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            },
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "commentCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "hasPart": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "workExample": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "exampleOfWork": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "character": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "translator": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "releasedEvent": {
+                "description": null,
+                "$ref": "PublicationEvent.json"
+            },
+            "material": {
+                "description": null,
+                "type": "string"
+            },
+            "interactionStatistic": {
+                "description": null,
+                "$ref": "InteractionCounter.json"
+            },
+            "accessMode": {
+                "description": null,
+                "type": "string"
+            },
+            "accessModeSufficient": {
+                "description": null,
+                "type": "string"
+            },
+            "accessibilitySummary": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

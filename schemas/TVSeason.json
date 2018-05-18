@@ -1,0 +1,15 @@
+{
+    "TVSeason": {
+        "type": "object",
+        "properties": {
+            "countryOfOrigin": {
+                "description": null,
+                "$ref": "Country.json"
+            },
+            "partOfTVSeries": {
+                "description": null,
+                "$ref": "TVSeries.json"
+            }
+        }
+    }
+}

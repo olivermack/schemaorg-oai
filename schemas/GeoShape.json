@@ -1,0 +1,44 @@
+{
+    "GeoShape": {
+        "type": "object",
+        "properties": {
+            "geoMidpoint": {
+                "description": null,
+                "$ref": "GeoCoordinates.json"
+            },
+            "address": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "addressCountry": {
+                "description": null,
+                "type": "string"
+            },
+            "box": {
+                "description": null,
+                "type": "string"
+            },
+            "circle": {
+                "description": null,
+                "type": "string"
+            },
+            "elevation": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "line": {
+                "description": null,
+                "type": "string"
+            },
+            "polygon": {
+                "description": null,
+                "type": "string"
+            },
+            "postalCode": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

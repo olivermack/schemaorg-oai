@@ -1,0 +1,28 @@
+{
+    "TypeAndQuantityNode": {
+        "type": "object",
+        "properties": {
+            "amountOfThisGood": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "businessFunction": {
+                "description": null,
+                "$ref": "BusinessFunction.json"
+            },
+            "typeOfGood": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "unitCode": {
+                "description": null,
+                "type": "string"
+            },
+            "unitText": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

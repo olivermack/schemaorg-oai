@@ -1,0 +1,11 @@
+{
+    "Report": {
+        "type": "object",
+        "properties": {
+            "reportNumber": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

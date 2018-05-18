@@ -1,0 +1,11 @@
+{
+    "LendAction": {
+        "type": "object",
+        "properties": {
+            "borrower": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

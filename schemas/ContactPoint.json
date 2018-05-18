@@ -1,0 +1,47 @@
+{
+    "ContactPoint": {
+        "type": "object",
+        "properties": {
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "availableLanguage": {
+                "description": null,
+                "$ref": "Language.json"
+            },
+            "contactOption": {
+                "description": null,
+                "$ref": "ContactPointOption.json"
+            },
+            "contactType": {
+                "description": null,
+                "type": "string"
+            },
+            "email": {
+                "description": null,
+                "type": "string"
+            },
+            "faxNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "hoursAvailable": {
+                "description": null,
+                "$ref": "OpeningHoursSpecification.json"
+            },
+            "productSupported": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "serviceArea": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "telephone": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

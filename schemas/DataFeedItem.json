@@ -1,0 +1,26 @@
+{
+    "DataFeedItem": {
+        "type": "object",
+        "properties": {
+            "dateCreated": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "dateDeleted": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "dateModified": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "item": {
+                "description": null,
+                "$ref": "Thing.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "TVSeries": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "countryOfOrigin": {
+                "description": null,
+                "$ref": "Country.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "episode": {
+                "description": null,
+                "$ref": "Episode.json"
+            },
+            "episodes": {
+                "description": null,
+                "$ref": "Episode.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "numberOfEpisodes": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "numberOfSeasons": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "season": {
+                "description": null,
+                "$ref": "CreativeWorkSeason.json"
+            },
+            "containsSeason": {
+                "description": null,
+                "$ref": "CreativeWorkSeason.json"
+            },
+            "seasons": {
+                "description": null,
+                "$ref": "CreativeWorkSeason.json"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            }
+        }
+    }
+}

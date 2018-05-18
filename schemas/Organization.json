@@ -1,0 +1,201 @@
+{
+    "Organization": {
+        "type": "object",
+        "properties": {
+            "hasOfferCatalog": {
+                "description": null,
+                "$ref": "OfferCatalog.json"
+            },
+            "address": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "award": {
+                "description": null,
+                "type": "string"
+            },
+            "awards": {
+                "description": null,
+                "type": "string"
+            },
+            "parentOrganization": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "brand": {
+                "description": null,
+                "$ref": "Brand.json"
+            },
+            "contactPoint": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "contactPoints": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "department": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "duns": {
+                "description": null,
+                "type": "string"
+            },
+            "email": {
+                "description": null,
+                "type": "string"
+            },
+            "employee": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "employees": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "event": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "events": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "faxNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "founder": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "founders": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "dissolutionDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "foundingDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "globalLocationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "hasPOS": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "isicV4": {
+                "description": null,
+                "type": "string"
+            },
+            "legalName": {
+                "description": null,
+                "type": "string"
+            },
+            "location": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "logo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "makesOffer": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "offeredBy": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "member": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "memberOf": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "members": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "naics": {
+                "description": null,
+                "type": "string"
+            },
+            "numberOfEmployees": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "owns": {
+                "description": null,
+                "$ref": "OwnershipInfo.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "reviews": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "seeks": {
+                "description": null,
+                "$ref": "Demand.json"
+            },
+            "serviceArea": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "sponsor": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "funder": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "subOrganization": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "taxID": {
+                "description": null,
+                "type": "string"
+            },
+            "telephone": {
+                "description": null,
+                "type": "string"
+            },
+            "vatID": {
+                "description": null,
+                "type": "string"
+            },
+            "foundingLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "leiCode": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

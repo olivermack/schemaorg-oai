@@ -1,0 +1,19 @@
+{
+    "ScreeningEvent": {
+        "type": "object",
+        "properties": {
+            "videoFormat": {
+                "description": null,
+                "type": "string"
+            },
+            "subtitleLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "workPresented": {
+                "description": null,
+                "$ref": "Movie.json"
+            }
+        }
+    }
+}

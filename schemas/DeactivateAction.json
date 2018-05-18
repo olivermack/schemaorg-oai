@@ -1,0 +1,6 @@
+{
+    "DeactivateAction": {
+        "type": "object",
+        "properties": []
+    }
+}

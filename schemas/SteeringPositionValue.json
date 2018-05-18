@@ -1,0 +1,6 @@
+{
+    "SteeringPositionValue": {
+        "type": "object",
+        "properties": []
+    }
+}

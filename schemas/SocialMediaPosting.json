@@ -1,0 +1,11 @@
+{
+    "SocialMediaPosting": {
+        "type": "object",
+        "properties": {
+            "sharedContent": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            }
+        }
+    }
+}

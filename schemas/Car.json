@@ -1,0 +1,6 @@
+{
+    "Car": {
+        "type": "object",
+        "properties": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "CivicStructure": {
+        "type": "object",
+        "properties": {
+            "openingHours": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

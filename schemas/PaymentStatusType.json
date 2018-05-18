@@ -1,0 +1,6 @@
+{
+    "PaymentStatusType": {
+        "type": "object",
+        "properties": []
+    }
+}

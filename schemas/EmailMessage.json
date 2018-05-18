@@ -1,0 +1,6 @@
+{
+    "EmailMessage": {
+        "type": "object",
+        "properties": []
+    }
+}

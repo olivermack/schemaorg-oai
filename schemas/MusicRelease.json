@@ -1,0 +1,27 @@
+{
+    "MusicRelease": {
+        "type": "object",
+        "properties": {
+            "catalogNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "creditedTo": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicReleaseFormat": {
+                "description": null,
+                "$ref": "MusicReleaseFormatType.json"
+            },
+            "recordLabel": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "releaseOf": {
+                "description": null,
+                "$ref": "MusicAlbum.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Permit": {
+        "type": "object",
+        "properties": {
+            "issuedThrough": {
+                "description": null,
+                "$ref": "Service.json"
+            },
+            "permitAudience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "validFor": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validIn": {
+                "description": null,
+                "$ref": "AdministrativeArea.json"
+            },
+            "validUntil": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "issuedBy": {
+                "description": null,
+                "$ref": "Organization.json"
+            }
+        }
+    }
+}

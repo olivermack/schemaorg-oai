@@ -1,0 +1,74 @@
+{
+    "Invoice": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "description": null,
+                "type": "string"
+            },
+            "confirmationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "customer": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "paymentDue": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "paymentMethod": {
+                "description": null,
+                "$ref": "PaymentMethod.json"
+            },
+            "paymentMethodId": {
+                "description": null,
+                "type": "string"
+            },
+            "paymentDueDate": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "broker": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "totalPaymentDue": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "minimumPaymentDue": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "accountId": {
+                "description": null,
+                "type": "string"
+            },
+            "scheduledPaymentDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "billingPeriod": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "paymentStatus": {
+                "description": null,
+                "$ref": "PaymentStatusType.json"
+            },
+            "referencesOrder": {
+                "description": null,
+                "$ref": "Order.json"
+            }
+        }
+    }
+}

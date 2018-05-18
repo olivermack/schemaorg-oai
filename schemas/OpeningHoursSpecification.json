@@ -1,0 +1,31 @@
+{
+    "OpeningHoursSpecification": {
+        "type": "object",
+        "properties": {
+            "closes": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "dayOfWeek": {
+                "description": null,
+                "$ref": "DayOfWeek.json"
+            },
+            "opens": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "TouristAttraction": {
+        "type": "object",
+        "properties": []
+    }
+}

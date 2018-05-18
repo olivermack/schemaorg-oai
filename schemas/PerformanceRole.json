@@ -1,0 +1,11 @@
+{
+    "PerformanceRole": {
+        "type": "object",
+        "properties": {
+            "characterName": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

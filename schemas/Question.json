@@ -1,0 +1,30 @@
+{
+    "Question": {
+        "type": "object",
+        "properties": {
+            "upvoteCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "downvoteCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "answerCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "acceptedAnswer": {
+                "description": null,
+                "$ref": "Answer.json"
+            },
+            "suggestedAnswer": {
+                "description": null,
+                "$ref": "Answer.json"
+            }
+        }
+    }
+}

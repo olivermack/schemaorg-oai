@@ -1,0 +1,27 @@
+{
+    "Game": {
+        "type": "object",
+        "properties": {
+            "numberOfPlayers": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "quest": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "gameItem": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "characterAttribute": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "gameLocation": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

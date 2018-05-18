@@ -1,0 +1,39 @@
+{
+    "QualitativeValue": {
+        "type": "object",
+        "properties": {
+            "equal": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "greater": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "greaterOrEqual": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "lesser": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "lesserOrEqual": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "nonEqual": {
+                "description": null,
+                "$ref": "QualitativeValue.json"
+            },
+            "valueReference": {
+                "description": null,
+                "$ref": "Enumeration.json"
+            },
+            "additionalProperty": {
+                "description": null,
+                "$ref": "PropertyValue.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "LodgingBusiness": {
+        "type": "object",
+        "properties": {
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "availableLanguage": {
+                "description": null,
+                "$ref": "Language.json"
+            },
+            "checkinTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "checkoutTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "amenityFeature": {
+                "description": null,
+                "$ref": "LocationFeatureSpecification.json"
+            },
+            "petsAllowed": {
+                "description": null,
+                "type": "boolean"
+            },
+            "starRating": {
+                "description": null,
+                "$ref": "Rating.json"
+            }
+        }
+    }
+}

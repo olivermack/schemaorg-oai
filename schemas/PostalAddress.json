@@ -1,0 +1,31 @@
+{
+    "PostalAddress": {
+        "type": "object",
+        "properties": {
+            "addressCountry": {
+                "description": null,
+                "type": "string"
+            },
+            "addressLocality": {
+                "description": null,
+                "type": "string"
+            },
+            "addressRegion": {
+                "description": null,
+                "type": "string"
+            },
+            "postalCode": {
+                "description": null,
+                "type": "string"
+            },
+            "postOfficeBoxNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "streetAddress": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

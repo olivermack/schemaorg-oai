@@ -1,0 +1,11 @@
+{
+    "EducationalAudience": {
+        "type": "object",
+        "properties": {
+            "educationalRole": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

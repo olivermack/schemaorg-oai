@@ -1,0 +1,11 @@
+{
+    "ConsumeAction": {
+        "type": "object",
+        "properties": {
+            "expectsAcceptanceOf": {
+                "description": null,
+                "$ref": "Offer.json"
+            }
+        }
+    }
+}

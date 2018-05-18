@@ -1,0 +1,15 @@
+{
+    "ChooseAction": {
+        "type": "object",
+        "properties": {
+            "option": {
+                "description": null,
+                "type": "string"
+            },
+            "actionOption": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

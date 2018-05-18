@@ -1,0 +1,11 @@
+{
+    "GovernmentService": {
+        "type": "object",
+        "properties": {
+            "serviceOperator": {
+                "description": null,
+                "$ref": "Organization.json"
+            }
+        }
+    }
+}

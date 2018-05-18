@@ -1,0 +1,11 @@
+{
+    "BorrowAction": {
+        "type": "object",
+        "properties": {
+            "lender": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

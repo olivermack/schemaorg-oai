@@ -1,0 +1,6 @@
+{
+    "SubscribeAction": {
+        "type": "object",
+        "properties": []
+    }
+}

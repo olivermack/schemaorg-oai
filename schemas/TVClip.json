@@ -1,0 +1,11 @@
+{
+    "TVClip": {
+        "type": "object",
+        "properties": {
+            "partOfTVSeries": {
+                "description": null,
+                "$ref": "TVSeries.json"
+            }
+        }
+    }
+}

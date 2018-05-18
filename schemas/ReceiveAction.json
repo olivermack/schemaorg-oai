@@ -1,0 +1,15 @@
+{
+    "ReceiveAction": {
+        "type": "object",
+        "properties": {
+            "deliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "sender": {
+                "description": null,
+                "$ref": "Audience.json"
+            }
+        }
+    }
+}

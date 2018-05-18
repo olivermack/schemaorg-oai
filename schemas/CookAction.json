@@ -1,0 +1,11 @@
+{
+    "CookAction": {
+        "type": "object",
+        "properties": {
+            "foodEvent": {
+                "description": null,
+                "$ref": "FoodEvent.json"
+            }
+        }
+    }
+}

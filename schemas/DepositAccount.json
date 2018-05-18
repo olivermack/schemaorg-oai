@@ -1,0 +1,6 @@
+{
+    "DepositAccount": {
+        "type": "object",
+        "properties": []
+    }
+}

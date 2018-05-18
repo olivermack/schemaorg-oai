@@ -1,0 +1,11 @@
+{
+    "ReviewAction": {
+        "type": "object",
+        "properties": {
+            "resultReview": {
+                "description": null,
+                "$ref": "Review.json"
+            }
+        }
+    }
+}

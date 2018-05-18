@@ -1,0 +1,27 @@
+{
+    "BroadcastChannel": {
+        "type": "object",
+        "properties": {
+            "genre": {
+                "description": null,
+                "type": "string"
+            },
+            "broadcastChannelId": {
+                "description": null,
+                "type": "string"
+            },
+            "inBroadcastLineup": {
+                "description": null,
+                "$ref": "CableOrSatelliteService.json"
+            },
+            "broadcastServiceTier": {
+                "description": null,
+                "type": "string"
+            },
+            "providesBroadcastService": {
+                "description": null,
+                "$ref": "BroadcastService.json"
+            }
+        }
+    }
+}

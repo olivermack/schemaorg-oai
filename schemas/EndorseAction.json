@@ -1,0 +1,11 @@
+{
+    "EndorseAction": {
+        "type": "object",
+        "properties": {
+            "endorsee": {
+                "description": null,
+                "$ref": "Organization.json"
+            }
+        }
+    }
+}

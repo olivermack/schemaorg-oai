@@ -1,0 +1,15 @@
+{
+    "TransferAction": {
+        "type": "object",
+        "properties": {
+            "fromLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "toLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            }
+        }
+    }
+}

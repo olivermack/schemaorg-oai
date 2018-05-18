@@ -1,0 +1,112 @@
+{
+    "Vehicle": {
+        "type": "object",
+        "properties": {
+            "numberOfDoors": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "numberOfAirbags": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "numberOfAxles": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "vehicleEngine": {
+                "description": null,
+                "$ref": "EngineSpecification.json"
+            },
+            "fuelConsumption": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "fuelEfficiency": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "numberOfForwardGears": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "vehicleIdentificationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "cargoVolume": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "vehicleConfiguration": {
+                "description": null,
+                "type": "string"
+            },
+            "knownVehicleDamages": {
+                "description": null,
+                "type": "string"
+            },
+            "dateVehicleFirstRegistered": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "driveWheelConfiguration": {
+                "description": null,
+                "$ref": "DriveWheelConfigurationValue.json"
+            },
+            "fuelType": {
+                "description": null,
+                "type": "string"
+            },
+            "vehicleInteriorColor": {
+                "description": null,
+                "type": "string"
+            },
+            "vehicleInteriorType": {
+                "description": null,
+                "type": "string"
+            },
+            "mileageFromOdometer": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "vehicleModelDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "numberOfPreviousOwners": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "productionDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "purchaseDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "vehicleSeatingCapacity": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "vehicleTransmission": {
+                "description": null,
+                "type": "string"
+            },
+            "steeringPosition": {
+                "description": null,
+                "$ref": "SteeringPositionValue.json"
+            },
+            "vehicleSpecialUsage": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

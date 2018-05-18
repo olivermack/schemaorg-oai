@@ -1,0 +1,25 @@
+{
+    "DeliveryEvent": {
+        "type": "object",
+        "properties": {
+            "accessCode": {
+                "description": null,
+                "type": "string"
+            },
+            "availableFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "availableThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "hasDeliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            }
+        }
+    }
+}

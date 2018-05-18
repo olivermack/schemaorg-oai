@@ -1,0 +1,23 @@
+{
+    "CommunicateAction": {
+        "type": "object",
+        "properties": {
+            "about": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "inLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "language": {
+                "description": null,
+                "$ref": "Language.json"
+            },
+            "recipient": {
+                "description": null,
+                "$ref": "Audience.json"
+            }
+        }
+    }
+}

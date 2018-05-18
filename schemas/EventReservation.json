@@ -1,0 +1,6 @@
+{
+    "EventReservation": {
+        "type": "object",
+        "properties": []
+    }
+}

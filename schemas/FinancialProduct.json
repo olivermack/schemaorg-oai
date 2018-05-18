@@ -1,0 +1,19 @@
+{
+    "FinancialProduct": {
+        "type": "object",
+        "properties": {
+            "annualPercentageRate": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "feesAndCommissionsSpecification": {
+                "description": null,
+                "type": "string"
+            },
+            "interestRate": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

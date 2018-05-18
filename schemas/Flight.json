@@ -1,0 +1,82 @@
+{
+    "Flight": {
+        "type": "object",
+        "properties": {
+            "carrier": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "seller": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "flightNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "departureTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "arrivalTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "departureAirport": {
+                "description": null,
+                "$ref": "Airport.json"
+            },
+            "arrivalAirport": {
+                "description": null,
+                "$ref": "Airport.json"
+            },
+            "departureGate": {
+                "description": null,
+                "type": "string"
+            },
+            "arrivalGate": {
+                "description": null,
+                "type": "string"
+            },
+            "boardingPolicy": {
+                "description": null,
+                "$ref": "BoardingPolicyType.json"
+            },
+            "departureTerminal": {
+                "description": null,
+                "type": "string"
+            },
+            "arrivalTerminal": {
+                "description": null,
+                "type": "string"
+            },
+            "aircraft": {
+                "description": null,
+                "type": "string"
+            },
+            "mealService": {
+                "description": null,
+                "type": "string"
+            },
+            "estimatedFlightDuration": {
+                "description": null,
+                "type": "string"
+            },
+            "flightDistance": {
+                "description": null,
+                "type": "string"
+            },
+            "webCheckinTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

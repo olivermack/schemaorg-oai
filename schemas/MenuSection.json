@@ -1,0 +1,15 @@
+{
+    "MenuSection": {
+        "type": "object",
+        "properties": {
+            "hasMenuItem": {
+                "description": null,
+                "$ref": "MenuSection.json"
+            },
+            "hasMenuSection": {
+                "description": null,
+                "$ref": "MenuSection.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "UnitPriceSpecification": {
+        "type": "object",
+        "properties": {
+            "billingIncrement": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "priceType": {
+                "description": null,
+                "type": "string"
+            },
+            "unitCode": {
+                "description": null,
+                "type": "string"
+            },
+            "unitText": {
+                "description": null,
+                "type": "string"
+            },
+            "referenceQuantity": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

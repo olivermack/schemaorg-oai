@@ -1,0 +1,11 @@
+{
+    "InviteAction": {
+        "type": "object",
+        "properties": {
+            "event": {
+                "description": null,
+                "$ref": "Event.json"
+            }
+        }
+    }
+}

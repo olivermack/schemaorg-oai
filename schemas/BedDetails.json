@@ -1,0 +1,16 @@
+{
+    "BedDetails": {
+        "type": "object",
+        "properties": {
+            "typeOfBed": {
+                "description": null,
+                "type": "string"
+            },
+            "numberOfBeds": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

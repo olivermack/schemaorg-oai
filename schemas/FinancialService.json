@@ -1,0 +1,11 @@
+{
+    "FinancialService": {
+        "type": "object",
+        "properties": {
+            "feesAndCommissionsSpecification": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

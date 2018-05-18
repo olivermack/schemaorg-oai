@@ -1,0 +1,21 @@
+{
+    "LocationFeatureSpecification": {
+        "type": "object",
+        "properties": {
+            "hoursAvailable": {
+                "description": null,
+                "$ref": "OpeningHoursSpecification.json"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}

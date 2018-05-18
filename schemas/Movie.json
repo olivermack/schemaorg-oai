@@ -1,0 +1,47 @@
+{
+    "Movie": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "countryOfOrigin": {
+                "description": null,
+                "$ref": "Country.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "duration": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "subtitleLanguage": {
+                "description": null,
+                "type": "string"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            }
+        }
+    }
+}

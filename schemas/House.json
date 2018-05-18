@@ -1,0 +1,12 @@
+{
+    "House": {
+        "type": "object",
+        "properties": {
+            "numberOfRooms": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

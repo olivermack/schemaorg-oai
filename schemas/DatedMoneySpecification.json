@@ -1,0 +1,15 @@
+{
+    "DatedMoneySpecification": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "description": null,
+                "$ref": "MonetaryAmount.json"
+            },
+            "currency": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

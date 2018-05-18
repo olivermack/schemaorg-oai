@@ -1,0 +1,15 @@
+{
+    "WarrantyPromise": {
+        "type": "object",
+        "properties": {
+            "durationOfWarranty": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "warrantyScope": {
+                "description": null,
+                "$ref": "WarrantyScope.json"
+            }
+        }
+    }
+}

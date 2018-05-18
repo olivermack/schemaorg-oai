@@ -1,0 +1,15 @@
+{
+    "Audience": {
+        "type": "object",
+        "properties": {
+            "audienceType": {
+                "description": null,
+                "type": "string"
+            },
+            "geographicArea": {
+                "description": null,
+                "$ref": "AdministrativeArea.json"
+            }
+        }
+    }
+}

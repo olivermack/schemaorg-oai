@@ -1,0 +1,27 @@
+{
+    "VisualArtwork": {
+        "type": "object",
+        "properties": {
+            "artform": {
+                "description": null,
+                "type": "string"
+            },
+            "artMedium": {
+                "description": null,
+                "type": "string"
+            },
+            "surface": {
+                "description": null,
+                "type": "string"
+            },
+            "artworkSurface": {
+                "description": null,
+                "type": "string"
+            },
+            "artEdition": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

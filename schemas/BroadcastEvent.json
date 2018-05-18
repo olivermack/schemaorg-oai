@@ -1,0 +1,19 @@
+{
+    "BroadcastEvent": {
+        "type": "object",
+        "properties": {
+            "videoFormat": {
+                "description": null,
+                "type": "string"
+            },
+            "broadcastOfEvent": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "isLiveBroadcast": {
+                "description": null,
+                "type": "boolean"
+            }
+        }
+    }
+}

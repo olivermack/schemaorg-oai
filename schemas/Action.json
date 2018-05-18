@@ -1,0 +1,53 @@
+{
+    "Action": {
+        "type": "object",
+        "properties": {
+            "agent": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "endTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "instrument": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "location": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "object": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "participant": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "result": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "startTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "actionStatus": {
+                "description": null,
+                "$ref": "ActionStatusType.json"
+            },
+            "error": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "target": {
+                "description": null,
+                "$ref": "EntryPoint.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "Place": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "branchCode": {
+                "description": null,
+                "type": "string"
+            },
+            "containedInPlace": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "containsPlace": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "containedIn": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "event": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "events": {
+                "description": null,
+                "$ref": "Event.json"
+            },
+            "faxNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "geo": {
+                "description": null,
+                "$ref": "GeoCoordinates.json"
+            },
+            "globalLocationNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "isicV4": {
+                "description": null,
+                "type": "string"
+            },
+            "logo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "hasMap": {
+                "description": null,
+                "type": "string"
+            },
+            "map": {
+                "description": null,
+                "type": "string"
+            },
+            "maps": {
+                "description": null,
+                "type": "string"
+            },
+            "maximumAttendeeCapacity": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "openingHoursSpecification": {
+                "description": null,
+                "$ref": "OpeningHoursSpecification.json"
+            },
+            "specialOpeningHoursSpecification": {
+                "description": null,
+                "$ref": "OpeningHoursSpecification.json"
+            },
+            "photo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "photos": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "reviews": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "telephone": {
+                "description": null,
+                "type": "string"
+            },
+            "additionalProperty": {
+                "description": null,
+                "$ref": "PropertyValue.json"
+            },
+            "amenityFeature": {
+                "description": null,
+                "$ref": "LocationFeatureSpecification.json"
+            },
+            "smokingAllowed": {
+                "description": null,
+                "type": "boolean"
+            }
+        }
+    }
+}

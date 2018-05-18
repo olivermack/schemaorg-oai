@@ -1,0 +1,146 @@
+{
+    "Product": {
+        "type": "object",
+        "properties": {
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "award": {
+                "description": null,
+                "type": "string"
+            },
+            "awards": {
+                "description": null,
+                "type": "string"
+            },
+            "brand": {
+                "description": null,
+                "$ref": "Brand.json"
+            },
+            "category": {
+                "description": null,
+                "type": "string"
+            },
+            "color": {
+                "description": null,
+                "type": "string"
+            },
+            "depth": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "gtin12": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin13": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin14": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin8": {
+                "description": null,
+                "type": "string"
+            },
+            "height": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "isAccessoryOrSparePartFor": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "isConsumableFor": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "isRelatedTo": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "isSimilarTo": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "itemCondition": {
+                "description": null,
+                "$ref": "OfferItemCondition.json"
+            },
+            "logo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "model": {
+                "description": null,
+                "$ref": "ProductModel.json"
+            },
+            "mpn": {
+                "description": null,
+                "type": "string"
+            },
+            "manufacturer": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "productID": {
+                "description": null,
+                "type": "string"
+            },
+            "releaseDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "reviews": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "sku": {
+                "description": null,
+                "type": "string"
+            },
+            "weight": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "width": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "material": {
+                "description": null,
+                "type": "string"
+            },
+            "additionalProperty": {
+                "description": null,
+                "$ref": "PropertyValue.json"
+            },
+            "productionDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "purchaseDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            }
+        }
+    }
+}

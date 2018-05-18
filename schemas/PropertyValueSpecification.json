@@ -1,0 +1,56 @@
+{
+    "PropertyValueSpecification": {
+        "type": "object",
+        "properties": {
+            "maxValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "minValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "valueName": {
+                "description": null,
+                "type": "string"
+            },
+            "valueRequired": {
+                "description": null,
+                "type": "boolean"
+            },
+            "defaultValue": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "readonlyValue": {
+                "description": null,
+                "type": "boolean"
+            },
+            "multipleValues": {
+                "description": null,
+                "type": "boolean"
+            },
+            "valueMinLength": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "valueMaxLength": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "valuePattern": {
+                "description": null,
+                "type": "string"
+            },
+            "stepValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

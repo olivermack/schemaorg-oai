@@ -1,0 +1,44 @@
+{
+    "WebPage": {
+        "type": "object",
+        "properties": {
+            "breadcrumb": {
+                "description": null,
+                "type": "string"
+            },
+            "lastReviewed": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "mainContentOfPage": {
+                "description": null,
+                "$ref": "WebPageElement.json"
+            },
+            "primaryImageOfPage": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "relatedLink": {
+                "description": null,
+                "type": "string"
+            },
+            "reviewedBy": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "significantLink": {
+                "description": null,
+                "type": "string"
+            },
+            "significantLinks": {
+                "description": null,
+                "type": "string"
+            },
+            "specialty": {
+                "description": null,
+                "$ref": "Specialty.json"
+            }
+        }
+    }
+}

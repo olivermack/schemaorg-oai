@@ -1,0 +1,173 @@
+{
+    "Offer": {
+        "type": "object",
+        "properties": {
+            "acceptedPaymentMethod": {
+                "description": null,
+                "$ref": "LoanOrCredit.json"
+            },
+            "addOn": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "advanceBookingRequirement": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "availability": {
+                "description": null,
+                "$ref": "ItemAvailability.json"
+            },
+            "availabilityEnds": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "availabilityStarts": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "availableAtOrFrom": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "availableDeliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "businessFunction": {
+                "description": null,
+                "$ref": "BusinessFunction.json"
+            },
+            "category": {
+                "description": null,
+                "type": "string"
+            },
+            "deliveryLeadTime": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleCustomerType": {
+                "description": null,
+                "$ref": "BusinessEntityType.json"
+            },
+            "eligibleDuration": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleQuantity": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "eligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            },
+            "ineligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            },
+            "eligibleTransactionVolume": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "gtin12": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin13": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin14": {
+                "description": null,
+                "type": "string"
+            },
+            "gtin8": {
+                "description": null,
+                "type": "string"
+            },
+            "includesObject": {
+                "description": null,
+                "$ref": "TypeAndQuantityNode.json"
+            },
+            "inventoryLevel": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "itemCondition": {
+                "description": null,
+                "$ref": "OfferItemCondition.json"
+            },
+            "itemOffered": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "mpn": {
+                "description": null,
+                "type": "string"
+            },
+            "price": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "priceSpecification": {
+                "description": null,
+                "$ref": "PriceSpecification.json"
+            },
+            "priceValidUntil": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "reviews": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "seller": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "serialNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "sku": {
+                "description": null,
+                "type": "string"
+            },
+            "validFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "validThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "warranty": {
+                "description": null,
+                "$ref": "WarrantyPromise.json"
+            },
+            "priceCurrency": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

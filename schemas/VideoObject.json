@@ -1,0 +1,47 @@
+{
+    "VideoObject": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "caption": {
+                "description": null,
+                "type": "string"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "thumbnail": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "transcript": {
+                "description": null,
+                "type": "string"
+            },
+            "videoFrameSize": {
+                "description": null,
+                "type": "string"
+            },
+            "videoQuality": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

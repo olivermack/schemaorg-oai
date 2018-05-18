@@ -1,0 +1,44 @@
+{
+    "Clip": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "clipNumber": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "partOfEpisode": {
+                "description": null,
+                "$ref": "Episode.json"
+            },
+            "partOfSeason": {
+                "description": null,
+                "$ref": "CreativeWorkSeason.json"
+            },
+            "partOfSeries": {
+                "description": null,
+                "$ref": "CreativeWorkSeries.json"
+            }
+        }
+    }
+}

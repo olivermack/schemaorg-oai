@@ -1,0 +1,16 @@
+{
+    "SingleFamilyResidence": {
+        "type": "object",
+        "properties": {
+            "numberOfRooms": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "occupancy": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "FlightReservation": {
+        "type": "object",
+        "properties": {
+            "passengerSequenceNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "securityScreening": {
+                "description": null,
+                "type": "string"
+            },
+            "passengerPriorityStatus": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

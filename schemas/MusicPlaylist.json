@@ -1,0 +1,20 @@
+{
+    "MusicPlaylist": {
+        "type": "object",
+        "properties": {
+            "numTracks": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "tracks": {
+                "description": null,
+                "$ref": "MusicRecording.json"
+            },
+            "track": {
+                "description": null,
+                "$ref": "ItemList.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "FoodEstablishmentReservation": {
+        "type": "object",
+        "properties": {
+            "endTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "startTime": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "partySize": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

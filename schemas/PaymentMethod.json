@@ -1,0 +1,6 @@
+{
+    "PaymentMethod": {
+        "type": "object",
+        "properties": []
+    }
+}

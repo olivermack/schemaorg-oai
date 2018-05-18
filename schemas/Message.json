@@ -1,0 +1,34 @@
+{
+    "Message": {
+        "type": "object",
+        "properties": {
+            "recipient": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "sender": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "dateRead": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "dateReceived": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "dateSent": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "messageAttachment": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            }
+        }
+    }
+}

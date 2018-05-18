@@ -1,0 +1,6 @@
+{
+    "BusReservation": {
+        "type": "object",
+        "properties": []
+    }
+}

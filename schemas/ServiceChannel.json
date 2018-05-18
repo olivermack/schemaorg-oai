@@ -1,0 +1,39 @@
+{
+    "ServiceChannel": {
+        "type": "object",
+        "properties": {
+            "availableLanguage": {
+                "description": null,
+                "$ref": "Language.json"
+            },
+            "processingTime": {
+                "description": null,
+                "$ref": "Duration.json"
+            },
+            "providesService": {
+                "description": null,
+                "$ref": "Service.json"
+            },
+            "serviceLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "servicePhone": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "servicePostalAddress": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "serviceSmsNumber": {
+                "description": null,
+                "$ref": "ContactPoint.json"
+            },
+            "serviceUrl": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

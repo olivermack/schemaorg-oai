@@ -1,0 +1,6 @@
+{
+    "RejectAction": {
+        "type": "object",
+        "properties": []
+    }
+}

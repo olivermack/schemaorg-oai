@@ -1,0 +1,34 @@
+{
+    "GeoCoordinates": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "description": null,
+                "$ref": "PostalAddress.json"
+            },
+            "addressCountry": {
+                "description": null,
+                "type": "string"
+            },
+            "elevation": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "latitude": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "longitude": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "postalCode": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

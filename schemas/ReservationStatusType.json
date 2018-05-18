@@ -1,0 +1,6 @@
+{
+    "ReservationStatusType": {
+        "type": "object",
+        "properties": []
+    }
+}

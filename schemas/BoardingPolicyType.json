@@ -1,0 +1,6 @@
+{
+    "BoardingPolicyType": {
+        "type": "object",
+        "properties": []
+    }
+}

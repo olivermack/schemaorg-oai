@@ -1,0 +1,20 @@
+{
+    "ItemList": {
+        "type": "object",
+        "properties": {
+            "numberOfItems": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "itemListOrder": {
+                "description": null,
+                "$ref": "ItemListOrderType.json"
+            },
+            "itemListElement": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

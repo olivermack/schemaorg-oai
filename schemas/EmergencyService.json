@@ -1,0 +1,6 @@
+{
+    "EmergencyService": {
+        "type": "object",
+        "properties": []
+    }
+}

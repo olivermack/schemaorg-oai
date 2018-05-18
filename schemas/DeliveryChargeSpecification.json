@@ -1,0 +1,23 @@
+{
+    "DeliveryChargeSpecification": {
+        "type": "object",
+        "properties": {
+            "appliesToDeliveryMethod": {
+                "description": null,
+                "$ref": "DeliveryMethod.json"
+            },
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "eligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            },
+            "ineligibleRegion": {
+                "description": null,
+                "$ref": "GeoShape.json"
+            }
+        }
+    }
+}

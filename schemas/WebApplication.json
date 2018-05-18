@@ -1,0 +1,11 @@
+{
+    "WebApplication": {
+        "type": "object",
+        "properties": {
+            "browserRequirements": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

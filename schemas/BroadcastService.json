@@ -1,0 +1,35 @@
+{
+    "BroadcastService": {
+        "type": "object",
+        "properties": {
+            "area": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "broadcaster": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "parentService": {
+                "description": null,
+                "$ref": "BroadcastService.json"
+            },
+            "videoFormat": {
+                "description": null,
+                "type": "string"
+            },
+            "broadcastAffiliateOf": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "broadcastDisplayName": {
+                "description": null,
+                "type": "string"
+            },
+            "broadcastTimezone": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

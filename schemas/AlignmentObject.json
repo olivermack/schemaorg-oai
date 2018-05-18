@@ -1,0 +1,27 @@
+{
+    "AlignmentObject": {
+        "type": "object",
+        "properties": {
+            "alignmentType": {
+                "description": null,
+                "type": "string"
+            },
+            "educationalFramework": {
+                "description": null,
+                "type": "string"
+            },
+            "targetDescription": {
+                "description": null,
+                "type": "string"
+            },
+            "targetName": {
+                "description": null,
+                "type": "string"
+            },
+            "targetUrl": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Accommodation": {
+        "type": "object",
+        "properties": {
+            "amenityFeature": {
+                "description": null,
+                "$ref": "LocationFeatureSpecification.json"
+            },
+            "numberOfRooms": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "floorSize": {
+                "description": null,
+                "$ref": "QuantitativeValue.json"
+            },
+            "permittedUsage": {
+                "description": null,
+                "type": "string"
+            },
+            "petsAllowed": {
+                "description": null,
+                "type": "boolean"
+            }
+        }
+    }
+}

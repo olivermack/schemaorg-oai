@@ -1,0 +1,11 @@
+{
+    "LoseAction": {
+        "type": "object",
+        "properties": {
+            "winner": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

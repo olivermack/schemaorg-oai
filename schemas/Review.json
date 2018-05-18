@@ -1,0 +1,19 @@
+{
+    "Review": {
+        "type": "object",
+        "properties": {
+            "itemReviewed": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "reviewBody": {
+                "description": null,
+                "type": "string"
+            },
+            "reviewRating": {
+                "description": null,
+                "$ref": "Rating.json"
+            }
+        }
+    }
+}

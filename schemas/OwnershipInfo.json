@@ -1,0 +1,25 @@
+{
+    "OwnershipInfo": {
+        "type": "object",
+        "properties": {
+            "acquiredFrom": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "ownedFrom": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "ownedThrough": {
+                "description": null,
+                "type": "string",
+                "format": "date-time"
+            },
+            "typeOfGood": {
+                "description": null,
+                "$ref": "Product.json"
+            }
+        }
+    }
+}

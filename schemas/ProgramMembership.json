@@ -1,0 +1,27 @@
+{
+    "ProgramMembership": {
+        "type": "object",
+        "properties": {
+            "member": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "members": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "membershipNumber": {
+                "description": null,
+                "type": "string"
+            },
+            "programName": {
+                "description": null,
+                "type": "string"
+            },
+            "hostingOrganization": {
+                "description": null,
+                "$ref": "Organization.json"
+            }
+        }
+    }
+}

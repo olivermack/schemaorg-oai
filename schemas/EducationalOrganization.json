@@ -1,0 +1,11 @@
+{
+    "EducationalOrganization": {
+        "type": "object",
+        "properties": {
+            "alumni": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "Service": {
+        "type": "object",
+        "properties": {
+            "hasOfferCatalog": {
+                "description": null,
+                "$ref": "OfferCatalog.json"
+            },
+            "aggregateRating": {
+                "description": null,
+                "$ref": "AggregateRating.json"
+            },
+            "areaServed": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "audience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "availableChannel": {
+                "description": null,
+                "$ref": "ServiceChannel.json"
+            },
+            "award": {
+                "description": null,
+                "type": "string"
+            },
+            "brand": {
+                "description": null,
+                "$ref": "Brand.json"
+            },
+            "category": {
+                "description": null,
+                "type": "string"
+            },
+            "hoursAvailable": {
+                "description": null,
+                "$ref": "OpeningHoursSpecification.json"
+            },
+            "isRelatedTo": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "isSimilarTo": {
+                "description": null,
+                "$ref": "Product.json"
+            },
+            "logo": {
+                "description": null,
+                "$ref": "ImageObject.json"
+            },
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            },
+            "produces": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "serviceOutput": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "review": {
+                "description": null,
+                "$ref": "Review.json"
+            },
+            "serviceArea": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "serviceAudience": {
+                "description": null,
+                "$ref": "Audience.json"
+            },
+            "serviceType": {
+                "description": null,
+                "type": "string"
+            },
+            "provider": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "providerMobility": {
+                "description": null,
+                "type": "string"
+            },
+            "broker": {
+                "description": null,
+                "$ref": "Person.json"
+            }
+        }
+    }
+}

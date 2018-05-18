@@ -1,0 +1,15 @@
+{
+    "ReservationPackage": {
+        "type": "object",
+        "properties": {
+            "subReservation": {
+                "description": null,
+                "$ref": "Reservation.json"
+            },
+            "boardingGroup": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

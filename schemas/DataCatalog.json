@@ -1,0 +1,11 @@
+{
+    "DataCatalog": {
+        "type": "object",
+        "properties": {
+            "dataset": {
+                "description": null,
+                "$ref": "Dataset.json"
+            }
+        }
+    }
+}

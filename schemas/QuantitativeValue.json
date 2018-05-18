@@ -1,0 +1,38 @@
+{
+    "QuantitativeValue": {
+        "type": "object",
+        "properties": {
+            "maxValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "minValue": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "unitCode": {
+                "description": null,
+                "type": "string"
+            },
+            "value": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "valueReference": {
+                "description": null,
+                "$ref": "Enumeration.json"
+            },
+            "additionalProperty": {
+                "description": null,
+                "$ref": "PropertyValue.json"
+            },
+            "unitText": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "LocalBusiness": {
+        "type": "object",
+        "properties": {
+            "branchOf": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "currenciesAccepted": {
+                "description": null,
+                "type": "string"
+            },
+            "openingHours": {
+                "description": null,
+                "type": "string"
+            },
+            "paymentAccepted": {
+                "description": null,
+                "type": "string"
+            },
+            "priceRange": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

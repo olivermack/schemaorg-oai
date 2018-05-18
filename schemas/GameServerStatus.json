@@ -1,0 +1,6 @@
+{
+    "GameServerStatus": {
+        "type": "object",
+        "properties": []
+    }
+}

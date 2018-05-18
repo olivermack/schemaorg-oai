@@ -1,0 +1,6 @@
+{
+    "UnRegisterAction": {
+        "type": "object",
+        "properties": []
+    }
+}

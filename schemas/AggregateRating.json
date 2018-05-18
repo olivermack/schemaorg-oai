@@ -1,0 +1,21 @@
+{
+    "AggregateRating": {
+        "type": "object",
+        "properties": {
+            "itemReviewed": {
+                "description": null,
+                "$ref": "Thing.json"
+            },
+            "ratingCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "reviewCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

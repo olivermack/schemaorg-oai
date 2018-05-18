@@ -1,0 +1,26 @@
+{
+    "PublicationIssue": {
+        "type": "object",
+        "properties": {
+            "issueNumber": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pageEnd": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pageStart": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pagination": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

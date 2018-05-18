@@ -1,0 +1,11 @@
+{
+    "ClaimReview": {
+        "type": "object",
+        "properties": {
+            "claimReviewed": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

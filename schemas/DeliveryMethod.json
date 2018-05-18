@@ -1,0 +1,6 @@
+{
+    "DeliveryMethod": {
+        "type": "object",
+        "properties": []
+    }
+}

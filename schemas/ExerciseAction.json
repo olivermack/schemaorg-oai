@@ -1,0 +1,43 @@
+{
+    "ExerciseAction": {
+        "type": "object",
+        "properties": {
+            "course": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "exerciseCourse": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "distance": {
+                "description": null,
+                "$ref": "Distance.json"
+            },
+            "fromLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            },
+            "opponent": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "sportsActivityLocation": {
+                "description": null,
+                "$ref": "SportsActivityLocation.json"
+            },
+            "sportsEvent": {
+                "description": null,
+                "$ref": "SportsEvent.json"
+            },
+            "sportsTeam": {
+                "description": null,
+                "$ref": "SportsTeam.json"
+            },
+            "toLocation": {
+                "description": null,
+                "$ref": "Place.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "DrinkAction": {
+        "type": "object",
+        "properties": []
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AggregateOffer": {
+        "type": "object",
+        "properties": {
+            "highPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "lowPrice": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "offerCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "offers": {
+                "description": null,
+                "$ref": "Offer.json"
+            }
+        }
+    }
+}

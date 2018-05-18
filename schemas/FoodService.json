@@ -1,0 +1,6 @@
+{
+    "FoodService": {
+        "type": "object",
+        "properties": []
+    }
+}

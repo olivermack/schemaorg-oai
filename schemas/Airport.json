@@ -1,0 +1,15 @@
+{
+    "Airport": {
+        "type": "object",
+        "properties": {
+            "iataCode": {
+                "description": null,
+                "type": "string"
+            },
+            "icaoCode": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

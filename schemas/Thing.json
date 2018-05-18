@@ -1,0 +1,51 @@
+{
+    "Thing": {
+        "type": "object",
+        "properties": {
+            "additionalType": {
+                "description": null,
+                "type": "string"
+            },
+            "alternateName": {
+                "description": null,
+                "type": "string"
+            },
+            "description": {
+                "description": null,
+                "type": "string"
+            },
+            "disambiguatingDescription": {
+                "description": null,
+                "type": "string"
+            },
+            "image": {
+                "description": null,
+                "type": "string"
+            },
+            "mainEntityOfPage": {
+                "description": null,
+                "$ref": "CreativeWork.json"
+            },
+            "name": {
+                "description": null,
+                "type": "string"
+            },
+            "sameAs": {
+                "description": null,
+                "type": "string"
+            },
+            "url": {
+                "description": null,
+                "type": "string"
+            },
+            "potentialAction": {
+                "description": null,
+                "$ref": "Action.json"
+            },
+            "identifier": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

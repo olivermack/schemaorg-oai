@@ -1,0 +1,17 @@
+{
+    "ParentAudience": {
+        "type": "object",
+        "properties": {
+            "childMaxAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "childMinAge": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            }
+        }
+    }
+}

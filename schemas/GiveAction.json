@@ -1,0 +1,11 @@
+{
+    "GiveAction": {
+        "type": "object",
+        "properties": {
+            "recipient": {
+                "description": null,
+                "$ref": "Audience.json"
+            }
+        }
+    }
+}

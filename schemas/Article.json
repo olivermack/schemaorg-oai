@@ -1,0 +1,34 @@
+{
+    "Article": {
+        "type": "object",
+        "properties": {
+            "articleBody": {
+                "description": null,
+                "type": "string"
+            },
+            "articleSection": {
+                "description": null,
+                "type": "string"
+            },
+            "wordCount": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pageEnd": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pageStart": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "pagination": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

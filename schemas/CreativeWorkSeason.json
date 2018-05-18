@@ -1,0 +1,55 @@
+{
+    "CreativeWorkSeason": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "endDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "episode": {
+                "description": null,
+                "$ref": "Episode.json"
+            },
+            "episodes": {
+                "description": null,
+                "$ref": "Episode.json"
+            },
+            "numberOfEpisodes": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "partOfSeries": {
+                "description": null,
+                "$ref": "CreativeWorkSeries.json"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "seasonNumber": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "startDate": {
+                "description": null,
+                "type": "string",
+                "format": "date"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            }
+        }
+    }
+}

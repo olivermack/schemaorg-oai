@@ -1,0 +1,15 @@
+{
+    "TechArticle": {
+        "type": "object",
+        "properties": {
+            "dependencies": {
+                "description": null,
+                "type": "string"
+            },
+            "proficiencyLevel": {
+                "description": null,
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "MovieSeries": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            }
+        }
+    }
+}

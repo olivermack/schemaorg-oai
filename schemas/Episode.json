@@ -1,0 +1,48 @@
+{
+    "Episode": {
+        "type": "object",
+        "properties": {
+            "actor": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "actors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "director": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "directors": {
+                "description": null,
+                "$ref": "Person.json"
+            },
+            "episodeNumber": {
+                "description": null,
+                "type": "integer",
+                "format": "int32"
+            },
+            "musicBy": {
+                "description": null,
+                "$ref": "MusicGroup.json"
+            },
+            "partOfSeason": {
+                "description": null,
+                "$ref": "CreativeWorkSeason.json"
+            },
+            "partOfSeries": {
+                "description": null,
+                "$ref": "CreativeWorkSeries.json"
+            },
+            "productionCompany": {
+                "description": null,
+                "$ref": "Organization.json"
+            },
+            "trailer": {
+                "description": null,
+                "$ref": "VideoObject.json"
+            }
+        }
+    }
+}
