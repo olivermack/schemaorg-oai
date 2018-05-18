@@ -8,15 +8,26 @@
             "name": "Oliver Mack"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/spatie/schema-org",
+            "type": "git"
+        }
+    ],
     "require": {
-        "symfony/console": "^4.0"
+        "php": "^7.0"
     },
-    "autoload": {
+    "require-dev": {
+        "symfony/console": "^3.2",
+        "symfony/dom-crawler": "^4.0",
+        "symfony/css-selector": "^4.0"
+    },
+    "autoload-dev": {
         "psr-4": {
             "Olivermack\\SchemaorgOpenapi\\": "src"
         }
     },
     "scripts": {
-        "generate": "php ./generate.php generate"
+        "generate": "php ./generate generate"
     }
 }
