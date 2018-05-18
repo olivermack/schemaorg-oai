@@ -1,6 +1,10 @@
 {
     "MobilePhoneStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MobilePhoneStore",
+            "description": "Schema.org resource"
+        }
     }
 }

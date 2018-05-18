@@ -1,6 +1,10 @@
 {
     "LiteraryEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LiteraryEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

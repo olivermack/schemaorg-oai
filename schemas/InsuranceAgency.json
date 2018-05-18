@@ -1,6 +1,10 @@
 {
     "InsuranceAgency": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InsuranceAgency",
+            "description": "Schema.org resource"
+        }
     }
 }

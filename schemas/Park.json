@@ -1,6 +1,10 @@
 {
     "Park": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Park",
+            "description": "Schema.org resource"
+        }
     }
 }

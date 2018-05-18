@@ -1,6 +1,10 @@
 {
     "CancelAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CancelAction",
+            "description": "Schema.org resource"
+        }
     }
 }

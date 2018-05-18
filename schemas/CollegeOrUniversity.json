@@ -1,6 +1,10 @@
 {
     "CollegeOrUniversity": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CollegeOrUniversity",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,33 +3,37 @@
         "type": "object",
         "properties": {
             "codeRepository": {
-                "description": null,
+                "description": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).",
                 "type": "string"
             },
             "programmingLanguage": {
-                "description": null,
+                "description": "The computer programming language.",
                 "$ref": "ComputerLanguage.json"
             },
             "runtime": {
-                "description": null,
+                "description": "Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0).",
                 "type": "string"
             },
             "runtimePlatform": {
-                "description": null,
+                "description": "Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0).",
                 "type": "string"
             },
             "sampleType": {
-                "description": null,
+                "description": "What type of code sample: full (compile ready) solution, code snippet, inline code, scripts, template.",
                 "type": "string"
             },
             "codeSampleType": {
-                "description": null,
+                "description": "What type of code sample: full (compile ready) solution, code snippet, inline code, scripts, template.",
                 "type": "string"
             },
             "targetProduct": {
-                "description": null,
+                "description": "Target Operating System \/ Product to which the code applies.  If applies to several versions, just the product name can be used.",
                 "$ref": "SoftwareApplication.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SoftwareSourceCode",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "PhotographAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PhotographAction",
+            "description": "Schema.org resource"
+        }
     }
 }

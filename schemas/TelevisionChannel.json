@@ -1,6 +1,10 @@
 {
     "TelevisionChannel": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TelevisionChannel",
+            "description": "Schema.org resource"
+        }
     }
 }

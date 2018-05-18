@@ -1,6 +1,10 @@
 {
     "UserBlocks": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserBlocks",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Residence": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Residence",
+            "description": "Schema.org resource"
+        }
     }
 }

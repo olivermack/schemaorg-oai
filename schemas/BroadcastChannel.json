@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "genre": {
-                "description": null,
+                "description": "Genre of the creative work, broadcast channel or group.",
                 "type": "string"
             },
             "broadcastChannelId": {
-                "description": null,
+                "description": "The unique address by which the BroadcastService can be identified in a provider lineup. In US, this is typically a number.",
                 "type": "string"
             },
             "inBroadcastLineup": {
-                "description": null,
+                "description": "The CableOrSatelliteService offering the channel.",
                 "$ref": "CableOrSatelliteService.json"
             },
             "broadcastServiceTier": {
-                "description": null,
+                "description": "The type of service required to have access to the channel (e.g. Standard or Premium).",
                 "type": "string"
             },
             "providesBroadcastService": {
-                "description": null,
+                "description": "The BroadcastService offered on this channel.",
                 "$ref": "BroadcastService.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BroadcastChannel",
+            "description": "Schema.org resource"
         }
     }
 }

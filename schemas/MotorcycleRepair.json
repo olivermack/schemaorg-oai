@@ -1,6 +1,10 @@
 {
     "MotorcycleRepair": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MotorcycleRepair",
+            "description": "Schema.org resource"
+        }
     }
 }

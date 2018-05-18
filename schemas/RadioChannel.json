@@ -1,6 +1,10 @@
 {
     "RadioChannel": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RadioChannel",
+            "description": "Schema.org resource"
+        }
     }
 }

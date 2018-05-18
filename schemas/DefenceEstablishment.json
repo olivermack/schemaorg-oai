@@ -1,6 +1,10 @@
 {
     "DefenceEstablishment": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DefenceEstablishment",
+            "description": "Schema.org resource"
+        }
     }
 }

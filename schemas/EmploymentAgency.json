@@ -1,6 +1,10 @@
 {
     "EmploymentAgency": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EmploymentAgency",
+            "description": "Schema.org resource"
+        }
     }
 }

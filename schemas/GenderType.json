@@ -1,6 +1,10 @@
 {
     "GenderType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GenderType",
+            "description": "Schema.org resource"
+        }
     }
 }

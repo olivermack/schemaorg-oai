@@ -1,6 +1,10 @@
 {
     "Table": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Table",
+            "description": "Schema.org resource"
+        }
     }
 }

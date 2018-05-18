@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "question": {
-                "description": null,
+                "description": "A sub property of object. A question.",
                 "$ref": "Question.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AskAction",
+            "description": "Schema.org resource"
         }
     }
 }

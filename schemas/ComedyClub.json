@@ -1,6 +1,10 @@
 {
     "ComedyClub": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ComedyClub",
+            "description": "Schema.org resource"
+        }
     }
 }

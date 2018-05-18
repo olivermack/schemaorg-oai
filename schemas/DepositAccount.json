@@ -1,6 +1,10 @@
 {
     "DepositAccount": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DepositAccount",
+            "description": "Schema.org resource"
+        }
     }
 }

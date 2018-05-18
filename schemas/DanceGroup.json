@@ -1,6 +1,10 @@
 {
     "DanceGroup": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DanceGroup",
+            "description": "Schema.org resource"
+        }
     }
 }

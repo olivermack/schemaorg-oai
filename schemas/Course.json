@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "courseCode": {
-                "description": null,
+                "description": "The identifier for the [[Course]] used by the course [[provider]] (e.g. CS101 or 6.001).",
                 "type": "string"
             },
             "coursePrerequisites": {
-                "description": null,
+                "description": "Requirements for taking the Course. May be completion of another [[Course]] or a textual description like \"permission of instructor\". Requirements may be a pre-requisite competency, referenced using [[AlignmentObject]].",
                 "type": "string"
             },
             "hasCourseInstance": {
-                "description": null,
+                "description": "An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students.",
                 "$ref": "CourseInstance.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Course",
+            "description": "Schema.org resource"
         }
     }
 }

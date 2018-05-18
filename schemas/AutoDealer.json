@@ -1,6 +1,10 @@
 {
     "AutoDealer": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AutoDealer",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Photograph": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Photograph",
+            "description": "Schema.org resource"
+        }
     }
 }

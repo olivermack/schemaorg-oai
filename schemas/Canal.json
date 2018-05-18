@@ -1,6 +1,10 @@
 {
     "Canal": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Canal",
+            "description": "Schema.org resource"
+        }
     }
 }

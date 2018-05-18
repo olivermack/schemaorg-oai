@@ -1,6 +1,10 @@
 {
     "Casino": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Casino",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,29 +3,33 @@
         "type": "object",
         "properties": {
             "actor": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "actors": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "directors": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video games etc. content. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "musicBy": {
-                "description": null,
+                "description": "The composer of the soundtrack.",
                 "$ref": "MusicGroup.json"
             },
             "productionCompany": {
-                "description": null,
+                "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
                 "$ref": "Organization.json"
             },
             "trailer": {
-                "description": null,
+                "description": "The trailer of a movie or tv\/radio series, season, episode, etc.",
                 "$ref": "VideoObject.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MovieSeries",
+            "description": "Schema.org resource"
         }
     }
 }

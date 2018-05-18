@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "assembly": {
-                "description": null,
+                "description": "Library file name e.g., mscorlib.dll, system.web.dll.",
                 "type": "string"
             },
             "executableLibraryName": {
-                "description": null,
+                "description": "Library file name e.g., mscorlib.dll, system.web.dll.",
                 "type": "string"
             },
             "assemblyVersion": {
-                "description": null,
+                "description": "Associated product\/technology version. e.g., .NET Framework 4.5.",
                 "type": "string"
             },
             "programmingModel": {
-                "description": null,
+                "description": "Indicates whether API is managed or unmanaged.",
                 "type": "string"
             },
             "targetPlatform": {
-                "description": null,
+                "description": "Type of app development: phone, Metro style, desktop, XBox, etc.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/APIReference",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "SteeringPositionValue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SteeringPositionValue",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "TouristInformationCenter": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TouristInformationCenter",
+            "description": "Schema.org resource"
+        }
     }
 }

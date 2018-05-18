@@ -1,6 +1,10 @@
 {
     "ItemListOrderType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ItemListOrderType",
+            "description": "Schema.org resource"
+        }
     }
 }

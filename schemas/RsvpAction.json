@@ -3,18 +3,22 @@
         "type": "object",
         "properties": {
             "additionalNumberOfGuests": {
-                "description": null,
+                "description": "If responding yes, the number of guests who will attend in addition to the invitee.",
                 "type": "integer",
                 "format": "int32"
             },
             "rsvpResponse": {
-                "description": null,
+                "description": "The response (yes, no, maybe) to the RSVP.",
                 "$ref": "RsvpResponseType.json"
             },
             "comment": {
-                "description": null,
+                "description": "Comments, typically from users.",
                 "$ref": "Comment.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RsvpAction",
+            "description": "Schema.org resource"
         }
     }
 }

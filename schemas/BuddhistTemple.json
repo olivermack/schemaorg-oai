@@ -1,6 +1,10 @@
 {
     "BuddhistTemple": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BuddhistTemple",
+            "description": "Schema.org resource"
+        }
     }
 }

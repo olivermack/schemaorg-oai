@@ -1,6 +1,10 @@
 {
     "ShareAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ShareAction",
+            "description": "Schema.org resource"
+        }
     }
 }

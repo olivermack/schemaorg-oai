@@ -1,6 +1,10 @@
 {
     "ReserveAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReserveAction",
+            "description": "Schema.org resource"
+        }
     }
 }

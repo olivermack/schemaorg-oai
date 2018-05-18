@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "deliveryMethod": {
-                "description": null,
+                "description": "A sub property of instrument. The method of delivery.",
                 "$ref": "DeliveryMethod.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TrackAction",
+            "description": "Schema.org resource"
         }
     }
 }

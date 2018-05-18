@@ -1,6 +1,10 @@
 {
     "Landform": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Landform",
+            "description": "Schema.org resource"
+        }
     }
 }

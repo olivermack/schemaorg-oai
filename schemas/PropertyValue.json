@@ -3,36 +3,40 @@
         "type": "object",
         "properties": {
             "maxValue": {
-                "description": null,
+                "description": "The upper value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "minValue": {
-                "description": null,
+                "description": "The lower value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "unitCode": {
-                "description": null,
+                "description": "The unit of measurement given using the UN\/CEFACT Common Code (3 characters) or a URL. Other codes than the UN\/CEFACT Common Code may be used with a prefix followed by a colon.",
                 "type": "string"
             },
             "value": {
-                "description": null,
+                "description": "The value of the quantitative value or property value node.\\n\\n* For [[QuantitativeValue]] and [[MonetaryAmount]], the recommended type for values is 'Number'.\\n* For [[PropertyValue]], it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.",
                 "type": "integer",
                 "format": "int32"
             },
             "valueReference": {
-                "description": null,
+                "description": "A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.",
                 "$ref": "Enumeration.json"
             },
             "unitText": {
-                "description": null,
+                "description": "A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for\n<a href='unitCode'>unitCode<\/a>.",
                 "type": "string"
             },
             "propertyID": {
-                "description": null,
+                "description": "A commonly used identifier for the characteristic represented by the property, e.g. a manufacturer or a standard code for a property. propertyID can be\n(1) a prefixed string, mainly meant to be used with standards for product properties; (2) a site-specific, non-prefixed string (e.g. the primary key of the property or the vendor-specific id of the property), or (3)\na URL indicating the type of the property, either pointing to an external vocabulary, or a Web resource that describes the property (e.g. a glossary entry).\nStandards bodies should promote a standard prefix for the identifiers of properties from their standards.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PropertyValue",
+            "description": "Schema.org resource"
         }
     }
 }

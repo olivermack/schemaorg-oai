@@ -1,6 +1,10 @@
 {
     "SiteNavigationElement": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SiteNavigationElement",
+            "description": "Schema.org resource"
+        }
     }
 }

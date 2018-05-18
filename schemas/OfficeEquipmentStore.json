@@ -1,6 +1,10 @@
 {
     "OfficeEquipmentStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OfficeEquipmentStore",
+            "description": "Schema.org resource"
+        }
     }
 }

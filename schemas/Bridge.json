@@ -1,6 +1,10 @@
 {
     "Bridge": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Bridge",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "QAPage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/QAPage",
+            "description": "Schema.org resource"
+        }
     }
 }

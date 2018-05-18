@@ -1,6 +1,10 @@
 {
     "HighSchool": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HighSchool",
+            "description": "Schema.org resource"
+        }
     }
 }

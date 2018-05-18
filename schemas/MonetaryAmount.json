@@ -3,24 +3,28 @@
         "type": "object",
         "properties": {
             "maxValue": {
-                "description": null,
+                "description": "The upper value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "minValue": {
-                "description": null,
+                "description": "The lower value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "value": {
-                "description": null,
+                "description": "The value of the quantitative value or property value node.\\n\\n* For [[QuantitativeValue]] and [[MonetaryAmount]], the recommended type for values is 'Number'.\\n* For [[PropertyValue]], it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.",
                 "type": "integer",
                 "format": "int32"
             },
             "currency": {
-                "description": null,
+                "description": "The currency in which the monetary amount is expressed (in 3-letter [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) format).",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MonetaryAmount",
+            "description": "Schema.org resource"
         }
     }
 }

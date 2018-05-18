@@ -3,21 +3,25 @@
         "type": "object",
         "properties": {
             "seatNumber": {
-                "description": null,
+                "description": "The location of the reserved seat (e.g., 27).",
                 "type": "string"
             },
             "seatRow": {
-                "description": null,
+                "description": "The row location of the reserved seat (e.g., B).",
                 "type": "string"
             },
             "seatSection": {
-                "description": null,
+                "description": "The section location of the reserved seat (e.g. Orchestra).",
                 "type": "string"
             },
             "seatingType": {
-                "description": null,
+                "description": "The type\/class of the seat.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Seat",
+            "description": "Schema.org resource"
         }
     }
 }

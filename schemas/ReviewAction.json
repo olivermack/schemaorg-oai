@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "resultReview": {
-                "description": null,
+                "description": "A sub property of result. The review that resulted in the performing of the action.",
                 "$ref": "Review.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReviewAction",
+            "description": "Schema.org resource"
         }
     }
 }

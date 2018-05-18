@@ -1,6 +1,10 @@
 {
     "Taxi": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Taxi",
+            "description": "Schema.org resource"
+        }
     }
 }

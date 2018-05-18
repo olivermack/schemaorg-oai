@@ -1,6 +1,10 @@
 {
     "GroceryStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GroceryStore",
+            "description": "Schema.org resource"
+        }
     }
 }

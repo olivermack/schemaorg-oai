@@ -1,6 +1,10 @@
 {
     "IceCreamShop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/IceCreamShop",
+            "description": "Schema.org resource"
+        }
     }
 }

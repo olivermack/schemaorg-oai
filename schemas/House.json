@@ -3,10 +3,14 @@
         "type": "object",
         "properties": {
             "numberOfRooms": {
-                "description": null,
+                "description": "The number of rooms (excluding bathrooms and closets) of the acccommodation or lodging business.\nTypical unit code(s): ROM for room or C62 for no unit. The type of room can be put in the unitText property of the QuantitativeValue.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/House",
+            "description": "Schema.org resource"
         }
     }
 }

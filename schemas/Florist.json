@@ -1,6 +1,10 @@
 {
     "Florist": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Florist",
+            "description": "Schema.org resource"
+        }
     }
 }

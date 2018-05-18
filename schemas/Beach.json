@@ -1,6 +1,10 @@
 {
     "Beach": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Beach",
+            "description": "Schema.org resource"
+        }
     }
 }

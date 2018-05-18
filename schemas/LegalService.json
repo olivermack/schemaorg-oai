@@ -1,6 +1,10 @@
 {
     "LegalService": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LegalService",
+            "description": "Schema.org resource"
+        }
     }
 }

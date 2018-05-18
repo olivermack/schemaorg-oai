@@ -1,6 +1,10 @@
 {
     "Locksmith": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Locksmith",
+            "description": "Schema.org resource"
+        }
     }
 }

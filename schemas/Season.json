@@ -1,6 +1,10 @@
 {
     "Season": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Season",
+            "description": "Schema.org resource"
+        }
     }
 }

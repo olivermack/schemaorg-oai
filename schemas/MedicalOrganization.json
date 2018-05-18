@@ -1,6 +1,10 @@
 {
     "MedicalOrganization": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MedicalOrganization",
+            "description": "Schema.org resource"
+        }
     }
 }

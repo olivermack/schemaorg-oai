@@ -1,6 +1,10 @@
 {
     "BookFormatType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BookFormatType",
+            "description": "Schema.org resource"
+        }
     }
 }

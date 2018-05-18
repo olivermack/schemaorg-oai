@@ -3,26 +3,30 @@
         "type": "object",
         "properties": {
             "amountOfThisGood": {
-                "description": null,
+                "description": "The quantity of the goods included in the offer.",
                 "type": "integer",
                 "format": "int32"
             },
             "businessFunction": {
-                "description": null,
+                "description": "The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http:\/\/purl.org\/goodrelations\/v1#Sell.",
                 "$ref": "BusinessFunction.json"
             },
             "typeOfGood": {
-                "description": null,
+                "description": "The product that this structured value is referring to.",
                 "$ref": "Product.json"
             },
             "unitCode": {
-                "description": null,
+                "description": "The unit of measurement given using the UN\/CEFACT Common Code (3 characters) or a URL. Other codes than the UN\/CEFACT Common Code may be used with a prefix followed by a colon.",
                 "type": "string"
             },
             "unitText": {
-                "description": null,
+                "description": "A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for\n<a href='unitCode'>unitCode<\/a>.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TypeAndQuantityNode",
+            "description": "Schema.org resource"
         }
     }
 }

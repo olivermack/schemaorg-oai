@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "deliveryMethod": {
-                "description": null,
+                "description": "A sub property of instrument. The method of delivery.",
                 "$ref": "DeliveryMethod.json"
             },
             "recipient": {
-                "description": null,
+                "description": "A sub property of participant. The participant who is at the receiving end of the action.",
                 "$ref": "Audience.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SendAction",
+            "description": "Schema.org resource"
         }
     }
 }

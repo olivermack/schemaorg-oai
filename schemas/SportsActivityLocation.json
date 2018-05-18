@@ -1,6 +1,10 @@
 {
     "SportsActivityLocation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportsActivityLocation",
+            "description": "Schema.org resource"
+        }
     }
 }

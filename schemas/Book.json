@@ -3,26 +3,30 @@
         "type": "object",
         "properties": {
             "bookEdition": {
-                "description": null,
+                "description": "The edition of the book.",
                 "type": "string"
             },
             "bookFormat": {
-                "description": null,
+                "description": "The format of the book.",
                 "$ref": "BookFormatType.json"
             },
             "illustrator": {
-                "description": null,
+                "description": "The illustrator of the book.",
                 "$ref": "Person.json"
             },
             "isbn": {
-                "description": null,
+                "description": "The ISBN of the book.",
                 "type": "string"
             },
             "numberOfPages": {
-                "description": null,
+                "description": "The number of pages in the book.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Book",
+            "description": "Schema.org resource"
         }
     }
 }

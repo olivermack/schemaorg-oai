@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "option": {
-                "description": null,
+                "description": "A sub property of object. The options subject to this action.",
                 "type": "string"
             },
             "actionOption": {
-                "description": null,
+                "description": "A sub property of object. The options subject to this action.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ChooseAction",
+            "description": "Schema.org resource"
         }
     }
 }

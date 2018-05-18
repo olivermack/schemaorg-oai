@@ -1,6 +1,10 @@
 {
     "ProfilePage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ProfilePage",
+            "description": "Schema.org resource"
+        }
     }
 }

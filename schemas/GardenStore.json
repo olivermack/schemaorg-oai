@@ -1,6 +1,10 @@
 {
     "GardenStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GardenStore",
+            "description": "Schema.org resource"
+        }
     }
 }

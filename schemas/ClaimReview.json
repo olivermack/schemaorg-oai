@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "claimReviewed": {
-                "description": null,
+                "description": "A short summary of the specific claims reviewed in a ClaimReview.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ClaimReview",
+            "description": "Schema.org resource"
         }
     }
 }

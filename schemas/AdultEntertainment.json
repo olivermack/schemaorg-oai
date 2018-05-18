@@ -1,6 +1,10 @@
 {
     "AdultEntertainment": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AdultEntertainment",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "UserInteraction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserInteraction",
+            "description": "Schema.org resource"
+        }
     }
 }

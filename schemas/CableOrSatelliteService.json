@@ -1,6 +1,10 @@
 {
     "CableOrSatelliteService": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CableOrSatelliteService",
+            "description": "Schema.org resource"
+        }
     }
 }

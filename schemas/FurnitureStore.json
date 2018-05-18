@@ -1,6 +1,10 @@
 {
     "FurnitureStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FurnitureStore",
+            "description": "Schema.org resource"
+        }
     }
 }

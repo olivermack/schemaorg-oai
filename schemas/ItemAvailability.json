@@ -1,6 +1,10 @@
 {
     "ItemAvailability": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ItemAvailability",
+            "description": "Schema.org resource"
+        }
     }
 }

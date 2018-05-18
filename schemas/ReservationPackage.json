@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "subReservation": {
-                "description": null,
+                "description": "The individual reservations included in the package. Typically a repeated property.",
                 "$ref": "Reservation.json"
             },
             "boardingGroup": {
-                "description": null,
+                "description": "The airline-specific indicator of boarding order \/ preference.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReservationPackage",
+            "description": "Schema.org resource"
         }
     }
 }

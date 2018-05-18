@@ -1,6 +1,10 @@
 {
     "GolfCourse": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GolfCourse",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "VideoGameClip": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/VideoGameClip",
+            "description": "Schema.org resource"
+        }
     }
 }

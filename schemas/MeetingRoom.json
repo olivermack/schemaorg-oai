@@ -1,6 +1,10 @@
 {
     "MeetingRoom": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MeetingRoom",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "DataDownload": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DataDownload",
+            "description": "Schema.org resource"
+        }
     }
 }

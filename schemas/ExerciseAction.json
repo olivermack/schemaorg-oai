@@ -3,41 +3,45 @@
         "type": "object",
         "properties": {
             "course": {
-                "description": null,
+                "description": "A sub property of location. The course where this action was taken.",
                 "$ref": "Place.json"
             },
             "exerciseCourse": {
-                "description": null,
+                "description": "A sub property of location. The course where this action was taken.",
                 "$ref": "Place.json"
             },
             "distance": {
-                "description": null,
+                "description": "The distance travelled, e.g. exercising or travelling.",
                 "$ref": "Distance.json"
             },
             "fromLocation": {
-                "description": null,
+                "description": "A sub property of location. The original location of the object or the agent before the action.",
                 "$ref": "Place.json"
             },
             "opponent": {
-                "description": null,
+                "description": "A sub property of participant. The opponent on this action.",
                 "$ref": "Person.json"
             },
             "sportsActivityLocation": {
-                "description": null,
+                "description": "A sub property of location. The sports activity location where this action occurred.",
                 "$ref": "SportsActivityLocation.json"
             },
             "sportsEvent": {
-                "description": null,
+                "description": "A sub property of location. The sports event where this action occurred.",
                 "$ref": "SportsEvent.json"
             },
             "sportsTeam": {
-                "description": null,
+                "description": "A sub property of participant. The sports team that participated on this action.",
                 "$ref": "SportsTeam.json"
             },
             "toLocation": {
-                "description": null,
+                "description": "A sub property of location. The final location of the object or the agent after the action.",
                 "$ref": "Place.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ExerciseAction",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "TextDigitalDocument": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TextDigitalDocument",
+            "description": "Schema.org resource"
+        }
     }
 }

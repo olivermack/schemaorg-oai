@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "endorsee": {
-                "description": null,
+                "description": "A sub property of participant. The person\/organization being supported.",
                 "$ref": "Organization.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EndorseAction",
+            "description": "Schema.org resource"
         }
     }
 }

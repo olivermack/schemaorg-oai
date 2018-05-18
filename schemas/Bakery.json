@@ -1,6 +1,10 @@
 {
     "Bakery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Bakery",
+            "description": "Schema.org resource"
+        }
     }
 }

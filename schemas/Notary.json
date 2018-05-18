@@ -1,6 +1,10 @@
 {
     "Notary": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Notary",
+            "description": "Schema.org resource"
+        }
     }
 }

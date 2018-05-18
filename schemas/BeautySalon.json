@@ -1,6 +1,10 @@
 {
     "BeautySalon": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BeautySalon",
+            "description": "Schema.org resource"
+        }
     }
 }

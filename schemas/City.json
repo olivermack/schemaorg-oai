@@ -1,6 +1,10 @@
 {
     "City": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/City",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "PaymentCard": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PaymentCard",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Campground": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Campground",
+            "description": "Schema.org resource"
+        }
     }
 }

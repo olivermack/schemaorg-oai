@@ -1,6 +1,10 @@
 {
     "HardwareStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HardwareStore",
+            "description": "Schema.org resource"
+        }
     }
 }

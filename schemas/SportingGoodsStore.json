@@ -1,6 +1,10 @@
 {
     "SportingGoodsStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportingGoodsStore",
+            "description": "Schema.org resource"
+        }
     }
 }

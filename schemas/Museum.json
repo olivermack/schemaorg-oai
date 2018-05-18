@@ -1,6 +1,10 @@
 {
     "Museum": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Museum",
+            "description": "Schema.org resource"
+        }
     }
 }

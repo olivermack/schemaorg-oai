@@ -1,6 +1,10 @@
 {
     "DepartmentStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DepartmentStore",
+            "description": "Schema.org resource"
+        }
     }
 }

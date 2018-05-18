@@ -1,6 +1,10 @@
 {
     "DrawAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DrawAction",
+            "description": "Schema.org resource"
+        }
     }
 }

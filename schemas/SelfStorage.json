@@ -1,6 +1,10 @@
 {
     "SelfStorage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SelfStorage",
+            "description": "Schema.org resource"
+        }
     }
 }

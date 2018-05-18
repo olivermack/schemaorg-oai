@@ -1,6 +1,10 @@
 {
     "AchieveAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AchieveAction",
+            "description": "Schema.org resource"
+        }
     }
 }

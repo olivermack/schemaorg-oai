@@ -1,6 +1,10 @@
 {
     "VisualArtsEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/VisualArtsEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

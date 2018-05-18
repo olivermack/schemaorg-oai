@@ -1,6 +1,10 @@
 {
     "UserCheckins": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserCheckins",
+            "description": "Schema.org resource"
+        }
     }
 }

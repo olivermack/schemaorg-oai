@@ -3,23 +3,27 @@
         "type": "object",
         "properties": {
             "acquiredFrom": {
-                "description": null,
+                "description": "The organization or person from which the product was acquired.",
                 "$ref": "Organization.json"
             },
             "ownedFrom": {
-                "description": null,
+                "description": "The date and time of obtaining the product.",
                 "type": "string",
                 "format": "date-time"
             },
             "ownedThrough": {
-                "description": null,
+                "description": "The date and time of giving up ownership on the product.",
                 "type": "string",
                 "format": "date-time"
             },
             "typeOfGood": {
-                "description": null,
+                "description": "The product that this structured value is referring to.",
                 "$ref": "Product.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OwnershipInfo",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "LikeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LikeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

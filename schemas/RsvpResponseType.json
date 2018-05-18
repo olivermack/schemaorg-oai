@@ -1,6 +1,10 @@
 {
     "RsvpResponseType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RsvpResponseType",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "SubscribeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SubscribeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

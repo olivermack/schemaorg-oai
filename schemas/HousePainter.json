@@ -1,6 +1,10 @@
 {
     "HousePainter": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HousePainter",
+            "description": "Schema.org resource"
+        }
     }
 }

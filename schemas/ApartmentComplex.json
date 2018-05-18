@@ -1,6 +1,10 @@
 {
     "ApartmentComplex": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ApartmentComplex",
+            "description": "Schema.org resource"
+        }
     }
 }

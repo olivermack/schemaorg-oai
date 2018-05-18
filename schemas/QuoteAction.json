@@ -1,6 +1,10 @@
 {
     "QuoteAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/QuoteAction",
+            "description": "Schema.org resource"
+        }
     }
 }

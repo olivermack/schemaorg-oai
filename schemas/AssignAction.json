@@ -1,6 +1,10 @@
 {
     "AssignAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AssignAction",
+            "description": "Schema.org resource"
+        }
     }
 }

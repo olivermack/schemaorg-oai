@@ -1,6 +1,10 @@
 {
     "MusicStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicStore",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,29 +3,33 @@
         "type": "object",
         "properties": {
             "closes": {
-                "description": null,
+                "description": "The closing hour of the place or service on the given day(s) of the week.",
                 "type": "string",
                 "format": "date-time"
             },
             "dayOfWeek": {
-                "description": null,
+                "description": "The day of the week for which these opening hours are valid.",
                 "$ref": "DayOfWeek.json"
             },
             "opens": {
-                "description": null,
+                "description": "The opening hour of the place or service on the given day(s) of the week.",
                 "type": "string",
                 "format": "date-time"
             },
             "validFrom": {
-                "description": null,
+                "description": "The date when the item becomes valid.",
                 "type": "string",
                 "format": "date-time"
             },
             "validThrough": {
-                "description": null,
+                "description": "The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours.",
                 "type": "string",
                 "format": "date-time"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OpeningHoursSpecification",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "GameServerStatus": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GameServerStatus",
+            "description": "Schema.org resource"
+        }
     }
 }

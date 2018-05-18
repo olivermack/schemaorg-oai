@@ -3,19 +3,23 @@
         "type": "object",
         "properties": {
             "itemReviewed": {
-                "description": null,
+                "description": "The item that is being reviewed\/rated.",
                 "$ref": "Thing.json"
             },
             "ratingCount": {
-                "description": null,
+                "description": "The count of total number of ratings.",
                 "type": "integer",
                 "format": "int32"
             },
             "reviewCount": {
-                "description": null,
+                "description": "The count of total number of reviews.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AggregateRating",
+            "description": "Schema.org resource"
         }
     }
 }

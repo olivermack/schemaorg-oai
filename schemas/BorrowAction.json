@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "lender": {
-                "description": null,
+                "description": "A sub property of participant. The person that lends the object being borrowed.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BorrowAction",
+            "description": "Schema.org resource"
         }
     }
 }

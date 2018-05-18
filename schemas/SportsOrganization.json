@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "sport": {
-                "description": null,
+                "description": "A type of sport (e.g. Baseball).",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportsOrganization",
+            "description": "Schema.org resource"
         }
     }
 }

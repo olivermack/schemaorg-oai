@@ -1,6 +1,10 @@
 {
     "AssessAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AssessAction",
+            "description": "Schema.org resource"
+        }
     }
 }

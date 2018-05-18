@@ -1,6 +1,10 @@
 {
     "WPSideBar": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WPSideBar",
+            "description": "Schema.org resource"
+        }
     }
 }

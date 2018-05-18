@@ -1,6 +1,10 @@
 {
     "ProfessionalService": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ProfessionalService",
+            "description": "Schema.org resource"
+        }
     }
 }

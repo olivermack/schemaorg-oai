@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "partOfTVSeries": {
-                "description": null,
+                "description": "The TV series to which this episode or season belongs.",
                 "$ref": "TVSeries.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TVClip",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,18 +3,22 @@
         "type": "object",
         "properties": {
             "serverStatus": {
-                "description": null,
+                "description": "Status of a game server.",
                 "$ref": "GameServerStatus.json"
             },
             "playersOnline": {
-                "description": null,
+                "description": "Number of players on the server.",
                 "type": "integer",
                 "format": "int32"
             },
             "game": {
-                "description": null,
+                "description": "Video game which is played on this server.",
                 "$ref": "VideoGame.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GameServer",
+            "description": "Schema.org resource"
         }
     }
 }

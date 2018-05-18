@@ -1,6 +1,10 @@
 {
     "SeaBodyOfWater": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SeaBodyOfWater",
+            "description": "Schema.org resource"
+        }
     }
 }

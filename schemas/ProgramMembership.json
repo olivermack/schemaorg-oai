@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "member": {
-                "description": null,
+                "description": "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals.",
                 "$ref": "Organization.json"
             },
             "members": {
-                "description": null,
+                "description": "A member of this organization.",
                 "$ref": "Organization.json"
             },
             "membershipNumber": {
-                "description": null,
+                "description": "A unique identifier for the membership.",
                 "type": "string"
             },
             "programName": {
-                "description": null,
+                "description": "The program providing the membership.",
                 "type": "string"
             },
             "hostingOrganization": {
-                "description": null,
+                "description": "The organization (airline, travelers' club, etc.) the membership is made with.",
                 "$ref": "Organization.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ProgramMembership",
+            "description": "Schema.org resource"
         }
     }
 }

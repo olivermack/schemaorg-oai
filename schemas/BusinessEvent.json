@@ -1,6 +1,10 @@
 {
     "BusinessEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusinessEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

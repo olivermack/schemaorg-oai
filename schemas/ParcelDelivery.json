@@ -3,55 +3,59 @@
         "type": "object",
         "properties": {
             "carrier": {
-                "description": null,
+                "description": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights.",
                 "$ref": "Organization.json"
             },
             "deliveryAddress": {
-                "description": null,
+                "description": "Destination address.",
                 "$ref": "PostalAddress.json"
             },
             "deliveryStatus": {
-                "description": null,
+                "description": "New entry added as the package passes through each leg of its journey (from shipment to final delivery).",
                 "$ref": "DeliveryEvent.json"
             },
             "expectedArrivalFrom": {
-                "description": null,
+                "description": "The earliest date the package may arrive.",
                 "type": "string",
                 "format": "date-time"
             },
             "expectedArrivalUntil": {
-                "description": null,
+                "description": "The latest date the package may arrive.",
                 "type": "string",
                 "format": "date-time"
             },
             "hasDeliveryMethod": {
-                "description": null,
+                "description": "Method used for delivery or shipping.",
                 "$ref": "DeliveryMethod.json"
             },
             "itemShipped": {
-                "description": null,
+                "description": "Item(s) being shipped.",
                 "$ref": "Product.json"
             },
             "originAddress": {
-                "description": null,
+                "description": "Shipper's address.",
                 "$ref": "PostalAddress.json"
             },
             "partOfOrder": {
-                "description": null,
+                "description": "The overall order the items in this delivery were included in.",
                 "$ref": "Order.json"
             },
             "trackingNumber": {
-                "description": null,
+                "description": "Shipper tracking number.",
                 "type": "string"
             },
             "trackingUrl": {
-                "description": null,
+                "description": "Tracking url for the parcel delivery.",
                 "type": "string"
             },
             "provider": {
-                "description": null,
+                "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ParcelDelivery",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "RoofingContractor": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RoofingContractor",
+            "description": "Schema.org resource"
+        }
     }
 }

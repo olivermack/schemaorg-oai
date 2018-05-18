@@ -1,6 +1,10 @@
 {
     "AdministrativeArea": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AdministrativeArea",
+            "description": "Schema.org resource"
+        }
     }
 }

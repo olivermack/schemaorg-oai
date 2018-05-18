@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "loser": {
-                "description": null,
+                "description": "A sub property of participant. The loser of the action.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WinAction",
+            "description": "Schema.org resource"
         }
     }
 }

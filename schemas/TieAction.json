@@ -1,6 +1,10 @@
 {
     "TieAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TieAction",
+            "description": "Schema.org resource"
+        }
     }
 }

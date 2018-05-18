@@ -1,6 +1,10 @@
 {
     "Car": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Car",
+            "description": "Schema.org resource"
+        }
     }
 }

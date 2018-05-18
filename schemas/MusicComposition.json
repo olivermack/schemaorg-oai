@@ -3,45 +3,49 @@
         "type": "object",
         "properties": {
             "musicArrangement": {
-                "description": null,
+                "description": "An arrangement derived from the composition.",
                 "$ref": "MusicComposition.json"
             },
             "composer": {
-                "description": null,
+                "description": "The person or organization who wrote a composition, or who is the composer of a work performed at some event.",
                 "$ref": "Person.json"
             },
             "firstPerformance": {
-                "description": null,
+                "description": "The date and place the work was first performed.",
                 "$ref": "Event.json"
             },
             "includedComposition": {
-                "description": null,
+                "description": "Smaller compositions included in this work (e.g. a movement in a symphony).",
                 "$ref": "MusicComposition.json"
             },
             "iswcCode": {
-                "description": null,
+                "description": "The International Standard Musical Work Code for the composition.",
                 "type": "string"
             },
             "lyricist": {
-                "description": null,
+                "description": "The person who wrote the words.",
                 "$ref": "Person.json"
             },
             "musicCompositionForm": {
-                "description": null,
+                "description": "The type of composition (e.g. overture, sonata, symphony, etc.).",
                 "type": "string"
             },
             "musicalKey": {
-                "description": null,
+                "description": "The key, mode, or scale this composition uses.",
                 "type": "string"
             },
             "recordedAs": {
-                "description": null,
+                "description": "An audio recording of the work.",
                 "$ref": "MusicRecording.json"
             },
             "lyrics": {
-                "description": null,
+                "description": "The words in the song.",
                 "$ref": "CreativeWork.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicComposition",
+            "description": "Schema.org resource"
         }
     }
 }

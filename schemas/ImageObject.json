@@ -3,21 +3,25 @@
         "type": "object",
         "properties": {
             "caption": {
-                "description": null,
+                "description": "The caption for this object.",
                 "type": "string"
             },
             "exifData": {
-                "description": null,
+                "description": "exif data for this object.",
                 "type": "string"
             },
             "representativeOfPage": {
-                "description": null,
+                "description": "Indicates whether this image is representative of the content of the page.",
                 "type": "boolean"
             },
             "thumbnail": {
-                "description": null,
+                "description": "Thumbnail image for an image or video.",
                 "$ref": "ImageObject.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ImageObject",
+            "description": "Schema.org resource"
         }
     }
 }

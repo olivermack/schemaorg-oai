@@ -1,6 +1,10 @@
 {
     "SpreadsheetDigitalDocument": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SpreadsheetDigitalDocument",
+            "description": "Schema.org resource"
+        }
     }
 }

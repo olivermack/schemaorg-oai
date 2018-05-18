@@ -1,6 +1,10 @@
 {
     "PetStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PetStore",
+            "description": "Schema.org resource"
+        }
     }
 }

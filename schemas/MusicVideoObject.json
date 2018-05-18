@@ -1,6 +1,10 @@
 {
     "MusicVideoObject": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicVideoObject",
+            "description": "Schema.org resource"
+        }
     }
 }

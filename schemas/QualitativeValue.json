@@ -3,37 +3,41 @@
         "type": "object",
         "properties": {
             "equal": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is equal to the object.",
                 "$ref": "QualitativeValue.json"
             },
             "greater": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is greater than the object.",
                 "$ref": "QualitativeValue.json"
             },
             "greaterOrEqual": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is greater than or equal to the object.",
                 "$ref": "QualitativeValue.json"
             },
             "lesser": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is lesser than the object.",
                 "$ref": "QualitativeValue.json"
             },
             "lesserOrEqual": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is lesser than or equal to the object.",
                 "$ref": "QualitativeValue.json"
             },
             "nonEqual": {
-                "description": null,
+                "description": "This ordering relation for qualitative values indicates that the subject is not equal to the object.",
                 "$ref": "QualitativeValue.json"
             },
             "valueReference": {
-                "description": null,
+                "description": "A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.",
                 "$ref": "Enumeration.json"
             },
             "additionalProperty": {
-                "description": null,
+                "description": "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.\\n\\nNote: Publishers should be aware that applications designed to use specific schema.org properties (e.g. http:\/\/schema.org\/width, http:\/\/schema.org\/color, http:\/\/schema.org\/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property\/value mechanism.\n",
                 "$ref": "PropertyValue.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/QualitativeValue",
+            "description": "Schema.org resource"
         }
     }
 }

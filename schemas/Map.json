@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "mapType": {
-                "description": null,
+                "description": "Indicates the kind of Map, from the MapCategoryType Enumeration.",
                 "$ref": "MapCategoryType.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Map",
+            "description": "Schema.org resource"
         }
     }
 }

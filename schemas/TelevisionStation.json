@@ -1,6 +1,10 @@
 {
     "TelevisionStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TelevisionStation",
+            "description": "Schema.org resource"
+        }
     }
 }

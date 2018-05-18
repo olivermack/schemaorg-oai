@@ -1,6 +1,10 @@
 {
     "InteractAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InteractAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "StadiumOrArena": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/StadiumOrArena",
+            "description": "Schema.org resource"
+        }
     }
 }

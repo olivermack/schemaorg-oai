@@ -3,14 +3,18 @@
         "type": "object",
         "properties": {
             "numberOfRooms": {
-                "description": null,
+                "description": "The number of rooms (excluding bathrooms and closets) of the acccommodation or lodging business.\nTypical unit code(s): ROM for room or C62 for no unit. The type of room can be put in the unitText property of the QuantitativeValue.",
                 "type": "integer",
                 "format": "int32"
             },
             "occupancy": {
-                "description": null,
+                "description": "The allowed total occupancy for the accommodation in persons (including infants etc). For individual accommodations, this is not necessarily the legal maximum but defines the permitted usage as per the contractual agreement (e.g. a double room used by a single person).\nTypical unit code(s): C62 for person",
                 "$ref": "QuantitativeValue.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SingleFamilyResidence",
+            "description": "Schema.org resource"
         }
     }
 }

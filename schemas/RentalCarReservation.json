@@ -3,23 +3,27 @@
         "type": "object",
         "properties": {
             "pickupLocation": {
-                "description": null,
+                "description": "Where a taxi will pick up a passenger or a rental car can be picked up.",
                 "$ref": "Place.json"
             },
             "dropoffLocation": {
-                "description": null,
+                "description": "Where a rental car can be dropped off.",
                 "$ref": "Place.json"
             },
             "pickupTime": {
-                "description": null,
+                "description": "When a taxi will pickup a passenger or a rental car can be picked up.",
                 "type": "string",
                 "format": "date-time"
             },
             "dropoffTime": {
-                "description": null,
+                "description": "When a rental car can be dropped off.",
                 "type": "string",
                 "format": "date-time"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RentalCarReservation",
+            "description": "Schema.org resource"
         }
     }
 }

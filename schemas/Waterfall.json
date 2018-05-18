@@ -1,6 +1,10 @@
 {
     "Waterfall": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Waterfall",
+            "description": "Schema.org resource"
+        }
     }
 }

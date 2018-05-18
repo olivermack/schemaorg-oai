@@ -1,6 +1,10 @@
 {
     "ComedyEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ComedyEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

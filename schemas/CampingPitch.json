@@ -1,6 +1,10 @@
 {
     "CampingPitch": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CampingPitch",
+            "description": "Schema.org resource"
+        }
     }
 }

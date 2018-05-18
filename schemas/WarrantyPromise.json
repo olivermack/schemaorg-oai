@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "durationOfWarranty": {
-                "description": null,
+                "description": "The duration of the warranty promise. Common unitCode values are ANN for year, MON for months, or DAY for days.",
                 "$ref": "QuantitativeValue.json"
             },
             "warrantyScope": {
-                "description": null,
+                "description": "The scope of the warranty promise.",
                 "$ref": "WarrantyScope.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WarrantyPromise",
+            "description": "Schema.org resource"
         }
     }
 }

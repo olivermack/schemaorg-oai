@@ -1,6 +1,10 @@
 {
     "LakeBodyOfWater": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LakeBodyOfWater",
+            "description": "Schema.org resource"
+        }
     }
 }

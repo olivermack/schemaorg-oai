@@ -1,6 +1,10 @@
 {
     "Cemetery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Cemetery",
+            "description": "Schema.org resource"
+        }
     }
 }

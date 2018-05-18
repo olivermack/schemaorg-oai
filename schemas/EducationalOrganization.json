@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "alumni": {
-                "description": null,
+                "description": "Alumni of an organization.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EducationalOrganization",
+            "description": "Schema.org resource"
         }
     }
 }

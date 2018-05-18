@@ -1,6 +1,10 @@
 {
     "EmergencyService": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EmergencyService",
+            "description": "Schema.org resource"
+        }
     }
 }

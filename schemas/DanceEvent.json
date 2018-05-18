@@ -1,6 +1,10 @@
 {
     "DanceEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DanceEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "SuspendAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SuspendAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "CafeOrCoffeeShop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CafeOrCoffeeShop",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "RestrictedDiet": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RestrictedDiet",
+            "description": "Schema.org resource"
+        }
     }
 }

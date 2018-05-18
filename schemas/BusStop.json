@@ -1,6 +1,10 @@
 {
     "BusStop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusStop",
+            "description": "Schema.org resource"
+        }
     }
 }

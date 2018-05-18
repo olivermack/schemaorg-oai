@@ -1,6 +1,10 @@
 {
     "WPFooter": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WPFooter",
+            "description": "Schema.org resource"
+        }
     }
 }

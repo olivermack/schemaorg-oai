@@ -1,6 +1,10 @@
 {
     "Embassy": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Embassy",
+            "description": "Schema.org resource"
+        }
     }
 }

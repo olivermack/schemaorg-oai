@@ -1,6 +1,10 @@
 {
     "DeleteAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DeleteAction",
+            "description": "Schema.org resource"
+        }
     }
 }

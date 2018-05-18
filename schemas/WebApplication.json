@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "browserRequirements": {
-                "description": null,
+                "description": "Specifies browser requirements in human-readable text. For example, 'requires HTML5 support'.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WebApplication",
+            "description": "Schema.org resource"
         }
     }
 }

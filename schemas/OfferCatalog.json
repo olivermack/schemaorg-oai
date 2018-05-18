@@ -1,6 +1,10 @@
 {
     "OfferCatalog": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OfferCatalog",
+            "description": "Schema.org resource"
+        }
     }
 }

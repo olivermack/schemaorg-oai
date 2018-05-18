@@ -1,6 +1,10 @@
 {
     "BusinessEntityType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusinessEntityType",
+            "description": "Schema.org resource"
+        }
     }
 }

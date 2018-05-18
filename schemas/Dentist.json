@@ -1,6 +1,10 @@
 {
     "Dentist": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Dentist",
+            "description": "Schema.org resource"
+        }
     }
 }

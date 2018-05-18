@@ -3,10 +3,14 @@
         "type": "object",
         "properties": {
             "screenCount": {
-                "description": null,
+                "description": "The number of screens in the movie theater.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MovieTheater",
+            "description": "Schema.org resource"
         }
     }
 }

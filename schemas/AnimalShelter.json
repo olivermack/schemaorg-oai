@@ -1,6 +1,10 @@
 {
     "AnimalShelter": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AnimalShelter",
+            "description": "Schema.org resource"
+        }
     }
 }

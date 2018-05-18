@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "followee": {
-                "description": null,
+                "description": "A sub property of object. The person or organization being followed.",
                 "$ref": "Organization.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FollowAction",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,45 +3,49 @@
         "type": "object",
         "properties": {
             "actor": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "actors": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "countryOfOrigin": {
-                "description": null,
+                "description": "The country of the principal offices of the production company or individual responsible for the movie or program.",
                 "$ref": "Country.json"
             },
             "director": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "directors": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video games etc. content. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "duration": {
-                "description": null,
+                "description": "The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601).",
                 "$ref": "Duration.json"
             },
             "musicBy": {
-                "description": null,
+                "description": "The composer of the soundtrack.",
                 "$ref": "MusicGroup.json"
             },
             "productionCompany": {
-                "description": null,
+                "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
                 "$ref": "Organization.json"
             },
             "subtitleLanguage": {
-                "description": null,
+                "description": "Languages in which subtitles\/captions are available, in [IETF BCP 47 standard format](http:\/\/tools.ietf.org\/html\/bcp47).",
                 "type": "string"
             },
             "trailer": {
-                "description": null,
+                "description": "The trailer of a movie or tv\/radio series, season, episode, etc.",
                 "$ref": "VideoObject.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Movie",
+            "description": "Schema.org resource"
         }
     }
 }

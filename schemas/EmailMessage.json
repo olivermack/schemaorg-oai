@@ -1,6 +1,10 @@
 {
     "EmailMessage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EmailMessage",
+            "description": "Schema.org resource"
+        }
     }
 }

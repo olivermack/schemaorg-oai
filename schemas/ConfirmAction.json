@@ -1,6 +1,10 @@
 {
     "ConfirmAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ConfirmAction",
+            "description": "Schema.org resource"
+        }
     }
 }

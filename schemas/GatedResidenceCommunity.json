@@ -1,6 +1,10 @@
 {
     "GatedResidenceCommunity": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GatedResidenceCommunity",
+            "description": "Schema.org resource"
+        }
     }
 }

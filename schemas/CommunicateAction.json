@@ -3,21 +3,25 @@
         "type": "object",
         "properties": {
             "about": {
-                "description": null,
+                "description": "The subject matter of the content.",
                 "$ref": "Thing.json"
             },
             "inLanguage": {
-                "description": null,
+                "description": "The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http:\/\/tools.ietf.org\/html\/bcp47). See also [[availableLanguage]].",
                 "type": "string"
             },
             "language": {
-                "description": null,
+                "description": "A sub property of instrument. The language used on this action.",
                 "$ref": "Language.json"
             },
             "recipient": {
-                "description": null,
+                "description": "A sub property of participant. The participant who is at the receiving end of the action.",
                 "$ref": "Audience.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CommunicateAction",
+            "description": "Schema.org resource"
         }
     }
 }

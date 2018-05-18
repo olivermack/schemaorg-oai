@@ -1,6 +1,10 @@
 {
     "WholesaleStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WholesaleStore",
+            "description": "Schema.org resource"
+        }
     }
 }

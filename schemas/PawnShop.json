@@ -1,6 +1,10 @@
 {
     "PawnShop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PawnShop",
+            "description": "Schema.org resource"
+        }
     }
 }

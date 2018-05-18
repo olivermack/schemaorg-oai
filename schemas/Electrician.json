@@ -1,6 +1,10 @@
 {
     "Electrician": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Electrician",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "NoteDigitalDocument": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/NoteDigitalDocument",
+            "description": "Schema.org resource"
+        }
     }
 }

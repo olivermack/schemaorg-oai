@@ -1,6 +1,10 @@
 {
     "Volcano": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Volcano",
+            "description": "Schema.org resource"
+        }
     }
 }

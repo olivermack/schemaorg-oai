@@ -1,6 +1,10 @@
 {
     "CreditCard": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CreditCard",
+            "description": "Schema.org resource"
+        }
     }
 }

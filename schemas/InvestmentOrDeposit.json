@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "amount": {
-                "description": null,
+                "description": "The amount of money.",
                 "$ref": "MonetaryAmount.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InvestmentOrDeposit",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "HealthAndBeautyBusiness": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HealthAndBeautyBusiness",
+            "description": "Schema.org resource"
+        }
     }
 }

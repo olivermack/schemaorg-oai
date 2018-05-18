@@ -1,6 +1,10 @@
 {
     "ViewAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ViewAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,21 +3,25 @@
         "type": "object",
         "properties": {
             "position": {
-                "description": null,
+                "description": "The position of an item in a series or sequence of items.",
                 "type": "string"
             },
             "item": {
-                "description": null,
+                "description": "An entity represented by an entry in a list or data feed (e.g. an 'artist' in a list of 'artists')\u2019.",
                 "$ref": "Thing.json"
             },
             "previousItem": {
-                "description": null,
+                "description": "A link to the ListItem that preceeds the current one.",
                 "$ref": "ListItem.json"
             },
             "nextItem": {
-                "description": null,
+                "description": "A link to the ListItem that follows the current one.",
                 "$ref": "ListItem.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ListItem",
+            "description": "Schema.org resource"
         }
     }
 }

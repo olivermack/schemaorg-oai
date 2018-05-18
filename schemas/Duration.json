@@ -1,6 +1,10 @@
 {
     "Duration": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Duration",
+            "description": "Schema.org resource"
+        }
     }
 }

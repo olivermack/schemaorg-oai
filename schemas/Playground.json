@@ -1,6 +1,10 @@
 {
     "Playground": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Playground",
+            "description": "Schema.org resource"
+        }
     }
 }

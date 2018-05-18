@@ -1,6 +1,10 @@
 {
     "ScheduleAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ScheduleAction",
+            "description": "Schema.org resource"
+        }
     }
 }

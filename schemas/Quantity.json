@@ -1,6 +1,10 @@
 {
     "Quantity": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Quantity",
+            "description": "Schema.org resource"
+        }
     }
 }

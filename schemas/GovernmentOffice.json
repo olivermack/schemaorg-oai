@@ -1,6 +1,10 @@
 {
     "GovernmentOffice": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GovernmentOffice",
+            "description": "Schema.org resource"
+        }
     }
 }

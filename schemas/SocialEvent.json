@@ -1,6 +1,10 @@
 {
     "SocialEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SocialEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

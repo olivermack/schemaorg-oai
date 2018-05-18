@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "boardingPolicy": {
-                "description": null,
+                "description": "The type of boarding policy used by the airline (e.g. zone-based or group-based).",
                 "$ref": "BoardingPolicyType.json"
             },
             "iataCode": {
-                "description": null,
+                "description": "IATA identifier for an airline or airport.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Airline",
+            "description": "Schema.org resource"
         }
     }
 }

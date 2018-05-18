@@ -1,6 +1,10 @@
 {
     "OnDemandEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OnDemandEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

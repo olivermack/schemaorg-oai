@@ -1,6 +1,10 @@
 {
     "BreadcrumbList": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BreadcrumbList",
+            "description": "Schema.org resource"
+        }
     }
 }

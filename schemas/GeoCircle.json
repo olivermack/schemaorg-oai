@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "geoRadius": {
-                "description": null,
+                "description": "Indicates the approximate radius of a GeoCircle (metres unless indicated otherwise via Distance notation).",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GeoCircle",
+            "description": "Schema.org resource"
         }
     }
 }

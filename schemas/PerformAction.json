@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "entertainmentBusiness": {
-                "description": null,
+                "description": "A sub property of location. The entertainment business where the action occurred.",
                 "$ref": "EntertainmentBusiness.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PerformAction",
+            "description": "Schema.org resource"
         }
     }
 }

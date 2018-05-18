@@ -1,6 +1,10 @@
 {
     "DownloadAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DownloadAction",
+            "description": "Schema.org resource"
+        }
     }
 }

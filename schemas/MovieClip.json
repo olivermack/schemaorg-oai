@@ -1,6 +1,10 @@
 {
     "MovieClip": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MovieClip",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "RecyclingCenter": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RecyclingCenter",
+            "description": "Schema.org resource"
+        }
     }
 }

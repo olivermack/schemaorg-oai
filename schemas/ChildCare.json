@@ -1,6 +1,10 @@
 {
     "ChildCare": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ChildCare",
+            "description": "Schema.org resource"
+        }
     }
 }

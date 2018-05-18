@@ -1,6 +1,10 @@
 {
     "Hotel": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Hotel",
+            "description": "Schema.org resource"
+        }
     }
 }

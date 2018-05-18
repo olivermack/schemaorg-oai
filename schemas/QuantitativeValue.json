@@ -3,36 +3,40 @@
         "type": "object",
         "properties": {
             "maxValue": {
-                "description": null,
+                "description": "The upper value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "minValue": {
-                "description": null,
+                "description": "The lower value of some characteristic or property.",
                 "type": "integer",
                 "format": "int32"
             },
             "unitCode": {
-                "description": null,
+                "description": "The unit of measurement given using the UN\/CEFACT Common Code (3 characters) or a URL. Other codes than the UN\/CEFACT Common Code may be used with a prefix followed by a colon.",
                 "type": "string"
             },
             "value": {
-                "description": null,
+                "description": "The value of the quantitative value or property value node.\\n\\n* For [[QuantitativeValue]] and [[MonetaryAmount]], the recommended type for values is 'Number'.\\n* For [[PropertyValue]], it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.",
                 "type": "integer",
                 "format": "int32"
             },
             "valueReference": {
-                "description": null,
+                "description": "A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.",
                 "$ref": "Enumeration.json"
             },
             "additionalProperty": {
-                "description": null,
+                "description": "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.\\n\\nNote: Publishers should be aware that applications designed to use specific schema.org properties (e.g. http:\/\/schema.org\/width, http:\/\/schema.org\/color, http:\/\/schema.org\/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property\/value mechanism.\n",
                 "$ref": "PropertyValue.json"
             },
             "unitText": {
-                "description": null,
+                "description": "A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for\n<a href='unitCode'>unitCode<\/a>.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/QuantitativeValue",
+            "description": "Schema.org resource"
         }
     }
 }

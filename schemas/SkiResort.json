@@ -1,6 +1,10 @@
 {
     "SkiResort": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SkiResort",
+            "description": "Schema.org resource"
+        }
     }
 }

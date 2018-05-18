@@ -1,6 +1,10 @@
 {
     "PerformingArtsTheater": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PerformingArtsTheater",
+            "description": "Schema.org resource"
+        }
     }
 }

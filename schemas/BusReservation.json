@@ -1,6 +1,10 @@
 {
     "BusReservation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusReservation",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "EatAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EatAction",
+            "description": "Schema.org resource"
+        }
     }
 }

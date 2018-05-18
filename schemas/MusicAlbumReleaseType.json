@@ -1,6 +1,10 @@
 {
     "MusicAlbumReleaseType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicAlbumReleaseType",
+            "description": "Schema.org resource"
+        }
     }
 }

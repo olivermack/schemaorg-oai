@@ -1,6 +1,10 @@
 {
     "CollectionPage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CollectionPage",
+            "description": "Schema.org resource"
+        }
     }
 }

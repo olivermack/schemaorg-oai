@@ -1,6 +1,10 @@
 {
     "AutomatedTeller": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AutomatedTeller",
+            "description": "Schema.org resource"
+        }
     }
 }

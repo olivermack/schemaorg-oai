@@ -1,6 +1,10 @@
 {
     "BedAndBreakfast": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BedAndBreakfast",
+            "description": "Schema.org resource"
+        }
     }
 }

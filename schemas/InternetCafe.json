@@ -1,6 +1,10 @@
 {
     "InternetCafe": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InternetCafe",
+            "description": "Schema.org resource"
+        }
     }
 }

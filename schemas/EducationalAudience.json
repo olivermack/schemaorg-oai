@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "educationalRole": {
-                "description": null,
+                "description": "An educationalRole of an EducationalAudience.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EducationalAudience",
+            "description": "Schema.org resource"
         }
     }
 }

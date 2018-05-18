@@ -1,6 +1,10 @@
 {
     "AutoRepair": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AutoRepair",
+            "description": "Schema.org resource"
+        }
     }
 }

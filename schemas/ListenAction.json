@@ -1,6 +1,10 @@
 {
     "ListenAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ListenAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "characterName": {
-                "description": null,
+                "description": "The name of a character played in some acting or performing role, i.e. in a PerformanceRole.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PerformanceRole",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "artform": {
-                "description": null,
+                "description": "e.g. Painting, Drawing, Sculpture, Print, Photograph, Assemblage, Collage, etc.",
                 "type": "string"
             },
             "artMedium": {
-                "description": null,
+                "description": "The material used. (e.g. Oil, Watercolour, Acrylic, Linoprint, Marble, Cyanotype, Digital, Lithograph, DryPoint, Intaglio, Pastel, Woodcut, Pencil, Mixed Media, etc.)",
                 "type": "string"
             },
             "surface": {
-                "description": null,
+                "description": "A material used as a surface in some artwork, e.g. Canvas, Paper, Wood, Board, etc.",
                 "type": "string"
             },
             "artworkSurface": {
-                "description": null,
+                "description": "The supporting materials for the artwork, e.g. Canvas, Paper, Wood, Board, etc.",
                 "type": "string"
             },
             "artEdition": {
-                "description": null,
+                "description": "The number of copies when multiple copies of a piece of artwork are produced - e.g. for a limited edition of 20 prints, 'artEdition' refers to the total number of copies (in this example \"20\").",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/VisualArtwork",
+            "description": "Schema.org resource"
         }
     }
 }

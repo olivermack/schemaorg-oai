@@ -1,6 +1,10 @@
 {
     "Barcode": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Barcode",
+            "description": "Schema.org resource"
+        }
     }
 }

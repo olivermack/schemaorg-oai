@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "seller": {
-                "description": null,
+                "description": "An entity which offers (sells \/ leases \/ lends \/ loans) the services \/ goods.  A seller may also be a provider.",
                 "$ref": "Organization.json"
             },
             "vendor": {
-                "description": null,
+                "description": "'vendor' is an earlier term for 'seller'.",
                 "$ref": "Organization.json"
             },
             "warrantyPromise": {
-                "description": null,
+                "description": "The warranty promise(s) included in the offer.",
                 "$ref": "WarrantyPromise.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BuyAction",
+            "description": "Schema.org resource"
         }
     }
 }

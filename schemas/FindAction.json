@@ -1,6 +1,10 @@
 {
     "FindAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FindAction",
+            "description": "Schema.org resource"
+        }
     }
 }

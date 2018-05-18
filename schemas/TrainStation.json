@@ -1,6 +1,10 @@
 {
     "TrainStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TrainStation",
+            "description": "Schema.org resource"
+        }
     }
 }

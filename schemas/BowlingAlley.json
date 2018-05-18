@@ -1,6 +1,10 @@
 {
     "BowlingAlley": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BowlingAlley",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "UserLikes": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserLikes",
+            "description": "Schema.org resource"
+        }
     }
 }

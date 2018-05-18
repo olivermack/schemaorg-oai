@@ -1,6 +1,10 @@
 {
     "DislikeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DislikeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "AllocateAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AllocateAction",
+            "description": "Schema.org resource"
+        }
     }
 }

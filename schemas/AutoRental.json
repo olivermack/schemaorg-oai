@@ -1,6 +1,10 @@
 {
     "AutoRental": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AutoRental",
+            "description": "Schema.org resource"
+        }
     }
 }

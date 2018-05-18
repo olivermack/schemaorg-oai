@@ -1,6 +1,10 @@
 {
     "FastFoodRestaurant": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FastFoodRestaurant",
+            "description": "Schema.org resource"
+        }
     }
 }

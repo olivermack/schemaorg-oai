@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "dataset": {
-                "description": null,
+                "description": "A dataset contained in this catalog.",
                 "$ref": "Dataset.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DataCatalog",
+            "description": "Schema.org resource"
         }
     }
 }

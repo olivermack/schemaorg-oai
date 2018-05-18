@@ -1,6 +1,10 @@
 {
     "BoardingPolicyType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BoardingPolicyType",
+            "description": "Schema.org resource"
+        }
     }
 }

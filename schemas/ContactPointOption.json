@@ -1,6 +1,10 @@
 {
     "ContactPointOption": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ContactPointOption",
+            "description": "Schema.org resource"
+        }
     }
 }

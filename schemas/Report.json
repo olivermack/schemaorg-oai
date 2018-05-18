@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "reportNumber": {
-                "description": null,
+                "description": "The number or other unique designator assigned to a Report by the publishing organization.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Report",
+            "description": "Schema.org resource"
         }
     }
 }

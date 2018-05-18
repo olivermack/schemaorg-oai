@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "buyer": {
-                "description": null,
+                "description": "A sub property of participant. The participant\/person\/organization that bought the object.",
                 "$ref": "Person.json"
             },
             "warrantyPromise": {
-                "description": null,
+                "description": "The warranty promise(s) included in the offer.",
                 "$ref": "WarrantyPromise.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SellAction",
+            "description": "Schema.org resource"
         }
     }
 }

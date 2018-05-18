@@ -1,6 +1,10 @@
 {
     "PaymentMethod": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PaymentMethod",
+            "description": "Schema.org resource"
+        }
     }
 }

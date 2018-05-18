@@ -1,6 +1,10 @@
 {
     "NutritionInformation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/NutritionInformation",
+            "description": "Schema.org resource"
+        }
     }
 }

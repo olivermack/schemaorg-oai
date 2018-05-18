@@ -1,6 +1,10 @@
 {
     "GeneralContractor": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GeneralContractor",
+            "description": "Schema.org resource"
+        }
     }
 }

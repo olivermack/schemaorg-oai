@@ -1,6 +1,10 @@
 {
     "PublicSwimmingPool": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PublicSwimmingPool",
+            "description": "Schema.org resource"
+        }
     }
 }

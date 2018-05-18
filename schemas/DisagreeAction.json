@@ -1,6 +1,10 @@
 {
     "DisagreeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DisagreeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

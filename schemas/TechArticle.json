@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "dependencies": {
-                "description": null,
+                "description": "Prerequisites needed to fulfill steps in article.",
                 "type": "string"
             },
             "proficiencyLevel": {
-                "description": null,
+                "description": "Proficiency needed for this content; expected values: 'Beginner', 'Expert'.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TechArticle",
+            "description": "Schema.org resource"
         }
     }
 }

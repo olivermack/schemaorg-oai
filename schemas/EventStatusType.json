@@ -1,6 +1,10 @@
 {
     "EventStatusType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EventStatusType",
+            "description": "Schema.org resource"
+        }
     }
 }

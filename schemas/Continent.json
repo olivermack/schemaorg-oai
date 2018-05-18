@@ -1,6 +1,10 @@
 {
     "Continent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Continent",
+            "description": "Schema.org resource"
+        }
     }
 }

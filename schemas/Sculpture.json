@@ -1,6 +1,10 @@
 {
     "Sculpture": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Sculpture",
+            "description": "Schema.org resource"
+        }
     }
 }

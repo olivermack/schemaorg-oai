@@ -1,6 +1,10 @@
 {
     "Preschool": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Preschool",
+            "description": "Schema.org resource"
+        }
     }
 }

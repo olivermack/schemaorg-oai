@@ -1,6 +1,10 @@
 {
     "WearAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WearAction",
+            "description": "Schema.org resource"
+        }
     }
 }

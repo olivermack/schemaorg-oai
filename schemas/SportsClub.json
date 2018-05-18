@@ -1,6 +1,10 @@
 {
     "SportsClub": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportsClub",
+            "description": "Schema.org resource"
+        }
     }
 }

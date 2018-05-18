@@ -1,6 +1,10 @@
 {
     "OrganizeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OrganizeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

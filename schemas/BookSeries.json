@@ -1,6 +1,10 @@
 {
     "BookSeries": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BookSeries",
+            "description": "Schema.org resource"
+        }
     }
 }

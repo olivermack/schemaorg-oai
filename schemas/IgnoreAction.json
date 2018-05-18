@@ -1,6 +1,10 @@
 {
     "IgnoreAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/IgnoreAction",
+            "description": "Schema.org resource"
+        }
     }
 }

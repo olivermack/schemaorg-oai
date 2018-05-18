@@ -1,6 +1,10 @@
 {
     "InstallAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InstallAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "OrderStatus": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OrderStatus",
+            "description": "Schema.org resource"
+        }
     }
 }

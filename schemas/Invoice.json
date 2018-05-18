@@ -3,72 +3,76 @@
         "type": "object",
         "properties": {
             "category": {
-                "description": null,
+                "description": "A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.",
                 "type": "string"
             },
             "confirmationNumber": {
-                "description": null,
+                "description": "A number that confirms the given order or payment has been received.",
                 "type": "string"
             },
             "customer": {
-                "description": null,
+                "description": "Party placing the order or paying the invoice.",
                 "$ref": "Organization.json"
             },
             "paymentDue": {
-                "description": null,
+                "description": "The date that payment is due.",
                 "type": "string",
                 "format": "date-time"
             },
             "paymentMethod": {
-                "description": null,
+                "description": "The name of the credit card or other method of payment for the order.",
                 "$ref": "PaymentMethod.json"
             },
             "paymentMethodId": {
-                "description": null,
+                "description": "An identifier for the method of payment used (e.g. the last 4 digits of the credit card).",
                 "type": "string"
             },
             "paymentDueDate": {
-                "description": null,
+                "description": "The date that payment is due.",
                 "type": "string",
                 "format": "date-time"
             },
             "provider": {
-                "description": null,
+                "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
                 "$ref": "Person.json"
             },
             "broker": {
-                "description": null,
+                "description": "An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.",
                 "$ref": "Person.json"
             },
             "totalPaymentDue": {
-                "description": null,
+                "description": "The total amount due.",
                 "$ref": "PriceSpecification.json"
             },
             "minimumPaymentDue": {
-                "description": null,
+                "description": "The minimum payment required at this time.",
                 "$ref": "PriceSpecification.json"
             },
             "accountId": {
-                "description": null,
+                "description": "The identifier for the account the payment will be applied to.",
                 "type": "string"
             },
             "scheduledPaymentDate": {
-                "description": null,
+                "description": "The date the invoice is scheduled to be paid.",
                 "type": "string",
                 "format": "date"
             },
             "billingPeriod": {
-                "description": null,
+                "description": "The time interval used to compute the invoice.",
                 "$ref": "Duration.json"
             },
             "paymentStatus": {
-                "description": null,
+                "description": "The status of payment; whether the invoice has been paid or not.",
                 "$ref": "PaymentStatusType.json"
             },
             "referencesOrder": {
-                "description": null,
+                "description": "The Order(s) related to this Invoice. One or more Orders may be combined into a single Invoice.",
                 "$ref": "Order.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Invoice",
+            "description": "Schema.org resource"
         }
     }
 }

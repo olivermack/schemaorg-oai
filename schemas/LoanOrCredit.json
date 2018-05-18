@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "amount": {
-                "description": null,
+                "description": "The amount of money.",
                 "$ref": "MonetaryAmount.json"
             },
             "loanTerm": {
-                "description": null,
+                "description": "The duration of the loan or credit agreement.",
                 "$ref": "QuantitativeValue.json"
             },
             "requiredCollateral": {
-                "description": null,
+                "description": "Assets required to secure loan or credit repayments. It may take form of third party pledge, goods, financial instruments (cash, securities, etc.)",
                 "$ref": "Thing.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LoanOrCredit",
+            "description": "Schema.org resource"
         }
     }
 }

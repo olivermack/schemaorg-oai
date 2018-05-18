@@ -1,6 +1,10 @@
 {
     "Distance": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Distance",
+            "description": "Schema.org resource"
+        }
     }
 }

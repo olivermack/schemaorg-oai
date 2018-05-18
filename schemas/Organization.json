@@ -3,199 +3,203 @@
         "type": "object",
         "properties": {
             "hasOfferCatalog": {
-                "description": null,
+                "description": "Indicates an OfferCatalog listing for this Organization, Person, or Service.",
                 "$ref": "OfferCatalog.json"
             },
             "address": {
-                "description": null,
+                "description": "Physical address of the item.",
                 "$ref": "PostalAddress.json"
             },
             "aggregateRating": {
-                "description": null,
+                "description": "The overall rating, based on a collection of reviews or ratings, of the item.",
                 "$ref": "AggregateRating.json"
             },
             "areaServed": {
-                "description": null,
+                "description": "The geographic area where a service or offered item is provided.",
                 "$ref": "Place.json"
             },
             "award": {
-                "description": null,
+                "description": "An award won by or for this item.",
                 "type": "string"
             },
             "awards": {
-                "description": null,
+                "description": "Awards won by or for this item.",
                 "type": "string"
             },
             "parentOrganization": {
-                "description": null,
+                "description": "The larger organization that this organization is a [[subOrganization]] of, if any.",
                 "$ref": "Organization.json"
             },
             "brand": {
-                "description": null,
+                "description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
                 "$ref": "Brand.json"
             },
             "contactPoint": {
-                "description": null,
+                "description": "A contact point for a person or organization.",
                 "$ref": "ContactPoint.json"
             },
             "contactPoints": {
-                "description": null,
+                "description": "A contact point for a person or organization.",
                 "$ref": "ContactPoint.json"
             },
             "department": {
-                "description": null,
+                "description": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe.",
                 "$ref": "Organization.json"
             },
             "duns": {
-                "description": null,
+                "description": "The Dun & Bradstreet DUNS number for identifying an organization or business person.",
                 "type": "string"
             },
             "email": {
-                "description": null,
+                "description": "Email address.",
                 "type": "string"
             },
             "employee": {
-                "description": null,
+                "description": "Someone working for this organization.",
                 "$ref": "Person.json"
             },
             "employees": {
-                "description": null,
+                "description": "People working for this organization.",
                 "$ref": "Person.json"
             },
             "event": {
-                "description": null,
+                "description": "Upcoming or past event associated with this place, organization, or action.",
                 "$ref": "Event.json"
             },
             "events": {
-                "description": null,
+                "description": "Upcoming or past events associated with this place or organization.",
                 "$ref": "Event.json"
             },
             "faxNumber": {
-                "description": null,
+                "description": "The fax number.",
                 "type": "string"
             },
             "founder": {
-                "description": null,
+                "description": "A person who founded this organization.",
                 "$ref": "Person.json"
             },
             "founders": {
-                "description": null,
+                "description": "A person who founded this organization.",
                 "$ref": "Person.json"
             },
             "dissolutionDate": {
-                "description": null,
+                "description": "The date that this organization was dissolved.",
                 "type": "string",
                 "format": "date"
             },
             "foundingDate": {
-                "description": null,
+                "description": "The date that this organization was founded.",
                 "type": "string",
                 "format": "date"
             },
             "globalLocationNumber": {
-                "description": null,
+                "description": "The [Global Location Number](http:\/\/www.gs1.org\/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
                 "type": "string"
             },
             "hasPOS": {
-                "description": null,
+                "description": "Points-of-Sales operated by the organization or person.",
                 "$ref": "Place.json"
             },
             "isicV4": {
-                "description": null,
+                "description": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.",
                 "type": "string"
             },
             "legalName": {
-                "description": null,
+                "description": "The official name of the organization, e.g. the registered company name.",
                 "type": "string"
             },
             "location": {
-                "description": null,
+                "description": "The location of for example where the event is happening, an organization is located, or where an action takes place.",
                 "$ref": "Place.json"
             },
             "logo": {
-                "description": null,
+                "description": "An associated logo.",
                 "$ref": "ImageObject.json"
             },
             "makesOffer": {
-                "description": null,
+                "description": "A pointer to products or services offered by the organization or person.",
                 "$ref": "Offer.json"
             },
             "offeredBy": {
-                "description": null,
+                "description": "A pointer to the organization or person making the offer.",
                 "$ref": "Person.json"
             },
             "member": {
-                "description": null,
+                "description": "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals.",
                 "$ref": "Organization.json"
             },
             "memberOf": {
-                "description": null,
+                "description": "An Organization (or ProgramMembership) to which this Person or Organization belongs.",
                 "$ref": "Organization.json"
             },
             "members": {
-                "description": null,
+                "description": "A member of this organization.",
                 "$ref": "Organization.json"
             },
             "naics": {
-                "description": null,
+                "description": "The North American Industry Classification System (NAICS) code for a particular organization or business person.",
                 "type": "string"
             },
             "numberOfEmployees": {
-                "description": null,
+                "description": "The number of employees in an organization e.g. business.",
                 "$ref": "QuantitativeValue.json"
             },
             "owns": {
-                "description": null,
+                "description": "Products owned by the organization or person.",
                 "$ref": "OwnershipInfo.json"
             },
             "review": {
-                "description": null,
+                "description": "A review of the item.",
                 "$ref": "Review.json"
             },
             "reviews": {
-                "description": null,
+                "description": "Review of the item.",
                 "$ref": "Review.json"
             },
             "seeks": {
-                "description": null,
+                "description": "A pointer to products or services sought by the organization or person (demand).",
                 "$ref": "Demand.json"
             },
             "serviceArea": {
-                "description": null,
+                "description": "The geographic area where the service is provided.",
                 "$ref": "Place.json"
             },
             "sponsor": {
-                "description": null,
+                "description": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.",
                 "$ref": "Organization.json"
             },
             "funder": {
-                "description": null,
+                "description": "A person or organization that supports (sponsors) something through some kind of financial contribution.",
                 "$ref": "Organization.json"
             },
             "subOrganization": {
-                "description": null,
+                "description": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific 'department' property.",
                 "$ref": "Organization.json"
             },
             "taxID": {
-                "description": null,
+                "description": "The Tax \/ Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF\/NIF in Spain.",
                 "type": "string"
             },
             "telephone": {
-                "description": null,
+                "description": "The telephone number.",
                 "type": "string"
             },
             "vatID": {
-                "description": null,
+                "description": "The Value-added Tax ID of the organization or person.",
                 "type": "string"
             },
             "foundingLocation": {
-                "description": null,
+                "description": "The place where the Organization was founded.",
                 "$ref": "Place.json"
             },
             "leiCode": {
-                "description": null,
+                "description": "An organization identifier that uniquely identifies a legal entity as defined in ISO 17442.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Organization",
+            "description": "Schema.org resource"
         }
     }
 }

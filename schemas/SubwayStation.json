@@ -1,6 +1,10 @@
 {
     "SubwayStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SubwayStation",
+            "description": "Schema.org resource"
+        }
     }
 }

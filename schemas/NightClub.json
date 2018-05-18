@@ -1,6 +1,10 @@
 {
     "NightClub": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/NightClub",
+            "description": "Schema.org resource"
+        }
     }
 }

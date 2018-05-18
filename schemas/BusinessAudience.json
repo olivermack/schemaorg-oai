@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "numberOfEmployees": {
-                "description": null,
+                "description": "The number of employees in an organization e.g. business.",
                 "$ref": "QuantitativeValue.json"
             },
             "yearlyRevenue": {
-                "description": null,
+                "description": "The size of the business in annual revenue.",
                 "$ref": "QuantitativeValue.json"
             },
             "yearsInOperation": {
-                "description": null,
+                "description": "The age of the business.",
                 "$ref": "QuantitativeValue.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusinessAudience",
+            "description": "Schema.org resource"
         }
     }
 }

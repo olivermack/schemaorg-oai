@@ -1,6 +1,10 @@
 {
     "RadioStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RadioStation",
+            "description": "Schema.org resource"
+        }
     }
 }

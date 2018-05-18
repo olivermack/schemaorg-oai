@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "priceComponent": {
-                "description": null,
+                "description": "This property links to all [[UnitPriceSpecification]] nodes that apply in parallel for the [[CompoundPriceSpecification]] node.",
                 "$ref": "UnitPriceSpecification.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CompoundPriceSpecification",
+            "description": "Schema.org resource"
         }
     }
 }

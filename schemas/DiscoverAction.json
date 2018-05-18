@@ -1,6 +1,10 @@
 {
     "DiscoverAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DiscoverAction",
+            "description": "Schema.org resource"
+        }
     }
 }

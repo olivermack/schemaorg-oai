@@ -1,6 +1,10 @@
 {
     "Mass": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Mass",
+            "description": "Schema.org resource"
+        }
     }
 }

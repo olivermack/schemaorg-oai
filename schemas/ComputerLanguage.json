@@ -1,6 +1,10 @@
 {
     "ComputerLanguage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ComputerLanguage",
+            "description": "Schema.org resource"
+        }
     }
 }

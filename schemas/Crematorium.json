@@ -1,6 +1,10 @@
 {
     "Crematorium": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Crematorium",
+            "description": "Schema.org resource"
+        }
     }
 }

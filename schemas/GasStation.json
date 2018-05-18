@@ -1,6 +1,10 @@
 {
     "GasStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GasStation",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,42 +3,46 @@
         "type": "object",
         "properties": {
             "breadcrumb": {
-                "description": null,
+                "description": "A set of links that can help a user understand and navigate a website hierarchy.",
                 "type": "string"
             },
             "lastReviewed": {
-                "description": null,
+                "description": "Date on which the content on this web page was last reviewed for accuracy and\/or completeness.",
                 "type": "string",
                 "format": "date"
             },
             "mainContentOfPage": {
-                "description": null,
+                "description": "Indicates if this web page element is the main subject of the page.",
                 "$ref": "WebPageElement.json"
             },
             "primaryImageOfPage": {
-                "description": null,
+                "description": "Indicates the main image on the page.",
                 "$ref": "ImageObject.json"
             },
             "relatedLink": {
-                "description": null,
+                "description": "A link related to this web page, for example to other related web pages.",
                 "type": "string"
             },
             "reviewedBy": {
-                "description": null,
+                "description": "People or organizations that have reviewed the content on this web page for accuracy and\/or completeness.",
                 "$ref": "Organization.json"
             },
             "significantLink": {
-                "description": null,
+                "description": "One of the more significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most.",
                 "type": "string"
             },
             "significantLinks": {
-                "description": null,
+                "description": "The most significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most.",
                 "type": "string"
             },
             "specialty": {
-                "description": null,
+                "description": "One of the domain specialities to which this web page's content applies.",
                 "$ref": "Specialty.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WebPage",
+            "description": "Schema.org resource"
         }
     }
 }

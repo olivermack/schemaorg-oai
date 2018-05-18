@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "event": {
-                "description": null,
+                "description": "Upcoming or past event associated with this place, organization, or action.",
                 "$ref": "Event.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InformAction",
+            "description": "Schema.org resource"
         }
     }
 }

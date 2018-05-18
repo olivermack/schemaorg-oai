@@ -1,6 +1,10 @@
 {
     "AcceptAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AcceptAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "HomeAndConstructionBusiness": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HomeAndConstructionBusiness",
+            "description": "Schema.org resource"
+        }
     }
 }

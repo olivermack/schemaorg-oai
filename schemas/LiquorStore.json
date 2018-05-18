@@ -1,6 +1,10 @@
 {
     "LiquorStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LiquorStore",
+            "description": "Schema.org resource"
+        }
     }
 }

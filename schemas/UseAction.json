@@ -1,6 +1,10 @@
 {
     "UseAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UseAction",
+            "description": "Schema.org resource"
+        }
     }
 }

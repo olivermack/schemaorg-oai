@@ -3,71 +3,75 @@
         "type": "object",
         "properties": {
             "associatedArticle": {
-                "description": null,
+                "description": "A NewsArticle associated with the Media Object.",
                 "$ref": "NewsArticle.json"
             },
             "bitrate": {
-                "description": null,
+                "description": "The bitrate of the media object.",
                 "type": "string"
             },
             "contentSize": {
-                "description": null,
+                "description": "File size in (mega\/kilo) bytes.",
                 "type": "string"
             },
             "contentUrl": {
-                "description": null,
+                "description": "Actual bytes of the media object, for example the image file or video file.",
                 "type": "string"
             },
             "duration": {
-                "description": null,
+                "description": "The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601).",
                 "$ref": "Duration.json"
             },
             "embedUrl": {
-                "description": null,
+                "description": "A URL pointing to a player for a specific video. In general, this is the information in the ```src``` element of an ```embed``` tag and should not be the same as the content of the ```loc``` tag.",
                 "type": "string"
             },
             "encodesCreativeWork": {
-                "description": null,
+                "description": "The CreativeWork encoded by this media object.",
                 "$ref": "CreativeWork.json"
             },
             "encodingFormat": {
-                "description": null,
+                "description": "mp3, mpeg4, etc.",
                 "type": "string"
             },
             "expires": {
-                "description": null,
+                "description": "Date the content expires and is no longer useful or available. Useful for videos.",
                 "type": "string",
                 "format": "date"
             },
             "height": {
-                "description": null,
+                "description": "The height of the item.",
                 "$ref": "Distance.json"
             },
             "playerType": {
-                "description": null,
+                "description": "Player type required&#x2014;for example, Flash or Silverlight.",
                 "type": "string"
             },
             "productionCompany": {
-                "description": null,
+                "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
                 "$ref": "Organization.json"
             },
             "requiresSubscription": {
-                "description": null,
+                "description": "Indicates if use of the media require a subscription  (either paid or free). Allowed values are ```true``` or ```false``` (note that an earlier version had 'yes', 'no').",
                 "type": "boolean"
             },
             "uploadDate": {
-                "description": null,
+                "description": "Date when this media object was uploaded to this site.",
                 "type": "string",
                 "format": "date"
             },
             "width": {
-                "description": null,
+                "description": "The width of the item.",
                 "$ref": "Distance.json"
             },
             "regionsAllowed": {
-                "description": null,
+                "description": "The regions where the media is allowed. If not specified, then it's assumed to be allowed everywhere. Specify the countries in [ISO 3166 format](http:\/\/en.wikipedia.org\/wiki\/ISO_3166).",
                 "$ref": "Place.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MediaObject",
+            "description": "Schema.org resource"
         }
     }
 }

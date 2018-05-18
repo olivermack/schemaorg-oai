@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "transcript": {
-                "description": null,
+                "description": "If this MediaObject is an AudioObject or VideoObject, the transcript of that object.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AudioObject",
+            "description": "Schema.org resource"
         }
     }
 }

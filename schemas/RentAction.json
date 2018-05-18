@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "landlord": {
-                "description": null,
+                "description": "A sub property of participant. The owner of the real estate property.",
                 "$ref": "Organization.json"
             },
             "realEstateAgent": {
-                "description": null,
+                "description": "A sub property of participant. The real estate agent involved in the action.",
                 "$ref": "RealEstateAgent.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RentAction",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "offers": {
-                "description": null,
+                "description": "An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.",
                 "$ref": "Offer.json"
             },
             "suitableForDiet": {
-                "description": null,
+                "description": "Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.",
                 "$ref": "RestrictedDiet.json"
             },
             "nutrition": {
-                "description": null,
+                "description": "Nutrition information about the recipe or menu item.",
                 "$ref": "NutritionInformation.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MenuItem",
+            "description": "Schema.org resource"
         }
     }
 }

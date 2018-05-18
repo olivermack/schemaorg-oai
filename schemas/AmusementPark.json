@@ -1,6 +1,10 @@
 {
     "AmusementPark": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AmusementPark",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "TennisComplex": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TennisComplex",
+            "description": "Schema.org resource"
+        }
     }
 }

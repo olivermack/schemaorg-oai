@@ -1,6 +1,10 @@
 {
     "EventReservation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EventReservation",
+            "description": "Schema.org resource"
+        }
     }
 }

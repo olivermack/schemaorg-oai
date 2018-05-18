@@ -1,6 +1,10 @@
 {
     "HealthClub": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HealthClub",
+            "description": "Schema.org resource"
+        }
     }
 }

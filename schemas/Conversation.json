@@ -1,6 +1,10 @@
 {
     "Conversation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Conversation",
+            "description": "Schema.org resource"
+        }
     }
 }

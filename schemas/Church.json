@@ -1,6 +1,10 @@
 {
     "Church": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Church",
+            "description": "Schema.org resource"
+        }
     }
 }

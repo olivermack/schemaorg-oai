@@ -3,42 +3,46 @@
         "type": "object",
         "properties": {
             "geoMidpoint": {
-                "description": null,
+                "description": "Indicates the GeoCoordinates at the centre of a GeoShape e.g. GeoCircle.",
                 "$ref": "GeoCoordinates.json"
             },
             "address": {
-                "description": null,
+                "description": "Physical address of the item.",
                 "$ref": "PostalAddress.json"
             },
             "addressCountry": {
-                "description": null,
+                "description": "The country. For example, USA. You can also provide the two-letter [ISO 3166-1 alpha-2 country code](http:\/\/en.wikipedia.org\/wiki\/ISO_3166-1).",
                 "type": "string"
             },
             "box": {
-                "description": null,
+                "description": "A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character.",
                 "type": "string"
             },
             "circle": {
-                "description": null,
+                "description": "A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.",
                 "type": "string"
             },
             "elevation": {
-                "description": null,
+                "description": "The elevation of a location ([WGS 84](https:\/\/en.wikipedia.org\/wiki\/World_Geodetic_System)).",
                 "type": "integer",
                 "format": "int32"
             },
             "line": {
-                "description": null,
+                "description": "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.",
                 "type": "string"
             },
             "polygon": {
-                "description": null,
+                "description": "A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more space delimited points where the first and final points are identical.",
                 "type": "string"
             },
             "postalCode": {
-                "description": null,
+                "description": "The postal code. For example, 94043.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GeoShape",
+            "description": "Schema.org resource"
         }
     }
 }

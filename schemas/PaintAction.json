@@ -1,6 +1,10 @@
 {
     "PaintAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PaintAction",
+            "description": "Schema.org resource"
+        }
     }
 }

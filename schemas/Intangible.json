@@ -1,6 +1,10 @@
 {
     "Intangible": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Intangible",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "AddAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AddAction",
+            "description": "Schema.org resource"
+        }
     }
 }

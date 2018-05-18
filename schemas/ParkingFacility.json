@@ -1,6 +1,10 @@
 {
     "ParkingFacility": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ParkingFacility",
+            "description": "Schema.org resource"
+        }
     }
 }

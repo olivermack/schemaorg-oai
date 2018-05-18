@@ -1,6 +1,10 @@
 {
     "TaxiStand": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TaxiStand",
+            "description": "Schema.org resource"
+        }
     }
 }

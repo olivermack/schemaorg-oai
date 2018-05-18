@@ -3,29 +3,33 @@
         "type": "object",
         "properties": {
             "album": {
-                "description": null,
+                "description": "A music album.",
                 "$ref": "MusicAlbum.json"
             },
             "albums": {
-                "description": null,
+                "description": "A collection of music albums.",
                 "$ref": "MusicAlbum.json"
             },
             "genre": {
-                "description": null,
+                "description": "Genre of the creative work, broadcast channel or group.",
                 "type": "string"
             },
             "musicGroupMember": {
-                "description": null,
+                "description": "A member of a music group&#x2014;for example, John, Paul, George, or Ringo.",
                 "$ref": "Person.json"
             },
             "tracks": {
-                "description": null,
+                "description": "A music recording (track)&#x2014;usually a single song.",
                 "$ref": "MusicRecording.json"
             },
             "track": {
-                "description": null,
+                "description": "A music recording (track)&#x2014;usually a single song. If an ItemList is given, the list should contain items of type MusicRecording.",
                 "$ref": "ItemList.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicGroup",
+            "description": "Schema.org resource"
         }
     }
 }

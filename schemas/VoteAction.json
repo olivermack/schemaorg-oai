@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "candidate": {
-                "description": null,
+                "description": "A sub property of object. The candidate subject of this action.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/VoteAction",
+            "description": "Schema.org resource"
         }
     }
 }

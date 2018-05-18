@@ -3,18 +3,22 @@
         "type": "object",
         "properties": {
             "numTracks": {
-                "description": null,
+                "description": "The number of tracks in this album or playlist.",
                 "type": "integer",
                 "format": "int32"
             },
             "tracks": {
-                "description": null,
+                "description": "A music recording (track)&#x2014;usually a single song.",
                 "$ref": "MusicRecording.json"
             },
             "track": {
-                "description": null,
+                "description": "A music recording (track)&#x2014;usually a single song. If an ItemList is given, the list should contain items of type MusicRecording.",
                 "$ref": "ItemList.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicPlaylist",
+            "description": "Schema.org resource"
         }
     }
 }

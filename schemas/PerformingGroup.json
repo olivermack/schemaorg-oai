@@ -1,6 +1,10 @@
 {
     "PerformingGroup": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PerformingGroup",
+            "description": "Schema.org resource"
+        }
     }
 }

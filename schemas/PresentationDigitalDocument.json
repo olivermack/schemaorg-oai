@@ -1,6 +1,10 @@
 {
     "PresentationDigitalDocument": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PresentationDigitalDocument",
+            "description": "Schema.org resource"
+        }
     }
 }

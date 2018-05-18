@@ -3,35 +3,39 @@
         "type": "object",
         "properties": {
             "issuedThrough": {
-                "description": null,
+                "description": "The service through with the permit was granted.",
                 "$ref": "Service.json"
             },
             "permitAudience": {
-                "description": null,
+                "description": "The target audience for this permit.",
                 "$ref": "Audience.json"
             },
             "validFor": {
-                "description": null,
+                "description": "The time validity of the permit.",
                 "$ref": "Duration.json"
             },
             "validFrom": {
-                "description": null,
+                "description": "The date when the item becomes valid.",
                 "type": "string",
                 "format": "date-time"
             },
             "validIn": {
-                "description": null,
+                "description": "The geographic area where the permit is valid.",
                 "$ref": "AdministrativeArea.json"
             },
             "validUntil": {
-                "description": null,
+                "description": "The date when the item is no longer valid.",
                 "type": "string",
                 "format": "date"
             },
             "issuedBy": {
-                "description": null,
+                "description": "The organization issuing the ticket or permit.",
                 "$ref": "Organization.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Permit",
+            "description": "Schema.org resource"
         }
     }
 }

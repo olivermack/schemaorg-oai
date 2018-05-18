@@ -1,6 +1,10 @@
 {
     "RegisterAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RegisterAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Courthouse": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Courthouse",
+            "description": "Schema.org resource"
+        }
     }
 }

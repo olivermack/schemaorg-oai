@@ -1,6 +1,10 @@
 {
     "RadioClip": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RadioClip",
+            "description": "Schema.org resource"
+        }
     }
 }

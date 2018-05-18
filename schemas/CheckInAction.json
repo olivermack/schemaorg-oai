@@ -1,6 +1,10 @@
 {
     "CheckInAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CheckInAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "carrierRequirements": {
-                "description": null,
+                "description": "Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MobileApplication",
+            "description": "Schema.org resource"
         }
     }
 }

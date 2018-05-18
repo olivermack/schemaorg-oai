@@ -1,6 +1,10 @@
 {
     "NailSalon": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/NailSalon",
+            "description": "Schema.org resource"
+        }
     }
 }

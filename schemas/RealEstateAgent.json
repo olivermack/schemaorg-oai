@@ -1,6 +1,10 @@
 {
     "RealEstateAgent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RealEstateAgent",
+            "description": "Schema.org resource"
+        }
     }
 }

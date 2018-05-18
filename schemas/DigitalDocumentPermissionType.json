@@ -1,6 +1,10 @@
 {
     "DigitalDocumentPermissionType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DigitalDocumentPermissionType",
+            "description": "Schema.org resource"
+        }
     }
 }

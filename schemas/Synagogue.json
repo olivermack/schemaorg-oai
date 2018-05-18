@@ -1,6 +1,10 @@
 {
     "Synagogue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Synagogue",
+            "description": "Schema.org resource"
+        }
     }
 }

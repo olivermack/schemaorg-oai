@@ -1,6 +1,10 @@
 {
     "Attorney": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Attorney",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "StructuredValue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/StructuredValue",
+            "description": "Schema.org resource"
+        }
     }
 }

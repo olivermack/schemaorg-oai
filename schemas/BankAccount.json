@@ -1,6 +1,10 @@
 {
     "BankAccount": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BankAccount",
+            "description": "Schema.org resource"
+        }
     }
 }

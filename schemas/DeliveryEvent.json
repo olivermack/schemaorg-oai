@@ -3,23 +3,27 @@
         "type": "object",
         "properties": {
             "accessCode": {
-                "description": null,
+                "description": "Password, PIN, or access code needed for delivery (e.g. from a locker).",
                 "type": "string"
             },
             "availableFrom": {
-                "description": null,
+                "description": "When the item is available for pickup from the store, locker, etc.",
                 "type": "string",
                 "format": "date-time"
             },
             "availableThrough": {
-                "description": null,
+                "description": "After this date, the item will no longer be available for pickup.",
                 "type": "string",
                 "format": "date-time"
             },
             "hasDeliveryMethod": {
-                "description": null,
+                "description": "Method used for delivery or shipping.",
                 "$ref": "DeliveryMethod.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DeliveryEvent",
+            "description": "Schema.org resource"
         }
     }
 }

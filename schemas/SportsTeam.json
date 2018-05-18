@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "coach": {
-                "description": null,
+                "description": "A person that acts in a coaching role for a sports team.",
                 "$ref": "Person.json"
             },
             "athlete": {
-                "description": null,
+                "description": "A person that acts as performing member of a sports team; a player as opposed to a coach.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportsTeam",
+            "description": "Schema.org resource"
         }
     }
 }

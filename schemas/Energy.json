@@ -1,6 +1,10 @@
 {
     "Energy": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Energy",
+            "description": "Schema.org resource"
+        }
     }
 }

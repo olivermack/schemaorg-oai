@@ -3,37 +3,41 @@
         "type": "object",
         "properties": {
             "availableLanguage": {
-                "description": null,
+                "description": "A language someone may use with the item. Please use one of the language codes from the [IETF BCP 47 standard](http:\/\/tools.ietf.org\/html\/bcp47). See also [[inLanguage]]",
                 "$ref": "Language.json"
             },
             "processingTime": {
-                "description": null,
+                "description": "Estimated processing time for the service using this channel.",
                 "$ref": "Duration.json"
             },
             "providesService": {
-                "description": null,
+                "description": "The service provided by this channel.",
                 "$ref": "Service.json"
             },
             "serviceLocation": {
-                "description": null,
+                "description": "The location (e.g. civic structure, local business, etc.) where a person can go to access the service.",
                 "$ref": "Place.json"
             },
             "servicePhone": {
-                "description": null,
+                "description": "The phone number to use to access the service.",
                 "$ref": "ContactPoint.json"
             },
             "servicePostalAddress": {
-                "description": null,
+                "description": "The address for accessing the service by mail.",
                 "$ref": "PostalAddress.json"
             },
             "serviceSmsNumber": {
-                "description": null,
+                "description": "The number to access the service by text message.",
                 "$ref": "ContactPoint.json"
             },
             "serviceUrl": {
-                "description": null,
+                "description": "The website to access the service.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ServiceChannel",
+            "description": "Schema.org resource"
         }
     }
 }

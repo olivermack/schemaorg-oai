@@ -1,6 +1,10 @@
 {
     "UserTweets": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserTweets",
+            "description": "Schema.org resource"
+        }
     }
 }

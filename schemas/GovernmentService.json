@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "serviceOperator": {
-                "description": null,
+                "description": "The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.",
                 "$ref": "Organization.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GovernmentService",
+            "description": "Schema.org resource"
         }
     }
 }

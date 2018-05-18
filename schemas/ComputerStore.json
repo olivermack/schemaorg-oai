@@ -1,6 +1,10 @@
 {
     "ComputerStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ComputerStore",
+            "description": "Schema.org resource"
+        }
     }
 }

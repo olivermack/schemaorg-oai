@@ -1,6 +1,10 @@
 {
     "UserPageVisits": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserPageVisits",
+            "description": "Schema.org resource"
+        }
     }
 }

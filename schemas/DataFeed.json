@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "dataFeedElement": {
-                "description": null,
+                "description": "An item within in a data feed. Data feeds may have many elements.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DataFeed",
+            "description": "Schema.org resource"
         }
     }
 }

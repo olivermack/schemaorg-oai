@@ -1,6 +1,10 @@
 {
     "LockerDelivery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LockerDelivery",
+            "description": "Schema.org resource"
+        }
     }
 }

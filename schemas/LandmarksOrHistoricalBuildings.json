@@ -1,6 +1,10 @@
 {
     "LandmarksOrHistoricalBuildings": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LandmarksOrHistoricalBuildings",
+            "description": "Schema.org resource"
+        }
     }
 }

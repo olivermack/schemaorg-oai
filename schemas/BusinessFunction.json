@@ -1,6 +1,10 @@
 {
     "BusinessFunction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusinessFunction",
+            "description": "Schema.org resource"
+        }
     }
 }

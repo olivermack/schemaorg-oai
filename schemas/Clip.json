@@ -3,42 +3,46 @@
         "type": "object",
         "properties": {
             "actor": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "actors": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "clipNumber": {
-                "description": null,
+                "description": "Position of the clip within an ordered group of clips.",
                 "type": "integer",
                 "format": "int32"
             },
             "director": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "directors": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video games etc. content. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "musicBy": {
-                "description": null,
+                "description": "The composer of the soundtrack.",
                 "$ref": "MusicGroup.json"
             },
             "partOfEpisode": {
-                "description": null,
+                "description": "The episode to which this clip belongs.",
                 "$ref": "Episode.json"
             },
             "partOfSeason": {
-                "description": null,
+                "description": "The season to which this episode belongs.",
                 "$ref": "CreativeWorkSeason.json"
             },
             "partOfSeries": {
-                "description": null,
+                "description": "The series to which this episode or season belongs.",
                 "$ref": "CreativeWorkSeries.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Clip",
+            "description": "Schema.org resource"
         }
     }
 }

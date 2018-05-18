@@ -1,6 +1,10 @@
 {
     "FireStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FireStation",
+            "description": "Schema.org resource"
+        }
     }
 }

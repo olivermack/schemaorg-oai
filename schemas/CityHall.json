@@ -1,6 +1,10 @@
 {
     "CityHall": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CityHall",
+            "description": "Schema.org resource"
+        }
     }
 }

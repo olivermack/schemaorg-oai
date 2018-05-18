@@ -1,6 +1,10 @@
 {
     "AboutPage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AboutPage",
+            "description": "Schema.org resource"
+        }
     }
 }

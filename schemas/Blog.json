@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "blogPost": {
-                "description": null,
+                "description": "A posting that is part of this blog.",
                 "$ref": "BlogPosting.json"
             },
             "blogPosts": {
-                "description": null,
+                "description": "The postings that are part of this blog.",
                 "$ref": "BlogPosting.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Blog",
+            "description": "Schema.org resource"
         }
     }
 }

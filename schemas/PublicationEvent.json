@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "free": {
-                "description": null,
+                "description": "A flag to signal that the publication or event is accessible for free.",
                 "type": "boolean"
             },
             "isAccessibleForFree": {
-                "description": null,
+                "description": "A flag to signal that the publication is accessible for free.",
                 "type": "boolean"
             },
             "publishedOn": {
-                "description": null,
+                "description": "A broadcast service associated with the publication event.",
                 "$ref": "BroadcastService.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PublicationEvent",
+            "description": "Schema.org resource"
         }
     }
 }

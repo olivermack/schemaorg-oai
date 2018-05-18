@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "collection": {
-                "description": null,
+                "description": "A sub property of object. The collection target of the action.",
                 "$ref": "Thing.json"
             },
             "targetCollection": {
-                "description": null,
+                "description": "A sub property of object. The collection target of the action.",
                 "$ref": "Thing.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UpdateAction",
+            "description": "Schema.org resource"
         }
     }
 }

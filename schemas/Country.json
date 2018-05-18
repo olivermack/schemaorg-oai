@@ -1,6 +1,10 @@
 {
     "Country": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Country",
+            "description": "Schema.org resource"
+        }
     }
 }

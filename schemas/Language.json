@@ -1,6 +1,10 @@
 {
     "Language": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Language",
+            "description": "Schema.org resource"
+        }
     }
 }

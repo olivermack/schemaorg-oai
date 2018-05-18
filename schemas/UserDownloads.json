@@ -1,6 +1,10 @@
 {
     "UserDownloads": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserDownloads",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "RejectAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RejectAction",
+            "description": "Schema.org resource"
+        }
     }
 }

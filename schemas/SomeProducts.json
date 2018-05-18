@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "inventoryLevel": {
-                "description": null,
+                "description": "The current approximate inventory level for the item or items.",
                 "$ref": "QuantitativeValue.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SomeProducts",
+            "description": "Schema.org resource"
         }
     }
 }

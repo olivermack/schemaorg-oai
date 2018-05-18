@@ -1,6 +1,10 @@
 {
     "GamePlayMode": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GamePlayMode",
+            "description": "Schema.org resource"
+        }
     }
 }

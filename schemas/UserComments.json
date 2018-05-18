@@ -3,26 +3,30 @@
         "type": "object",
         "properties": {
             "commentText": {
-                "description": null,
+                "description": "The text of the UserComment.",
                 "type": "string"
             },
             "commentTime": {
-                "description": null,
+                "description": "The time at which the UserComment was made.",
                 "type": "string",
                 "format": "date"
             },
             "creator": {
-                "description": null,
+                "description": "The creator\/author of this CreativeWork. This is the same as the Author property for CreativeWork.",
                 "$ref": "Organization.json"
             },
             "discusses": {
-                "description": null,
+                "description": "Specifies the CreativeWork associated with the UserComment.",
                 "$ref": "CreativeWork.json"
             },
             "replyToUrl": {
-                "description": null,
+                "description": "The URL at which a reply may be posted to the specified UserComment.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserComments",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,33 +3,37 @@
         "type": "object",
         "properties": {
             "requiredGender": {
-                "description": null,
+                "description": "Audiences defined by a person's gender.",
                 "type": "string"
             },
             "requiredMaxAge": {
-                "description": null,
+                "description": "Audiences defined by a person's maximum age.",
                 "type": "integer",
                 "format": "int32"
             },
             "requiredMinAge": {
-                "description": null,
+                "description": "Audiences defined by a person's minimum age.",
                 "type": "integer",
                 "format": "int32"
             },
             "suggestedGender": {
-                "description": null,
+                "description": "The gender of the person or audience.",
                 "type": "string"
             },
             "suggestedMaxAge": {
-                "description": null,
+                "description": "Maximal age recommended for viewing content.",
                 "type": "integer",
                 "format": "int32"
             },
             "suggestedMinAge": {
-                "description": null,
+                "description": "Minimal age recommended for viewing content.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PeopleAudience",
+            "description": "Schema.org resource"
         }
     }
 }

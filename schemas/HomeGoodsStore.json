@@ -1,6 +1,10 @@
 {
     "HomeGoodsStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HomeGoodsStore",
+            "description": "Schema.org resource"
+        }
     }
 }

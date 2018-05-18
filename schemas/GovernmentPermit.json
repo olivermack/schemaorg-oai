@@ -1,6 +1,10 @@
 {
     "GovernmentPermit": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/GovernmentPermit",
+            "description": "Schema.org resource"
+        }
     }
 }

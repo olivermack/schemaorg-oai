@@ -1,6 +1,10 @@
 {
     "LegislativeBuilding": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LegislativeBuilding",
+            "description": "Schema.org resource"
+        }
     }
 }

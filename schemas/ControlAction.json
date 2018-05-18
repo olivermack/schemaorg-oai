@@ -1,6 +1,10 @@
 {
     "ControlAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ControlAction",
+            "description": "Schema.org resource"
+        }
     }
 }

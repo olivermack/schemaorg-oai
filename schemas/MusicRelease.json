@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "catalogNumber": {
-                "description": null,
+                "description": "The catalog number for the release.",
                 "type": "string"
             },
             "creditedTo": {
-                "description": null,
+                "description": "The group the release is credited to if different than the byArtist. For example, Red and Blue is credited to \"Stefani Germanotta Band\", but by Lady Gaga.",
                 "$ref": "Person.json"
             },
             "musicReleaseFormat": {
-                "description": null,
+                "description": "Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).",
                 "$ref": "MusicReleaseFormatType.json"
             },
             "recordLabel": {
-                "description": null,
+                "description": "The label that issued the release.",
                 "$ref": "Organization.json"
             },
             "releaseOf": {
-                "description": null,
+                "description": "The album this is a release of.",
                 "$ref": "MusicAlbum.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicRelease",
+            "description": "Schema.org resource"
         }
     }
 }

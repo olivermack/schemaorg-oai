@@ -1,6 +1,10 @@
 {
     "DriveWheelConfigurationValue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DriveWheelConfigurationValue",
+            "description": "Schema.org resource"
+        }
     }
 }

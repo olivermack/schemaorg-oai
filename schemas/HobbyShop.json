@@ -1,6 +1,10 @@
 {
     "HobbyShop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HobbyShop",
+            "description": "Schema.org resource"
+        }
     }
 }

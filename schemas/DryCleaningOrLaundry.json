@@ -1,6 +1,10 @@
 {
     "DryCleaningOrLaundry": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DryCleaningOrLaundry",
+            "description": "Schema.org resource"
+        }
     }
 }

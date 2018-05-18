@@ -3,29 +3,33 @@
         "type": "object",
         "properties": {
             "byArtist": {
-                "description": null,
+                "description": "The artist that performed this album or recording.",
                 "$ref": "MusicGroup.json"
             },
             "duration": {
-                "description": null,
+                "description": "The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601).",
                 "$ref": "Duration.json"
             },
             "inAlbum": {
-                "description": null,
+                "description": "The album to which this recording belongs.",
                 "$ref": "MusicAlbum.json"
             },
             "inPlaylist": {
-                "description": null,
+                "description": "The playlist to which this recording belongs.",
                 "$ref": "MusicPlaylist.json"
             },
             "isrcCode": {
-                "description": null,
+                "description": "The International Standard Recording Code for the recording.",
                 "type": "string"
             },
             "recordingOf": {
-                "description": null,
+                "description": "The composition this track is a recording of.",
                 "$ref": "MusicComposition.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicRecording",
+            "description": "Schema.org resource"
         }
     }
 }

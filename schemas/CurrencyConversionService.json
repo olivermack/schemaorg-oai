@@ -1,6 +1,10 @@
 {
     "CurrencyConversionService": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CurrencyConversionService",
+            "description": "Schema.org resource"
+        }
     }
 }

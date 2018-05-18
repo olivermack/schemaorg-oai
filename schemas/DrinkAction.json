@@ -1,6 +1,10 @@
 {
     "DrinkAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DrinkAction",
+            "description": "Schema.org resource"
+        }
     }
 }

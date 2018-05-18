@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "audience": {
-                "description": null,
+                "description": "An intended audience, i.e. a group for whom something was created.",
                 "$ref": "Audience.json"
             },
             "event": {
-                "description": null,
+                "description": "Upcoming or past event associated with this place, organization, or action.",
                 "$ref": "Event.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PlayAction",
+            "description": "Schema.org resource"
         }
     }
 }

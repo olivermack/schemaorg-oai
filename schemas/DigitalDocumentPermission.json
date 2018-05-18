@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "grantee": {
-                "description": null,
+                "description": "The person, organization, contact point, or audience that has been granted this permission.",
                 "$ref": "Person.json"
             },
             "permissionType": {
-                "description": null,
+                "description": "The type of permission granted the person, organization, or audience.",
                 "type": "$ref:DocumentPermissionType"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DigitalDocumentPermission",
+            "description": "Schema.org resource"
         }
     }
 }

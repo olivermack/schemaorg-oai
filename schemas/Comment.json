@@ -3,19 +3,23 @@
         "type": "object",
         "properties": {
             "upvoteCount": {
-                "description": null,
+                "description": "The number of upvotes this question, answer or comment has received from the community.",
                 "type": "integer",
                 "format": "int32"
             },
             "downvoteCount": {
-                "description": null,
+                "description": "The number of downvotes this question, answer or comment has received from the community.",
                 "type": "integer",
                 "format": "int32"
             },
             "parentItem": {
-                "description": null,
+                "description": "The parent of a question, answer or item in general.",
                 "$ref": "Question.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Comment",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "BefriendAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BefriendAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "HVACBusiness": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/HVACBusiness",
+            "description": "Schema.org resource"
+        }
     }
 }

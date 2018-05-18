@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "hasMenuItem": {
-                "description": null,
+                "description": "A food or drink item contained in a menu or menu section.",
                 "$ref": "MenuSection.json"
             },
             "hasMenuSection": {
-                "description": null,
+                "description": "A subgrouping of the menu (by dishes, course, serving time period, etc.).",
                 "$ref": "MenuSection.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MenuSection",
+            "description": "Schema.org resource"
         }
     }
 }

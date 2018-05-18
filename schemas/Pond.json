@@ -1,6 +1,10 @@
 {
     "Pond": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Pond",
+            "description": "Schema.org resource"
+        }
     }
 }

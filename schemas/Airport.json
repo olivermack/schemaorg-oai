@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "iataCode": {
-                "description": null,
+                "description": "IATA identifier for an airline or airport.",
                 "type": "string"
             },
             "icaoCode": {
-                "description": null,
+                "description": "ICAO identifier for an airport.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Airport",
+            "description": "Schema.org resource"
         }
     }
 }

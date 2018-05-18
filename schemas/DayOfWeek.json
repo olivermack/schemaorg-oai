@@ -1,6 +1,10 @@
 {
     "DayOfWeek": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DayOfWeek",
+            "description": "Schema.org resource"
+        }
     }
 }

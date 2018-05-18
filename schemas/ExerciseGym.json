@@ -1,6 +1,10 @@
 {
     "ExerciseGym": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ExerciseGym",
+            "description": "Schema.org resource"
+        }
     }
 }

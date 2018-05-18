@@ -1,6 +1,10 @@
 {
     "Mosque": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Mosque",
+            "description": "Schema.org resource"
+        }
     }
 }

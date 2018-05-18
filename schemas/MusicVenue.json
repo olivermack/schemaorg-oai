@@ -1,6 +1,10 @@
 {
     "MusicVenue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicVenue",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "WarrantyScope": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WarrantyScope",
+            "description": "Schema.org resource"
+        }
     }
 }

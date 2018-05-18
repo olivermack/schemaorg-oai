@@ -1,6 +1,10 @@
 {
     "PostOffice": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PostOffice",
+            "description": "Schema.org resource"
+        }
     }
 }

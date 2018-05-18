@@ -1,6 +1,10 @@
 {
     "TheaterGroup": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TheaterGroup",
+            "description": "Schema.org resource"
+        }
     }
 }

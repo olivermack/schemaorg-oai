@@ -1,6 +1,10 @@
 {
     "ActionStatusType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ActionStatusType",
+            "description": "Schema.org resource"
+        }
     }
 }

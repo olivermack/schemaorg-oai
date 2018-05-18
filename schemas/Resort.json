@@ -1,6 +1,10 @@
 {
     "Resort": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Resort",
+            "description": "Schema.org resource"
+        }
     }
 }

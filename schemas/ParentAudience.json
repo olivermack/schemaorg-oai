@@ -3,15 +3,19 @@
         "type": "object",
         "properties": {
             "childMaxAge": {
-                "description": null,
+                "description": "Maximal age of the child.",
                 "type": "integer",
                 "format": "int32"
             },
             "childMinAge": {
-                "description": null,
+                "description": "Minimal age of the child.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ParentAudience",
+            "description": "Schema.org resource"
         }
     }
 }

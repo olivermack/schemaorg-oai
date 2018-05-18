@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "distance": {
-                "description": null,
+                "description": "The distance travelled, e.g. exercising or travelling.",
                 "$ref": "Distance.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TravelAction",
+            "description": "Schema.org resource"
         }
     }
 }

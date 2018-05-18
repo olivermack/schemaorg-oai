@@ -1,6 +1,10 @@
 {
     "MotorcycleDealer": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MotorcycleDealer",
+            "description": "Schema.org resource"
+        }
     }
 }

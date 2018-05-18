@@ -3,17 +3,21 @@
         "type": "object",
         "properties": {
             "homeTeam": {
-                "description": null,
+                "description": "The home team in a sports event.",
                 "$ref": "Person.json"
             },
             "awayTeam": {
-                "description": null,
+                "description": "The away team in a sports event.",
                 "$ref": "Person.json"
             },
             "competitor": {
-                "description": null,
+                "description": "A competitor in a sports event.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SportsEvent",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "RiverBodyOfWater": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RiverBodyOfWater",
+            "description": "Schema.org resource"
+        }
     }
 }

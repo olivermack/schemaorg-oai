@@ -1,6 +1,10 @@
 {
     "WantAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WantAction",
+            "description": "Schema.org resource"
+        }
     }
 }

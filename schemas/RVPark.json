@@ -1,6 +1,10 @@
 {
     "RVPark": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RVPark",
+            "description": "Schema.org resource"
+        }
     }
 }

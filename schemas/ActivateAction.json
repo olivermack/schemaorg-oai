@@ -1,6 +1,10 @@
 {
     "ActivateAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ActivateAction",
+            "description": "Schema.org resource"
+        }
     }
 }

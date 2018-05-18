@@ -1,6 +1,10 @@
 {
     "AgreeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AgreeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

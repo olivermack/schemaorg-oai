@@ -1,6 +1,10 @@
 {
     "MarryAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MarryAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Room": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Room",
+            "description": "Schema.org resource"
+        }
     }
 }

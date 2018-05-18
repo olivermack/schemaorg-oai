@@ -1,6 +1,10 @@
 {
     "ReservationStatusType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReservationStatusType",
+            "description": "Schema.org resource"
+        }
     }
 }

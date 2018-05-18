@@ -1,6 +1,10 @@
 {
     "SaleEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/SaleEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

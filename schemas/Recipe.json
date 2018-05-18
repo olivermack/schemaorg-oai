@@ -3,25 +3,29 @@
         "type": "object",
         "properties": {
             "suitableForDiet": {
-                "description": null,
+                "description": "Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.",
                 "$ref": "RestrictedDiet.json"
             },
             "totalTime": {
-                "description": null,
+                "description": "The total time it takes to prepare and cook the recipe, in [ISO 8601 duration format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601).",
                 "$ref": "Duration.json"
             },
             "cookTime": {
-                "description": null,
+                "description": "The time it takes to actually cook the dish, in [ISO 8601 duration format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601).",
                 "$ref": "Duration.json"
             },
             "recipeCategory": {
-                "description": null,
+                "description": "The category of the recipe\u2014for example, appetizer, entree, etc.",
                 "type": "string"
             },
             "ingredients": {
-                "description": null,
+                "description": "A single ingredient used in the recipe, e.g. sugar, flour or garlic.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Recipe",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Restaurant": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Restaurant",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "Code": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Code",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "TireShop": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TireShop",
+            "description": "Schema.org resource"
+        }
     }
 }

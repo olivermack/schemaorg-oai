@@ -1,6 +1,10 @@
 {
     "WebPageElement": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WebPageElement",
+            "description": "Schema.org resource"
+        }
     }
 }

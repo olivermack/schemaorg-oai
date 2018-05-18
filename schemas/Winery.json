@@ -1,6 +1,10 @@
 {
     "Winery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Winery",
+            "description": "Schema.org resource"
+        }
     }
 }

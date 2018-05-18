@@ -3,39 +3,43 @@
         "type": "object",
         "properties": {
             "underName": {
-                "description": null,
+                "description": "The person or organization the reservation or ticket is for.",
                 "$ref": "Person.json"
             },
             "totalPrice": {
-                "description": null,
+                "description": "The total price for the reservation or ticket, including applicable taxes, shipping, etc.",
                 "type": "integer",
                 "format": "int32"
             },
             "priceCurrency": {
-                "description": null,
+                "description": "The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to [[PriceSpecification]] and its subtypes.",
                 "type": "string"
             },
             "issuedBy": {
-                "description": null,
+                "description": "The organization issuing the ticket or permit.",
                 "$ref": "Organization.json"
             },
             "dateIssued": {
-                "description": null,
+                "description": "The date the ticket was issued.",
                 "type": "string",
                 "format": "date-time"
             },
             "ticketedSeat": {
-                "description": null,
+                "description": "The seat associated with the ticket.",
                 "$ref": "Seat.json"
             },
             "ticketNumber": {
-                "description": null,
+                "description": "The unique identifier for the ticket.",
                 "type": "string"
             },
             "ticketToken": {
-                "description": null,
+                "description": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Ticket",
+            "description": "Schema.org resource"
         }
     }
 }

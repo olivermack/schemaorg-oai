@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "audienceType": {
-                "description": null,
+                "description": "The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).",
                 "type": "string"
             },
             "geographicArea": {
-                "description": null,
+                "description": "The geographic area associated with the audience.",
                 "$ref": "AdministrativeArea.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Audience",
+            "description": "Schema.org resource"
         }
     }
 }

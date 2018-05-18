@@ -1,6 +1,10 @@
 {
     "Brewery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Brewery",
+            "description": "Schema.org resource"
+        }
     }
 }

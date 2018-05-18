@@ -1,6 +1,10 @@
 {
     "EventVenue": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EventVenue",
+            "description": "Schema.org resource"
+        }
     }
 }

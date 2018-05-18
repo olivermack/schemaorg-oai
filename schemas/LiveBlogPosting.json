@@ -3,19 +3,23 @@
         "type": "object",
         "properties": {
             "coverageStartTime": {
-                "description": null,
+                "description": "The time when the live blog will begin covering the Event. Note that coverage may begin before the Event's start time. The LiveBlogPosting may also be created before coverage begins.",
                 "type": "string",
                 "format": "date-time"
             },
             "coverageEndTime": {
-                "description": null,
+                "description": "The time when the live blog will stop covering the Event. Note that coverage may continue after the Event concludes.",
                 "type": "string",
                 "format": "date-time"
             },
             "liveBlogUpdate": {
-                "description": null,
+                "description": "An update to the LiveBlog.",
                 "$ref": "BlogPosting.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LiveBlogPosting",
+            "description": "Schema.org resource"
         }
     }
 }

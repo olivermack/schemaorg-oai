@@ -1,6 +1,10 @@
 {
     "Zoo": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Zoo",
+            "description": "Schema.org resource"
+        }
     }
 }

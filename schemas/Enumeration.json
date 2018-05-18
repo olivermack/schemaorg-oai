@@ -1,6 +1,10 @@
 {
     "Enumeration": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Enumeration",
+            "description": "Schema.org resource"
+        }
     }
 }

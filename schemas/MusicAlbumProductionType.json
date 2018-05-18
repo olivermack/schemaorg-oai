@@ -1,6 +1,10 @@
 {
     "MusicAlbumProductionType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MusicAlbumProductionType",
+            "description": "Schema.org resource"
+        }
     }
 }

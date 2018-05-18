@@ -1,6 +1,10 @@
 {
     "AutomotiveBusiness": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AutomotiveBusiness",
+            "description": "Schema.org resource"
+        }
     }
 }

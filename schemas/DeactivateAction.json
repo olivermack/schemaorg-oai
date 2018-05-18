@@ -1,6 +1,10 @@
 {
     "DeactivateAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DeactivateAction",
+            "description": "Schema.org resource"
+        }
     }
 }

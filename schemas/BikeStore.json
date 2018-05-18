@@ -1,6 +1,10 @@
 {
     "BikeStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BikeStore",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "MovingCompany": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MovingCompany",
+            "description": "Schema.org resource"
+        }
     }
 }

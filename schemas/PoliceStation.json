@@ -1,6 +1,10 @@
 {
     "PoliceStation": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PoliceStation",
+            "description": "Schema.org resource"
+        }
     }
 }

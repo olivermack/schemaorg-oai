@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "expectsAcceptanceOf": {
-                "description": null,
+                "description": "An Offer which must be accepted before the user can perform the Action. For example, the user may need to buy a movie before being able to watch it.",
                 "$ref": "Offer.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ConsumeAction",
+            "description": "Schema.org resource"
         }
     }
 }

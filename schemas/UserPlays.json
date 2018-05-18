@@ -1,6 +1,10 @@
 {
     "UserPlays": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserPlays",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,10 +3,14 @@
         "type": "object",
         "properties": {
             "numberedPosition": {
-                "description": null,
+                "description": "A number associated with a role in an organization, for example, the number on an athlete's jersey.",
                 "type": "integer",
                 "format": "int32"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OrganizationRole",
+            "description": "Schema.org resource"
         }
     }
 }

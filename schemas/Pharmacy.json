@@ -1,6 +1,10 @@
 {
     "Pharmacy": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Pharmacy",
+            "description": "Schema.org resource"
+        }
     }
 }

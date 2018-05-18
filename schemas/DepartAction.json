@@ -1,6 +1,10 @@
 {
     "DepartAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DepartAction",
+            "description": "Schema.org resource"
+        }
     }
 }

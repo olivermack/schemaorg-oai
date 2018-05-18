@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "recipient": {
-                "description": null,
+                "description": "A sub property of participant. The participant who is at the receiving end of the action.",
                 "$ref": "Audience.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TipAction",
+            "description": "Schema.org resource"
         }
     }
 }

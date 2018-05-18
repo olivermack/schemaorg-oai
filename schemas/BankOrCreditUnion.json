@@ -1,6 +1,10 @@
 {
     "BankOrCreditUnion": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BankOrCreditUnion",
+            "description": "Schema.org resource"
+        }
     }
 }

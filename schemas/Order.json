@@ -3,97 +3,101 @@
         "type": "object",
         "properties": {
             "orderDelivery": {
-                "description": null,
+                "description": "The delivery of the parcel related to this order or order item.",
                 "$ref": "ParcelDelivery.json"
             },
             "acceptedOffer": {
-                "description": null,
+                "description": "The offer(s) -- e.g., product, quantity and price combinations -- included in the order.",
                 "$ref": "Offer.json"
             },
             "billingAddress": {
-                "description": null,
+                "description": "The billing address for the order.",
                 "$ref": "PostalAddress.json"
             },
             "confirmationNumber": {
-                "description": null,
+                "description": "A number that confirms the given order or payment has been received.",
                 "type": "string"
             },
             "customer": {
-                "description": null,
+                "description": "Party placing the order or paying the invoice.",
                 "$ref": "Organization.json"
             },
             "discount": {
-                "description": null,
+                "description": "Any discount applied (to an Order).",
                 "type": "integer",
                 "format": "int32"
             },
             "discountCode": {
-                "description": null,
+                "description": "Code used to redeem a discount.",
                 "type": "string"
             },
             "discountCurrency": {
-                "description": null,
+                "description": "The currency (in 3-letter ISO 4217 format) of the discount.",
                 "type": "string"
             },
             "isGift": {
-                "description": null,
+                "description": "Was the offer accepted as a gift for someone other than the buyer.",
                 "type": "boolean"
             },
             "merchant": {
-                "description": null,
+                "description": "'merchant' is an out-dated term for 'seller'.",
                 "$ref": "Organization.json"
             },
             "orderDate": {
-                "description": null,
+                "description": "Date order was placed.",
                 "type": "string",
                 "format": "date-time"
             },
             "orderedItem": {
-                "description": null,
+                "description": "The item ordered.",
                 "$ref": "Product.json"
             },
             "orderNumber": {
-                "description": null,
+                "description": "The identifier of the transaction.",
                 "type": "string"
             },
             "orderStatus": {
-                "description": null,
+                "description": "The current status of the order.",
                 "$ref": "OrderStatus.json"
             },
             "partOfInvoice": {
-                "description": null,
+                "description": "The order is being paid as part of the referenced Invoice.",
                 "$ref": "Invoice.json"
             },
             "paymentDue": {
-                "description": null,
+                "description": "The date that payment is due.",
                 "type": "string",
                 "format": "date-time"
             },
             "paymentMethod": {
-                "description": null,
+                "description": "The name of the credit card or other method of payment for the order.",
                 "$ref": "PaymentMethod.json"
             },
             "paymentMethodId": {
-                "description": null,
+                "description": "An identifier for the method of payment used (e.g. the last 4 digits of the credit card).",
                 "type": "string"
             },
             "paymentUrl": {
-                "description": null,
+                "description": "The URL for sending a payment.",
                 "type": "string"
             },
             "seller": {
-                "description": null,
+                "description": "An entity which offers (sells \/ leases \/ lends \/ loans) the services \/ goods.  A seller may also be a provider.",
                 "$ref": "Organization.json"
             },
             "paymentDueDate": {
-                "description": null,
+                "description": "The date that payment is due.",
                 "type": "string",
                 "format": "date-time"
             },
             "broker": {
-                "description": null,
+                "description": "An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.",
                 "$ref": "Person.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Order",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -3,29 +3,33 @@
         "type": "object",
         "properties": {
             "addressCountry": {
-                "description": null,
+                "description": "The country. For example, USA. You can also provide the two-letter [ISO 3166-1 alpha-2 country code](http:\/\/en.wikipedia.org\/wiki\/ISO_3166-1).",
                 "type": "string"
             },
             "addressLocality": {
-                "description": null,
+                "description": "The locality. For example, Mountain View.",
                 "type": "string"
             },
             "addressRegion": {
-                "description": null,
+                "description": "The region. For example, CA.",
                 "type": "string"
             },
             "postalCode": {
-                "description": null,
+                "description": "The postal code. For example, 94043.",
                 "type": "string"
             },
             "postOfficeBoxNumber": {
-                "description": null,
+                "description": "The post office box number for PO box addresses.",
                 "type": "string"
             },
             "streetAddress": {
-                "description": null,
+                "description": "The street address. For example, 1600 Amphitheatre Pkwy.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PostalAddress",
+            "description": "Schema.org resource"
         }
     }
 }

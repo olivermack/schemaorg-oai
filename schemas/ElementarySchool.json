@@ -1,6 +1,10 @@
 {
     "ElementarySchool": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ElementarySchool",
+            "description": "Schema.org resource"
+        }
     }
 }

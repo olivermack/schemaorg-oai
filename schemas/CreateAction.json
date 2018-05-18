@@ -1,6 +1,10 @@
 {
     "CreateAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CreateAction",
+            "description": "Schema.org resource"
+        }
     }
 }

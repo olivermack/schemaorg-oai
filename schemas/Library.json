@@ -1,6 +1,10 @@
 {
     "Library": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Library",
+            "description": "Schema.org resource"
+        }
     }
 }

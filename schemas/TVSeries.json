@@ -3,67 +3,71 @@
         "type": "object",
         "properties": {
             "actor": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "actors": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "countryOfOrigin": {
-                "description": null,
+                "description": "The country of the principal offices of the production company or individual responsible for the movie or program.",
                 "$ref": "Country.json"
             },
             "director": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "directors": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video games etc. content. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "episode": {
-                "description": null,
+                "description": "An episode of a tv, radio or game media within a series or season.",
                 "$ref": "Episode.json"
             },
             "episodes": {
-                "description": null,
+                "description": "An episode of a TV\/radio series or season.",
                 "$ref": "Episode.json"
             },
             "musicBy": {
-                "description": null,
+                "description": "The composer of the soundtrack.",
                 "$ref": "MusicGroup.json"
             },
             "numberOfEpisodes": {
-                "description": null,
+                "description": "The number of episodes in this season or series.",
                 "type": "integer",
                 "format": "int32"
             },
             "numberOfSeasons": {
-                "description": null,
+                "description": "The number of seasons in this series.",
                 "type": "integer",
                 "format": "int32"
             },
             "productionCompany": {
-                "description": null,
+                "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
                 "$ref": "Organization.json"
             },
             "season": {
-                "description": null,
+                "description": "A season in a media series.",
                 "$ref": "CreativeWorkSeason.json"
             },
             "containsSeason": {
-                "description": null,
+                "description": "A season that is part of the media series.",
                 "$ref": "CreativeWorkSeason.json"
             },
             "seasons": {
-                "description": null,
+                "description": "A season in a media series.",
                 "$ref": "CreativeWorkSeason.json"
             },
             "trailer": {
-                "description": null,
+                "description": "The trailer of a movie or tv\/radio series, season, episode, etc.",
                 "$ref": "VideoObject.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TVSeries",
+            "description": "Schema.org resource"
         }
     }
 }

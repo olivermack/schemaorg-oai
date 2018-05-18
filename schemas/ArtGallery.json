@@ -1,6 +1,10 @@
 {
     "ArtGallery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ArtGallery",
+            "description": "Schema.org resource"
+        }
     }
 }

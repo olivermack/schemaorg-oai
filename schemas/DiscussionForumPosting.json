@@ -1,6 +1,10 @@
 {
     "DiscussionForumPosting": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DiscussionForumPosting",
+            "description": "Schema.org resource"
+        }
     }
 }

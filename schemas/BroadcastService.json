@@ -3,33 +3,37 @@
         "type": "object",
         "properties": {
             "area": {
-                "description": null,
+                "description": "The area within which users can expect to reach the broadcast service.",
                 "$ref": "Place.json"
             },
             "broadcaster": {
-                "description": null,
+                "description": "The organization owning or operating the broadcast service.",
                 "$ref": "Organization.json"
             },
             "parentService": {
-                "description": null,
+                "description": "A broadcast service to which the broadcast service may belong to such as regional variations of a national channel.",
                 "$ref": "BroadcastService.json"
             },
             "videoFormat": {
-                "description": null,
+                "description": "The type of screening or video broadcast used (e.g. IMAX, 3D, SD, HD, etc.).",
                 "type": "string"
             },
             "broadcastAffiliateOf": {
-                "description": null,
+                "description": "The media network(s) whose content is broadcast on this station.",
                 "$ref": "Organization.json"
             },
             "broadcastDisplayName": {
-                "description": null,
+                "description": "The name displayed in the channel guide. For many US affiliates, it is the network name.",
                 "type": "string"
             },
             "broadcastTimezone": {
-                "description": null,
+                "description": "The timezone in [ISO 8601 format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601) for which the service bases its broadcasts",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BroadcastService",
+            "description": "Schema.org resource"
         }
     }
 }

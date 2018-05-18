@@ -1,6 +1,10 @@
 {
     "TouristAttraction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TouristAttraction",
+            "description": "Schema.org resource"
+        }
     }
 }

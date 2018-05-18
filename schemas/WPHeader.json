@@ -1,6 +1,10 @@
 {
     "WPHeader": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/WPHeader",
+            "description": "Schema.org resource"
+        }
     }
 }

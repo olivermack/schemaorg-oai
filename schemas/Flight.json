@@ -3,80 +3,84 @@
         "type": "object",
         "properties": {
             "carrier": {
-                "description": null,
+                "description": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights.",
                 "$ref": "Organization.json"
             },
             "seller": {
-                "description": null,
+                "description": "An entity which offers (sells \/ leases \/ lends \/ loans) the services \/ goods.  A seller may also be a provider.",
                 "$ref": "Organization.json"
             },
             "provider": {
-                "description": null,
+                "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
                 "$ref": "Person.json"
             },
             "flightNumber": {
-                "description": null,
+                "description": "The unique identifier for a flight including the airline IATA code. For example, if describing United flight 110, where the IATA code for United is 'UA', the flightNumber is 'UA110'.",
                 "type": "string"
             },
             "departureTime": {
-                "description": null,
+                "description": "The expected departure time.",
                 "type": "string",
                 "format": "date-time"
             },
             "arrivalTime": {
-                "description": null,
+                "description": "The expected arrival time.",
                 "type": "string",
                 "format": "date-time"
             },
             "departureAirport": {
-                "description": null,
+                "description": "The airport where the flight originates.",
                 "$ref": "Airport.json"
             },
             "arrivalAirport": {
-                "description": null,
+                "description": "The airport where the flight terminates.",
                 "$ref": "Airport.json"
             },
             "departureGate": {
-                "description": null,
+                "description": "Identifier of the flight's departure gate.",
                 "type": "string"
             },
             "arrivalGate": {
-                "description": null,
+                "description": "Identifier of the flight's arrival gate.",
                 "type": "string"
             },
             "boardingPolicy": {
-                "description": null,
+                "description": "The type of boarding policy used by the airline (e.g. zone-based or group-based).",
                 "$ref": "BoardingPolicyType.json"
             },
             "departureTerminal": {
-                "description": null,
+                "description": "Identifier of the flight's departure terminal.",
                 "type": "string"
             },
             "arrivalTerminal": {
-                "description": null,
+                "description": "Identifier of the flight's arrival terminal.",
                 "type": "string"
             },
             "aircraft": {
-                "description": null,
+                "description": "The kind of aircraft (e.g., \"Boeing 747\").",
                 "type": "string"
             },
             "mealService": {
-                "description": null,
+                "description": "Description of the meals that will be provided or available for purchase.",
                 "type": "string"
             },
             "estimatedFlightDuration": {
-                "description": null,
+                "description": "The estimated time the flight will take.",
                 "type": "string"
             },
             "flightDistance": {
-                "description": null,
+                "description": "The distance of the flight.",
                 "type": "string"
             },
             "webCheckinTime": {
-                "description": null,
+                "description": "The time when a passenger can check into the flight online.",
                 "type": "string",
                 "format": "date-time"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Flight",
+            "description": "Schema.org resource"
         }
     }
 }

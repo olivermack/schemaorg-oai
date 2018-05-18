@@ -3,35 +3,39 @@
         "type": "object",
         "properties": {
             "audience": {
-                "description": null,
+                "description": "An intended audience, i.e. a group for whom something was created.",
                 "$ref": "Audience.json"
             },
             "availableLanguage": {
-                "description": null,
+                "description": "A language someone may use with the item. Please use one of the language codes from the [IETF BCP 47 standard](http:\/\/tools.ietf.org\/html\/bcp47). See also [[inLanguage]]",
                 "$ref": "Language.json"
             },
             "checkinTime": {
-                "description": null,
+                "description": "The earliest someone may check into a lodging establishment.",
                 "type": "string",
                 "format": "date-time"
             },
             "checkoutTime": {
-                "description": null,
+                "description": "The latest someone may check out of a lodging establishment.",
                 "type": "string",
                 "format": "date-time"
             },
             "amenityFeature": {
-                "description": null,
+                "description": "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs.",
                 "$ref": "LocationFeatureSpecification.json"
             },
             "petsAllowed": {
-                "description": null,
+                "description": "Indicates whether pets are allowed to enter the accommodation or lodging business. More detailed information can be put in a text value.",
                 "type": "boolean"
             },
             "starRating": {
-                "description": null,
+                "description": "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars).",
                 "$ref": "Rating.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/LodgingBusiness",
+            "description": "Schema.org resource"
         }
     }
 }

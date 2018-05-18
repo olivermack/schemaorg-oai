@@ -1,6 +1,10 @@
 {
     "DeliveryMethod": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/DeliveryMethod",
+            "description": "Schema.org resource"
+        }
     }
 }

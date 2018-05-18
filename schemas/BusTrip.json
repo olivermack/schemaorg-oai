@@ -3,35 +3,39 @@
         "type": "object",
         "properties": {
             "provider": {
-                "description": null,
+                "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
                 "$ref": "Person.json"
             },
             "departureTime": {
-                "description": null,
+                "description": "The expected departure time.",
                 "type": "string",
                 "format": "date-time"
             },
             "arrivalTime": {
-                "description": null,
+                "description": "The expected arrival time.",
                 "type": "string",
                 "format": "date-time"
             },
             "busNumber": {
-                "description": null,
+                "description": "The unique identifier for the bus.",
                 "type": "string"
             },
             "busName": {
-                "description": null,
+                "description": "The name of the bus (e.g. Bolt Express).",
                 "type": "string"
             },
             "departureBusStop": {
-                "description": null,
+                "description": "The stop or station from which the bus departs.",
                 "$ref": "BusStation.json"
             },
             "arrivalBusStop": {
-                "description": null,
+                "description": "The stop or station from which the bus arrives.",
                 "$ref": "BusStation.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BusTrip",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "ConvenienceStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ConvenienceStore",
+            "description": "Schema.org resource"
+        }
     }
 }

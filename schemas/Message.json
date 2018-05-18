@@ -3,32 +3,36 @@
         "type": "object",
         "properties": {
             "recipient": {
-                "description": null,
+                "description": "A sub property of participant. The participant who is at the receiving end of the action.",
                 "$ref": "Audience.json"
             },
             "sender": {
-                "description": null,
+                "description": "A sub property of participant. The participant who is at the sending end of the action.",
                 "$ref": "Audience.json"
             },
             "dateRead": {
-                "description": null,
+                "description": "The date\/time at which the message has been read by the recipient if a single recipient exists.",
                 "type": "string",
                 "format": "date-time"
             },
             "dateReceived": {
-                "description": null,
+                "description": "The date\/time the message was received if a single recipient exists.",
                 "type": "string",
                 "format": "date-time"
             },
             "dateSent": {
-                "description": null,
+                "description": "The date\/time at which the message was sent.",
                 "type": "string",
                 "format": "date-time"
             },
             "messageAttachment": {
-                "description": null,
+                "description": "A CreativeWork attached to the message.",
                 "$ref": "CreativeWork.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Message",
+            "description": "Schema.org resource"
         }
     }
 }

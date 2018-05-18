@@ -3,15 +3,19 @@
         "type": "object",
         "properties": {
             "endDate": {
-                "description": null,
+                "description": "The end date and time of the item (in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601)).",
                 "type": "string",
                 "format": "date"
             },
             "startDate": {
-                "description": null,
+                "description": "The start date and time of the item (in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601)).",
                 "type": "string",
                 "format": "date"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CreativeWorkSeries",
+            "description": "Schema.org resource"
         }
     }
 }

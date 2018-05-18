@@ -3,53 +3,57 @@
         "type": "object",
         "properties": {
             "actor": {
-                "description": null,
+                "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "director": {
-                "description": null,
+                "description": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip.",
                 "$ref": "Person.json"
             },
             "endDate": {
-                "description": null,
+                "description": "The end date and time of the item (in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601)).",
                 "type": "string",
                 "format": "date"
             },
             "episode": {
-                "description": null,
+                "description": "An episode of a tv, radio or game media within a series or season.",
                 "$ref": "Episode.json"
             },
             "episodes": {
-                "description": null,
+                "description": "An episode of a TV\/radio series or season.",
                 "$ref": "Episode.json"
             },
             "numberOfEpisodes": {
-                "description": null,
+                "description": "The number of episodes in this season or series.",
                 "type": "integer",
                 "format": "int32"
             },
             "partOfSeries": {
-                "description": null,
+                "description": "The series to which this episode or season belongs.",
                 "$ref": "CreativeWorkSeries.json"
             },
             "productionCompany": {
-                "description": null,
+                "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
                 "$ref": "Organization.json"
             },
             "seasonNumber": {
-                "description": null,
+                "description": "Position of the season within an ordered group of seasons.",
                 "type": "integer",
                 "format": "int32"
             },
             "startDate": {
-                "description": null,
+                "description": "The start date and time of the item (in [ISO 8601 date format](http:\/\/en.wikipedia.org\/wiki\/ISO_8601)).",
                 "type": "string",
                 "format": "date"
             },
             "trailer": {
-                "description": null,
+                "description": "The trailer of a movie or tv\/radio series, season, episode, etc.",
                 "$ref": "VideoObject.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CreativeWorkSeason",
+            "description": "Schema.org resource"
         }
     }
 }

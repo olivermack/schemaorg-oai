@@ -1,6 +1,10 @@
 {
     "FilmAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/FilmAction",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,24 +3,28 @@
         "type": "object",
         "properties": {
             "highPrice": {
-                "description": null,
+                "description": "The highest price of all offers available.",
                 "type": "integer",
                 "format": "int32"
             },
             "lowPrice": {
-                "description": null,
+                "description": "The lowest price of all offers available.",
                 "type": "integer",
                 "format": "int32"
             },
             "offerCount": {
-                "description": null,
+                "description": "The number of offers for the product.",
                 "type": "integer",
                 "format": "int32"
             },
             "offers": {
-                "description": null,
+                "description": "An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.",
                 "$ref": "Offer.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/AggregateOffer",
+            "description": "Schema.org resource"
         }
     }
 }

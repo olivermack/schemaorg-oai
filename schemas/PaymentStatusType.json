@@ -1,6 +1,10 @@
 {
     "PaymentStatusType": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PaymentStatusType",
+            "description": "Schema.org resource"
+        }
     }
 }

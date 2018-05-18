@@ -1,6 +1,10 @@
 {
     "Specialty": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Specialty",
+            "description": "Schema.org resource"
+        }
     }
 }

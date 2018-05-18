@@ -1,6 +1,10 @@
 {
     "ChildrensEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ChildrensEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

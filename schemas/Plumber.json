@@ -1,6 +1,10 @@
 {
     "Plumber": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Plumber",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -1,6 +1,10 @@
 {
     "UserPlusOnes": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/UserPlusOnes",
+            "description": "Schema.org resource"
+        }
     }
 }

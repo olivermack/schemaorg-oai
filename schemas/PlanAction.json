@@ -3,10 +3,14 @@
         "type": "object",
         "properties": {
             "scheduledTime": {
-                "description": null,
+                "description": "The time the object is scheduled to.",
                 "type": "string",
                 "format": "date-time"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PlanAction",
+            "description": "Schema.org resource"
         }
     }
 }

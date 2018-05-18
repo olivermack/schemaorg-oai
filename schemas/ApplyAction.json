@@ -1,6 +1,10 @@
 {
     "ApplyAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ApplyAction",
+            "description": "Schema.org resource"
+        }
     }
 }

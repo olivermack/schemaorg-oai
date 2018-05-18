@@ -1,6 +1,10 @@
 {
     "OutletStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OutletStore",
+            "description": "Schema.org resource"
+        }
     }
 }

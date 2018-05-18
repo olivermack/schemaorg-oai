@@ -1,6 +1,10 @@
 {
     "RadioEpisode": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/RadioEpisode",
+            "description": "Schema.org resource"
+        }
     }
 }

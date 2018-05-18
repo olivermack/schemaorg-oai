@@ -1,6 +1,10 @@
 {
     "BlogPosting": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/BlogPosting",
+            "description": "Schema.org resource"
+        }
     }
 }

@@ -3,26 +3,30 @@
         "type": "object",
         "properties": {
             "orderQuantity": {
-                "description": null,
+                "description": "The number of the item ordered. If the property is not set, assume the quantity is one.",
                 "type": "integer",
                 "format": "int32"
             },
             "orderItemStatus": {
-                "description": null,
+                "description": "The current status of the order item.",
                 "$ref": "OrderStatus.json"
             },
             "orderItemNumber": {
-                "description": null,
+                "description": "The identifier of the order item.",
                 "type": "string"
             },
             "orderDelivery": {
-                "description": null,
+                "description": "The delivery of the parcel related to this order or order item.",
                 "$ref": "ParcelDelivery.json"
             },
             "orderedItem": {
-                "description": null,
+                "description": "The item ordered.",
                 "$ref": "Product.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/OrderItem",
+            "description": "Schema.org resource"
         }
     }
 }

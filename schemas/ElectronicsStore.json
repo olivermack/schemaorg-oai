@@ -1,6 +1,10 @@
 {
     "ElectronicsStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ElectronicsStore",
+            "description": "Schema.org resource"
+        }
     }
 }

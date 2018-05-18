@@ -1,6 +1,10 @@
 {
     "Reservoir": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Reservoir",
+            "description": "Schema.org resource"
+        }
     }
 }

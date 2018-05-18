@@ -1,6 +1,10 @@
 {
     "Festival": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Festival",
+            "description": "Schema.org resource"
+        }
     }
 }

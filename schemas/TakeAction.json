@@ -1,6 +1,10 @@
 {
     "TakeAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TakeAction",
+            "description": "Schema.org resource"
+        }
     }
 }

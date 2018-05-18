@@ -1,6 +1,10 @@
 {
     "EntertainmentBusiness": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/EntertainmentBusiness",
+            "description": "Schema.org resource"
+        }
     }
 }

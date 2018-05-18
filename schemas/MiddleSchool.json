@@ -1,6 +1,10 @@
 {
     "MiddleSchool": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/MiddleSchool",
+            "description": "Schema.org resource"
+        }
     }
 }

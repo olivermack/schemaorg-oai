@@ -1,6 +1,10 @@
 {
     "VideoGallery": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/VideoGallery",
+            "description": "Schema.org resource"
+        }
     }
 }

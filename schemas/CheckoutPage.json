@@ -1,6 +1,10 @@
 {
     "CheckoutPage": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/CheckoutPage",
+            "description": "Schema.org resource"
+        }
     }
 }

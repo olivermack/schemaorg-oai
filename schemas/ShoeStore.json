@@ -1,6 +1,10 @@
 {
     "ShoeStore": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ShoeStore",
+            "description": "Schema.org resource"
+        }
     }
 }

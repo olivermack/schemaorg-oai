@@ -3,43 +3,47 @@
         "type": "object",
         "properties": {
             "provider": {
-                "description": null,
+                "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
                 "$ref": "Person.json"
             },
             "departureTime": {
-                "description": null,
+                "description": "The expected departure time.",
                 "type": "string",
                 "format": "date-time"
             },
             "arrivalTime": {
-                "description": null,
+                "description": "The expected arrival time.",
                 "type": "string",
                 "format": "date-time"
             },
             "trainNumber": {
-                "description": null,
+                "description": "The unique identifier for the train.",
                 "type": "string"
             },
             "trainName": {
-                "description": null,
+                "description": "The name of the train (e.g. The Orient Express).",
                 "type": "string"
             },
             "departureStation": {
-                "description": null,
+                "description": "The station from which the train departs.",
                 "$ref": "TrainStation.json"
             },
             "arrivalStation": {
-                "description": null,
+                "description": "The station where the train trip ends.",
                 "$ref": "TrainStation.json"
             },
             "departurePlatform": {
-                "description": null,
+                "description": "The platform from which the train departs.",
                 "type": "string"
             },
             "arrivalPlatform": {
-                "description": null,
+                "description": "The platform where the train arrives.",
                 "type": "string"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TrainTrip",
+            "description": "Schema.org resource"
         }
     }
 }

@@ -1,6 +1,10 @@
 {
     "TheaterEvent": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/TheaterEvent",
+            "description": "Schema.org resource"
+        }
     }
 }

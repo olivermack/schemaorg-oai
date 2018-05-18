@@ -1,6 +1,10 @@
 {
     "PrependAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/PrependAction",
+            "description": "Schema.org resource"
+        }
     }
 }

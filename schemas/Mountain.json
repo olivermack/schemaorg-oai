@@ -1,6 +1,10 @@
 {
     "Mountain": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Mountain",
+            "description": "Schema.org resource"
+        }
     }
 }

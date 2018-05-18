@@ -3,13 +3,17 @@
         "type": "object",
         "properties": {
             "replacee": {
-                "description": null,
+                "description": "A sub property of object. The object that is being replaced.",
                 "$ref": "Thing.json"
             },
             "replacer": {
-                "description": null,
+                "description": "A sub property of object. The object that replaces.",
                 "$ref": "Thing.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReplaceAction",
+            "description": "Schema.org resource"
         }
     }
 }

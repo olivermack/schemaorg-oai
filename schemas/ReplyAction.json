@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "resultComment": {
-                "description": null,
+                "description": "A sub property of result. The Comment created or sent as a result of this action.",
                 "$ref": "Comment.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReplyAction",
+            "description": "Schema.org resource"
         }
     }
 }

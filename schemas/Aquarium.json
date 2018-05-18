@@ -1,6 +1,10 @@
 {
     "Aquarium": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Aquarium",
+            "description": "Schema.org resource"
+        }
     }
 }

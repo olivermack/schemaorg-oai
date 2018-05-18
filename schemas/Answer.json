@@ -1,6 +1,10 @@
 {
     "Answer": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/Answer",
+            "description": "Schema.org resource"
+        }
     }
 }

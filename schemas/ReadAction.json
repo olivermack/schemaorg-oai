@@ -1,6 +1,10 @@
 {
     "ReadAction": {
         "type": "object",
-        "properties": []
+        "properties": [],
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/ReadAction",
+            "description": "Schema.org resource"
+        }
     }
 }

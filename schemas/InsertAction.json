@@ -3,9 +3,13 @@
         "type": "object",
         "properties": {
             "toLocation": {
-                "description": null,
+                "description": "A sub property of location. The final location of the object or the agent after the action.",
                 "$ref": "Place.json"
             }
+        },
+        "externalDocs": {
+            "url": "http:\/\/schema.org\/InsertAction",
+            "description": "Schema.org resource"
         }
     }
 }
