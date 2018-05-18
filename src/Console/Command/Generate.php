@@ -35,7 +35,7 @@ class Generate extends Command
             $style->progressAdvance();
         });
 
-        $dir = __DIR__ . '/../../../output';
+        $dir = __DIR__ . '/../../../schemas';
         $fileExtension = '.json';
         $destinationNameGenerator = new FilesystemDestinationNameGenerator($dir, $fileExtension);
         $serializer = new JsonSerializer(new DestinationBasedReferenceLocator($destinationNameGenerator));

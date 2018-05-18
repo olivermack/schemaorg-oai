@@ -13,7 +13,7 @@ $ composer generate
 ```
 
 This will parse the RDFa specs from [https://raw.githubusercontent.com/schemaorg/schemaorg/sdo-callisto/data/schema.rdfa]
-and create local versions in the `output` folder - one `.json` file per class/type.
+and create local versions in the `schemas` folder - one `.json` file per class/type.
 
 ## Credits
 
